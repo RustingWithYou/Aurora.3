@@ -51,6 +51,37 @@
 			return water_breath
 	return return_air()
 
+/turf/simulated/floor/exoplanet/water/Entered(atom/movable/AM, atom/oldloc)
+	if(!(SSATOMS_IS_PROBABLY_DONE))
+		return
+	reagents.add_reagent(/singleton/reagent/water, 2)
+	clean(src)
+	START_PROCESSING(SSprocessing, src)
+	if(istype(AM, /obj))
+		numobjects += 1
+	else if(istype(AM, /mob/living))
+		numobjects += 1
+		var/mob/living/L = AM
+		if(!istype(oldloc, /turf/simulated/floor/beach/water))
+			to_chat(L, "<span class='warning'>You get drenched in water from entering \the [src]!</span>")
+		wash(L)
+	..()
+
+/turf/simulated/floor/exoplanet/water/Exited(atom/movable/AM, atom/newloc)
+	if(!SSATOMS_IS_PROBABLY_DONE)
+		return
+	reagents.add_reagent(/singleton/reagent/water, 2)
+	clean(src)
+	if(istype(AM, /obj) && numobjects)
+		numobjects -= 1
+	else if(istype(AM, /mob/living))
+		if(numobjects)
+			numobjects -= 1
+		var/mob/living/L = AM
+		if(!istype(newloc, /turf/simulated/floor/beach/water))
+			to_chat(L, "<span class='warning'>You climb out of \the [src].</span>")
+	..()
+
 /turf/simulated/floor/exoplanet/water/konyang
 	name = "deep glistening water"
 	desc = "Water, dense with algae and lustrous greenery. It maintains an almost glowing sea-blue sheen nonetheless."
