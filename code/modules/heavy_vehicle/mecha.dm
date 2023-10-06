@@ -11,6 +11,7 @@
 	can_be_buckled = FALSE
 	accent = ACCENT_TTS
 	appearance_flags = KEEP_TOGETHER
+	layer = MOB_LAYER + 0.2
 	var/decal
 
 	var/emp_damage = 0
@@ -200,7 +201,6 @@
 			legs = source_frame.legs
 			if(legs.hover) //Checks here if hoverthrusters
 				pass_flags |= PASSRAILING
-				layer += 0.2
 		if(source_frame.head)
 			source_frame.head.forceMove(src)
 			head = source_frame.head
