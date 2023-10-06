@@ -1,11 +1,55 @@
 /turf/simulated/floor/exoplanet/water
 	does_footprint = FALSE
+	footstep_sound = /singleton/sound_category/water_footstep
+	var/deep = TRUE //too deep to keep your head above it?
+	var/obj/effect/water_effect/water_overlay
+	movement_cost = 4
 
 /turf/simulated/floor/exoplanet/water/update_icon()
 	return
 
 /turf/simulated/floor/exoplanet/water/update_dirt()
 	return	// Water doesn't become dirty
+
+/turf/simulated/floor/exoplanet/water/Initialize()
+	. = ..()
+	if(deep)
+		var/obj/effect/water_effect/W = new /obj/effect/water_effect(src)
+		W.icon = icon
+		W.icon_state = icon_state
+		water_overlay = W
+
+/turf/simulated/floor/exoplanet/water/Destroy()
+	if(water_overlay)
+		qdel(water_overlay)
+		water_overlay = null
+	return ..()
+
+/turf/simulated/floor/exoplanet/water/return_air_for_internal_lifeform(var/mob/living/carbon/L)
+	if(!L)
+		return
+	if(L.lying || deep) //are they lying down/is the water deep enough to keep their head above it?
+		if(water_overlay && L.layer > water_overlay.layer) //are they on a vehicle or something else that physically puts them above the water?
+			return return_air()
+		if(L.can_breathe_water() || (istype(L.wear_mask, /obj/item/clothing/mask/snorkel)))
+			var/datum/gas_mixture/water_breath = new()
+			var/datum/gas_mixture/above_air = return_air()
+			var/amount = 300
+			water_breath.adjust_gas(GAS_OXYGEN, amount) // Assuming water breathes just extract the oxygen directly from the water.
+			water_breath.temperature = above_air.temperature
+			return water_breath
+		else
+			var/gasid = GAS_CO2
+			if(ishuman(L))
+				var/mob/living/carbon/human/H = L
+				if(H.species && H.species.exhale_type)
+					gasid = H.species.exhale_type
+			var/datum/gas_mixture/water_breath = new()
+			var/datum/gas_mixture/above_air = return_air()
+			water_breath.adjust_gas(gasid, ONE_ATMOSPHERE) // this will cause them to suffocate, but not pop their lung
+			water_breath.temperature = above_air.temperature
+			return water_breath
+	return return_air()
 
 /turf/simulated/floor/exoplanet/water/konyang
 	name = "deep glistening water"
@@ -19,8 +63,9 @@
 	name = "shallow water"
 	icon = 'icons/misc/beach.dmi'
 	icon_state = "seashallow"
-	footstep_sound = /singleton/sound_category/water_footstep
+	deep = FALSE
 	var/reagent_type = /singleton/reagent/water
+	movement_cost = 2
 
 /turf/simulated/floor/exoplanet/water/shallow/attackby(obj/item/O, var/mob/living/user)
 	var/obj/item/reagent_containers/RG = O
@@ -46,6 +91,7 @@
 	icon = 'icons/turf/flooring/exoplanet/konyang/konyang_beach.dmi'
 	smoothing_flags = SMOOTH_MORE | SMOOTH_BORDER | SMOOTH_NO_CLEAR_ICON
 	canSmoothWith = list(/turf/simulated/floor/exoplanet/water/shallow/konyang, /turf/simulated/floor/exoplanet/water/konyang, /turf/simulated/floor/exoplanet/water/shallow/konyang/beach)
+	movement_cost = 0
 
 /turf/simulated/floor/exoplanet/water/shallow/sewage//What horror.
 	name = "putrid sewage"
