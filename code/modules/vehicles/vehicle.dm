@@ -312,7 +312,7 @@
 
 	load = C
 
-	C.layer = src.layer + 0.2
+	C.layer = src.layer + 0.1
 	if(load_item_visible)
 		C.pixel_x += load_offset_x
 		if(ismob(C))

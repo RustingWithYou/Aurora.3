@@ -51,6 +51,7 @@
 		return
 
 	pass_flags &= PASSRAILING //if previously was hoverthrusters, need to update pass flag
+	layer = initial(layer)
 
 	var/obj/structure/heavy_vehicle_frame/frame = dest
 
