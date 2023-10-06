@@ -150,6 +150,7 @@
 
 	if(can_hover)
 		flying = TRUE
+		layer = MOB_LAYER + 0.2
 
 	update_icon()
 
@@ -164,6 +165,7 @@
 
 	if(can_hover)
 		flying = FALSE
+		layer = initial(layer)
 
 	update_icon()
 
