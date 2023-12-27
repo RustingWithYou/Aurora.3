@@ -5992,12 +5992,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/coc_scarab/mess)
-"It" = (
-/obj/structure/lattice,
-/obj/structure/lattice,
-/obj/item/hullbeacon/red,
-/turf/simulated/floor/airless,
-/area/space)
 "Iw" = (
 /obj/machinery/door/firedoor/noid,
 /obj/effect/map_effect/window_spawner/full/reinforced/grille,
@@ -37528,7 +37522,7 @@ Kk
 cn
 lb
 IR
-It
+Uc
 IR
 IR
 gL
