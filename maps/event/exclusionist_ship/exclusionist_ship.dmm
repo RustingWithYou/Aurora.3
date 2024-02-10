@@ -937,18 +937,14 @@
 	dir = 6
 	},
 /obj/structure/table/rack,
-/obj/item/clothing/suit/space/void/mining,
-/obj/item/clothing/suit/space/void/mining,
-/obj/item/clothing/head/helmet/space/void/mining,
-/obj/item/clothing/head/helmet/space/void/mining,
 /obj/item/clothing/shoes/magboots,
 /obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/void/mining,
-/obj/item/clothing/suit/space/void/mining,
-/obj/item/clothing/head/helmet/space/void/mining,
-/obj/item/clothing/head/helmet/space/void/mining,
 /obj/item/clothing/shoes/magboots,
 /obj/item/clothing/shoes/magboots,
+/obj/random/voidsuit/freebooter,
+/obj/random/voidsuit/freebooter,
+/obj/random/voidsuit/freebooter,
+/obj/random/voidsuit/freebooter,
 /turf/simulated/floor/tiled/dark,
 /area/exclusionist_ship/atmos)
 "kZ" = (
@@ -2397,18 +2393,14 @@
 	dir = 6
 	},
 /obj/structure/table/rack,
-/obj/item/clothing/suit/space/void/mining,
-/obj/item/clothing/suit/space/void/mining,
-/obj/item/clothing/head/helmet/space/void/mining,
-/obj/item/clothing/head/helmet/space/void/mining,
 /obj/item/clothing/shoes/magboots,
 /obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/void/mining,
-/obj/item/clothing/suit/space/void/mining,
-/obj/item/clothing/head/helmet/space/void/mining,
-/obj/item/clothing/head/helmet/space/void/mining,
 /obj/item/clothing/shoes/magboots,
 /obj/item/clothing/shoes/magboots,
+/obj/random/voidsuit/freebooter,
+/obj/random/voidsuit/freebooter,
+/obj/random/voidsuit/freebooter,
+/obj/random/voidsuit/freebooter,
 /turf/simulated/floor/tiled/dark,
 /area/exclusionist_ship/atmos)
 "zq" = (
@@ -3786,21 +3778,17 @@
 	dir = 6
 	},
 /obj/structure/table/rack,
-/obj/item/clothing/suit/space/void/mining,
-/obj/item/clothing/suit/space/void/mining,
-/obj/item/clothing/head/helmet/space/void/mining,
-/obj/item/clothing/head/helmet/space/void/mining,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/shoes/magboots,
 /obj/machinery/alarm/east{
 	req_one_access = list(150)
 	},
-/obj/item/clothing/suit/space/void/mining,
-/obj/item/clothing/suit/space/void/mining,
-/obj/item/clothing/head/helmet/space/void/mining,
-/obj/item/clothing/head/helmet/space/void/mining,
 /obj/item/clothing/shoes/magboots,
 /obj/item/clothing/shoes/magboots,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/shoes/magboots,
+/obj/random/voidsuit/freebooter,
+/obj/random/voidsuit/freebooter,
+/obj/random/voidsuit/freebooter,
+/obj/random/voidsuit/freebooter,
 /turf/simulated/floor/tiled/dark,
 /area/exclusionist_ship/atmos)
 "Oh" = (
