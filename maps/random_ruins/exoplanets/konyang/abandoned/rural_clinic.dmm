@@ -38,11 +38,6 @@
 /obj/effect/decal/cleanable/blood/drip,
 /turf/simulated/floor/tiled/white,
 /area/konyang/rural_clinic)
-"fO" = (
-/mob/living/simple_animal/hostile/ipc_zombie,
-/obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/tiled/white,
-/area/konyang/rural_clinic)
 "gj" = (
 /obj/machinery/door/urban{
 	dir = 4
@@ -271,7 +266,6 @@
 /turf/simulated/floor/tiled/white,
 /area/konyang/rural_clinic)
 "xB" = (
-/mob/living/simple_animal/hostile/ipc_zombie,
 /obj/item/stack/rods,
 /turf/simulated/floor/tiled/white,
 /area/konyang/rural_clinic)
@@ -403,7 +397,6 @@
 /obj/effect/floor_decal/corner/green/diagonal{
 	dir = 4
 	},
-/mob/living/simple_animal/hostile/ipc_zombie,
 /obj/effect/decal/cleanable/blood/drip,
 /turf/simulated/floor/tiled/white,
 /area/konyang/rural_clinic)
@@ -967,7 +960,7 @@ rP
 Vq
 xw
 Vq
-fO
+aH
 Vq
 GS
 Xe
