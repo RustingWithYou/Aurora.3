@@ -515,11 +515,11 @@
 "gr" = (
 /obj/machinery/button/remote/blast_door{
 	dir = 4;
-	pixel_x = -13;
+	pixel_x = 22;
 	id = "underground_garage_1";
 	name = "Garage Control"
 	},
-/turf/simulated/wall/r_wall,
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
 "gE" = (
 /obj/effect/decal/exterior_stairs/half/center{
@@ -845,6 +845,14 @@
 	},
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/dark/full,
+/area/kaneyama_interiors/subterrane)
+"lK" = (
+/obj/machinery/door/blast/shutters{
+	name = "Underwater Maintenance";
+	dir = 4;
+	id = "underground_garage_3"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
 "lN" = (
 /obj/structure/closet/crate/weapon/alt{
@@ -1662,7 +1670,7 @@
 	pixel_x = 16
 	},
 /turf/simulated/floor/plating,
-/area/kaneyama_interiors/subterrane)
+/area/kaneyama_interiors)
 "wI" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/item/storage/toolbox/mechanical,
@@ -2604,6 +2612,15 @@
 	opacity = 0
 	},
 /turf/simulated/floor/plating,
+/area/kaneyama_interiors/subterrane)
+"IX" = (
+/obj/machinery/button/remote/blast_door{
+	dir = 4;
+	pixel_x = 22;
+	id = "underground_garage_3";
+	name = "Garage Control"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors/subterrane)
 "Ja" = (
 /obj/machinery/iv_drip,
@@ -30292,7 +30309,7 @@ zB
 XX
 XX
 vK
-YO
+IX
 iU
 ko
 Rz
@@ -30300,7 +30317,7 @@ Yr
 Yr
 Kt
 iU
-YO
+gr
 Dl
 bL
 XX
@@ -30545,10 +30562,10 @@ vF
 vF
 vF
 vF
-BR
-BR
-BR
-BR
+lK
+lK
+lK
+lK
 vF
 vF
 vF
@@ -30557,7 +30574,7 @@ vF
 vF
 vF
 vF
-gr
+vF
 BR
 BR
 BR
