@@ -187,6 +187,7 @@
 		/obj/item/device/flashlight/maglight = 30,
 		/obj/item/gun/projectile/automatic/rifle/carbine/civcarbine = 10,
 		/obj/item/ammo_magazine/a556/carbine/polymer = 50,
+		/obj/item/clothing/accessory/holster/thigh = 100,
 		/obj/item/gun/energy/gun = 10,
 		/obj/item/storage/firstaid/stab = 10,
 		/obj/item/clothing/mask/gas/alt = 50,

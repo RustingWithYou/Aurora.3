@@ -459,8 +459,7 @@
 	pixel_y = 26
 	},
 /obj/effect/floor_decal/industrial/warning{
-	dir = 4;
-	icon_state = "warning"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
@@ -1476,8 +1475,7 @@
 	pixel_y = -2
 	},
 /obj/effect/floor_decal/industrial/warning{
-	dir = 4;
-	icon_state = "warning"
+	dir = 4
 	},
 /obj/structure/window/reinforced{
 	dir = 4
@@ -2383,6 +2381,14 @@
 /obj/item/storage/box/bodybags{
 	pixel_x = 6
 	},
+/obj/item/device/mass_spectrometer/adv{
+	pixel_y = 12;
+	pixel_x = -8
+	},
+/obj/item/device/mass_spectrometer/adv{
+	pixel_y = 8;
+	pixel_x = -8
+	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "jj" = (
@@ -2587,6 +2593,7 @@
 /obj/machinery/light{
 	must_start_working = 1
 	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "jX" = (
@@ -2637,79 +2644,79 @@
 /area/kaneyama_interiors)
 "kh" = (
 /obj/structure/closet,
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/armband/med{
+/obj/item/clothing/accessory/armband/medgreen{
 	pixel_y = 10;
 	pixel_x = 10
 	},
@@ -3155,12 +3162,22 @@
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 5
 	},
+/obj/machinery/portable_atmospherics/canister/oxygen/prechilled,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /obj/machinery/light/spot{
 	dir = 1
 	},
-/obj/effect/floor_decal/industrial/outline/red,
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/tiled/white,
+/obj/machinery/atmospherics/portables_connector,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/window/southleft{
+	name = "Cryo O2 tank access"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "kT" = (
 /obj/structure/table/steel,
@@ -3539,14 +3556,8 @@
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
 "mj" = (
-/obj/effect/floor_decal/spline/plain/green{
-	dir = 1
-	},
-/obj/machinery/vending/medical{
-	density = 0;
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled/white,
+/obj/machinery/atmospherics/unary/cryo_cell,
+/turf/simulated/floor/tiled/dark,
 /area/kaneyama_interiors)
 "mk" = (
 /obj/machinery/recharge_station,
@@ -4520,6 +4531,14 @@
 	},
 /turf/simulated/floor/concrete,
 /area/kaneyama_ext)
+"pK" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/cyan,
+/obj/effect/floor_decal/corner_wide/lime/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "pL" = (
 /obj/machinery/appliance/cooker/oven,
 /turf/simulated/floor/tiled/dark,
@@ -4881,6 +4900,13 @@
 "rm" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/tiled/dark,
+/area/kaneyama_interiors)
+"rn" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/cyan{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/lime/diagonal,
+/turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "ro" = (
 /obj/structure/closet/crate/freezer/kois/rations,
@@ -5533,6 +5559,19 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"tx" = (
+/obj/effect/floor_decal/spline/plain/green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/lime/diagonal,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/cyan{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "ty" = (
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/bluegrid,
@@ -5608,6 +5647,14 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"tK" = (
+/obj/effect/floor_decal/corner_wide/lime/diagonal,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/cyan,
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "tL" = (
 /obj/structure/girder,
 /obj/random/dirt_75,
@@ -5813,6 +5860,9 @@
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Operations Manager"
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
 /area/kaneyama_interiors)
 "uA" = (
@@ -5863,12 +5913,29 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/kaneyama_plant)
 "uK" = (
-/obj/structure/sink{
-	pixel_y = 26
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/structure/closet/walllocker/medical{
+	name = "Blood Locker";
+	pixel_x = -32
 	},
 /obj/effect/floor_decal/spline/plain/green{
-	dir = 1
+	dir = 8
 	},
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/structure/table/standard,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "uM" = (
@@ -6267,8 +6334,7 @@
 /area/kaneyama_interiors)
 "wW" = (
 /obj/effect/floor_decal/industrial/warning{
-	dir = 4;
-	icon_state = "warning"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
@@ -6793,10 +6859,6 @@
 	dir = 9
 	},
 /obj/structure/table/steel,
-/obj/item/device/mass_spectrometer/adv{
-	pixel_y = 3;
-	pixel_x = -8
-	},
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_y = 7;
 	pixel_x = 8
@@ -6805,9 +6867,13 @@
 	pixel_y = 1;
 	pixel_x = 8
 	},
-/obj/item/device/mass_spectrometer/adv{
-	pixel_y = -2;
-	pixel_x = -8
+/obj/item/reagent_containers/glass/beaker/cryoxadone{
+	pixel_x = -6;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/glass/beaker/cryoxadone{
+	pixel_x = -6;
+	pixel_y = 3
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -7008,6 +7074,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
+"zU" = (
+/obj/effect/floor_decal/spline/plain/green{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "zW" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/landmark/corpse/kaneyama_worker,
@@ -7866,30 +7941,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/kaneyama_plant)
 "CX" = (
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/structure/closet/walllocker/medical{
-	name = "Blood Locker";
-	pixel_x = -32
-	},
-/obj/effect/floor_decal/spline/plain/green{
-	dir = 8
-	},
-/obj/effect/floor_decal/industrial/outline/red,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/corner/yellow/diagonal,
+/obj/machinery/light,
+/turf/simulated/floor/tiled,
 /area/kaneyama_interiors)
 "CY" = (
 /obj/machinery/button/remote/blast_door{
@@ -7949,8 +8003,7 @@
 	pixel_x = 9
 	},
 /obj/effect/floor_decal/industrial/warning{
-	dir = 4;
-	icon_state = "warning"
+	dir = 4
 	},
 /obj/structure/window/reinforced{
 	dir = 4
@@ -8368,6 +8421,9 @@
 /obj/structure/table/standard,
 /obj/item/storage/box/masks,
 /obj/item/storage/box/gloves,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/steel,
 /area/kaneyama_interiors)
 "Es" = (
@@ -8394,15 +8450,12 @@
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 8
 	},
-/obj/machinery/light/spot{
-	dir = 8
-	},
-/obj/machinery/vending/wallmed2{
-	pixel_x = -28
-	},
-/obj/structure/table/steel,
-/obj/item/storage/box/sharps{
-	pixel_y = 9
+/obj/machinery/atmospherics/unary/freezer{
+	icon_state = "freezer";
+	dir = 4;
+	set_temperature = 80;
+	heatsink_temperature = 120;
+	name = "upgraded gas cooling system"
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -10494,6 +10547,9 @@
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Chief Engineer"
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/kaneyama_interiors)
 "MY" = (
@@ -10506,11 +10562,8 @@
 /turf/simulated/floor/tiled,
 /area/kaneyama_plant)
 "MZ" = (
-/obj/effect/decal/curb{
-	dir = 1
-	},
-/obj/item/device/tvcamera{
-	name = "scc camera drone"
+/obj/effect/decal/curb/corner{
+	dir = 4
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
@@ -10686,6 +10739,7 @@
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 8
 	},
+/obj/structure/table/standard,
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
 "NL" = (
@@ -10811,6 +10865,18 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/kaneyama_ext)
+"Oo" = (
+/obj/effect/floor_decal/spline/plain/green{
+	dir = 8
+	},
+/obj/machinery/bodyscanner{
+	dir = 4
+	},
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "Op" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -11109,15 +11175,33 @@
 	pixel_y = 12
 	},
 /obj/item/storage/box/freezer/organcooler{
-	pixel_x = -1;
+	pixel_x = 6;
 	pixel_y = 3
 	},
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 4
 	},
 /obj/item/storage/box/freezer/organcooler{
-	pixel_x = -1;
+	pixel_x = 6;
 	pixel_y = -2
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_x = -9
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_x = -9
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_x = -9
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_x = -9
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_x = -9
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_x = -9
 	},
 /turf/simulated/floor/tiled/white,
 /area/kaneyama_interiors)
@@ -12211,6 +12295,16 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/kaneyama_ext)
+"Tw" = (
+/obj/effect/floor_decal/corner_wide/lime/diagonal,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/cyan{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/kaneyama_interiors)
 "Ty" = (
 /obj/structure/window/reinforced,
 /obj/machinery/door/window/eastright,
@@ -49592,9 +49686,9 @@ bg
 Tr
 mC
 sF
-on
+uK
 NK
-CX
+on
 Qv
 pa
 LY
@@ -50875,7 +50969,7 @@ iY
 pa
 yZ
 Ev
-jC
+Oo
 jC
 Zn
 VP
@@ -51131,7 +51225,7 @@ iY
 iY
 iv
 xP
-rS
+rn
 qX
 qX
 rS
@@ -51387,8 +51481,8 @@ TH
 iY
 iY
 jP
-xP
-rS
+zU
+Tw
 Wf
 Wf
 Wf
@@ -51644,8 +51738,8 @@ TH
 iY
 iY
 pa
-uK
-rS
+mj
+tK
 QU
 QU
 QU
@@ -51902,7 +51996,7 @@ iY
 iY
 pa
 mj
-rS
+pK
 Wf
 Wf
 Wf
@@ -52159,7 +52253,7 @@ iY
 iY
 pa
 kS
-dr
+tx
 dr
 rS
 rS
@@ -52925,7 +53019,7 @@ iY
 at
 xu
 xu
-MZ
+TH
 iY
 iY
 Nm
@@ -53689,7 +53783,7 @@ pa
 Fb
 yl
 yl
-yl
+CX
 pa
 iY
 jH
@@ -54203,7 +54297,7 @@ pa
 Fb
 yl
 yl
-yl
+CX
 pa
 iY
 iY
@@ -55495,10 +55589,10 @@ Fz
 aD
 xu
 xu
-dX
+MZ
 Fz
 Fz
-xu
+aD
 xu
 Fz
 Fz
