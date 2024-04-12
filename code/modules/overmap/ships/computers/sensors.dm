@@ -547,6 +547,12 @@
 	if(use_power && health == 0)
 		toggle()
 
+/obj/machinery/shipsensors/RefreshParts()
+	..()
+	for(var/obj/item/stock_parts/manipulator/M in component_parts)
+		if(M.rating > STOCK_PART_BASIC)
+			heat_reduction += (M.rating/10)
+
 // For small shuttles
 /obj/machinery/shipsensors/weak
 	heat_reduction = 1.7 // Can sustain range 4
