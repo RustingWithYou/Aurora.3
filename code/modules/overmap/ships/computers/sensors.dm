@@ -189,7 +189,7 @@
 				"name"=contact.name,
 				"ref"="\ref[contact]",
 				"bearing"=bearing,
-				"can_datalink"=(!(contact in connected.datalinked)),
+				"can_datalink"=(contact.can_datalink(connected)),
 				"distance"=distance,
 				"landed"=landed,
 				"x"=contact_x,

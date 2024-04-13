@@ -1,12 +1,11 @@
 /obj/machinery/radio_beacon
 	name = "transmission beacon"
-	desc = ""
+	desc = "A bulky subspace transmitter, capable of continuously broadcasting a signal that can be picked up by ship sensors."
 	icon = 'icons/obj/machinery/beacon.dmi'
 	icon_state = "beacon"
 	idle_power_usage = 0
 	active_power_usage = 1 KILO WATTS
 	var/obj/effect/overmap/radio_signal/signal
-	var/obj/effect/overmap/radio_signal/distress/emergency_signal
 	var/last_message_time = 0
 	var/last_activation_time = 0
 	var/const/activation_cooldown = 1 MINUTE
@@ -38,7 +37,7 @@
 		to_chat(user, SPAN_WARNING("\The [src] is still cooling down from its last activation!"))
 		return
 
-	var/toggle_prompt = tgui_alert(user, "Turn the beacon...", "[src] Options", list("[signal || emergency_signal ? "Off" : "On"]", "Cancel"))
+	var/toggle_prompt = tgui_alert(user, "Turn the beacon...", "[src] Options", list("[signal ? "Off" : "On"]", "Cancel"))
 
 	if(toggle_prompt == "Cancel" || !toggle_prompt)
 		return
@@ -48,11 +47,7 @@
 
 	switch(toggle_prompt)
 		if("On")
-			if(emergency_signal)
-				to_chat(user, SPAN_WARNING("Turn off the distress signal first!"))
-				return
-			else
-				activate(user)
+			activate(user)
 		if("Off")
 			deactivate()
 
@@ -72,24 +67,10 @@
 	update_use_power(POWER_USE_ACTIVE)
 	update_icon()
 
-/obj/machinery/radio_beacon/proc/activate_distress(mob/user, var/distress_message)
-	visible_message(SPAN_WARNING("\The [src] beeps urgently as it whirrs to life, sending out intermittent tones."))
-	log_and_message_admins("A distress beacon was activated in [get_area(user)].", user, get_turf(user))
-	playsound(src, 'sound/machines/sensors/newcontact.ogg', 50, 3, 3)
-
-	emergency_signal = new()
-	last_activation_time = world.time
-	emergency_signal.set_origin(linked)
-	emergency_signal.message = distress_message
-
-	update_use_power(POWER_USE_ACTIVE)
-	update_icon()
-
 /obj/machinery/radio_beacon/proc/deactivate()
 	visible_message(SPAN_NOTICE("\The [src] whirs to life, starting its radio broadcast."))
 	playsound(src, 'sound/machines/sensors/newcontact.ogg', 50, 3, 3)
 	QDEL_NULL(signal)
-	QDEL_NULL(emergency_signal)
 	last_activation_time = world.time
 	update_use_power(POWER_USE_OFF)
 	update_icon()
@@ -110,17 +91,17 @@
 		add_overlay("[icon_state]_lights")
 	if(signal)
 		add_overlay("[icon_state]_lights_active")
-	else if(emergency_signal)
+	else if(linked.has_called_distress_beacon)
 		add_overlay("[icon_state]_lights_distress")
 
 /obj/machinery/radio_beacon/Destroy()
 	QDEL_NULL(signal)
-	QDEL_NULL(emergency_signal)
 	. = ..()
 
 //Overmap effect
 /obj/effect/overmap/radio_signal
 	name = "radio signal"
+	desc = "A radio signal originating at an unknown location."
 	icon_state = "radio"
 	scannable = TRUE
 	color = COLOR_LIGHT_CYAN
@@ -132,10 +113,11 @@
 	var/obj/effect/overmap/source
 
 /obj/effect/overmap/radio_signal/get_scan_data(mob/user)
-	return list("A radio signal originating at \the [source].<br><br>\
-	---BEGINNING OF TRANSMISSION---<br><br>\
-	[message]\
-	<br><br>---END OF TRANSMISSION---")
+	. = ..()
+	. += "<hr>"
+	. += "<br><center><b>---BEGINNING OF TRANSMISSION---</b></center>"
+	. += "<br>[message]"
+	. += "<br><center><b>---END OF TRANSMISSION---</b></center>"
 
 /obj/effect/overmap/radio_signal/proc/set_origin(var/obj/effect/overmap/origin)
 	RegisterSignal(origin, COMSIG_MOVABLE_MOVED, PROC_REF(follow))
@@ -144,6 +126,7 @@
 	source = origin
 	pixel_x = -(origin.bound_width - 6)
 	pixel_y = origin.bound_height - 6
+	desc = "A radio signal originating at \the [origin]."
 
 /obj/effect/overmap/radio_signal/Destroy()
 	UnregisterSignal(source, COMSIG_MOVABLE_MOVED)
@@ -154,9 +137,5 @@
 /obj/effect/overmap/radio_signal/proc/follow(atom/movable/AM, old_loc, new_loc)
 	forceMove(new_loc)
 
-/obj/effect/overmap/radio_signal/distress
-	name = "distress dataspike"
-	color = COLOR_RED
-
-/obj/effect/overmap/radio_signal/distress/get_scan_data(mob/user)
-	return list("A unilateral, broadband data broadcast originating at \the [source] carrying only an emergency code sequence.")
+/obj/effect/overmap/radio_signal/can_datalink()
+	return FALSE

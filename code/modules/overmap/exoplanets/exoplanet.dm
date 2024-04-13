@@ -515,6 +515,8 @@
 /obj/effect/overmap/visitable/sector/exoplanet/get_skybox_representation()
 	return skybox_image
 
+/obj/effect/overmap/visitable/sector/exoplanet/can_datalink()
+	return FALSE
 
 /obj/effect/overmap/visitable/sector/exoplanet/proc/get_surface_color()
 	return surface_color

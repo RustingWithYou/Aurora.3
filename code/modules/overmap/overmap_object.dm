@@ -39,6 +39,11 @@
 /obj/effect/overmap/proc/get_skybox_representation()
 	return
 
+/obj/effect/overmap/proc/can_datalink(var/obj/effect/overmap/visitable/source)
+	if(src in source.datalinked)
+		return FALSE
+	return TRUE
+
 /obj/effect/overmap/proc/get_scan_data(mob/user)
 	if(static_vessel == TRUE)
 		. += "<hr>"

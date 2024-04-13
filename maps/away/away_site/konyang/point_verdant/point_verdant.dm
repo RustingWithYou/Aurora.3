@@ -53,3 +53,6 @@
 		"Spark" = list("nav_point_verdant_spaceport_spark"),
 		"Canary" = list("nav_point_verdant_spaceport_canary", "nav_point_verdant_corporate_canary"),
 	)
+
+/obj/effect/overmap/visitable/sector/point_verdant/can_datalink()
+	return FALSE
