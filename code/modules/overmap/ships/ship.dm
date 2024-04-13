@@ -76,6 +76,9 @@ var/const/OVERMAP_SPEED_CONSTANT = (1 SECOND)
 	for(var/obj/machinery/computer/shuttle_control/explore/C in SSmachinery.machinery)
 		if(C.linked == src)
 			C.linked = null
+	for(var/obj/machinery/radio_beacon/B in SSmachinery.machinery)
+		if(B.linked == src)
+			B.linked = null
 
 	. = ..()
 

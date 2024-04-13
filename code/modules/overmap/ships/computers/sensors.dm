@@ -550,7 +550,7 @@
 /obj/machinery/shipsensors/RefreshParts()
 	..()
 	for(var/obj/item/stock_parts/manipulator/M in component_parts)
-		if(M.rating > STOCK_PART_BASIC)
+		if(M.rating > 1) //So basic manipulators don't change the heat reduction
 			heat_reduction += (M.rating/10)
 
 // For small shuttles

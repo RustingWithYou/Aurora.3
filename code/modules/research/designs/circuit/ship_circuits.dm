@@ -31,3 +31,8 @@
 	name = "IFF Transponder"
 	req_tech = list(TECH_POWER = 4, TECH_ENGINEERING = 5, TECH_DATA = 3)
 	build_path = /obj/item/circuitboard/iff
+
+/datum/design/circuit/ship/radio_beacon
+	name = "Radio Beacon"
+	req_tech = list(TECH_POWER = 3, TECH_ENGINEERING = 5, TECH_BLUESPACE = 3)
+	build_path = /obj/item/circuitboard/radio_beacon
