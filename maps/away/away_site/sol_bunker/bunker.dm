@@ -19,3 +19,8 @@
 /obj/effect/overmap/visitable/sector/abandoned_bunker
 	name = "lone asteroid"
 	desc = "A lone asteroid. Strange signals are coming from this one."
+
+/obj/machinery/radio_beacon/preset/bunker
+	preset_prob = 20
+	preset_message = "#$@^*^@%^&assis*&%^*uired*&!!&@!$mergency^#^$#!@#"
+	preset_distress = TRUE

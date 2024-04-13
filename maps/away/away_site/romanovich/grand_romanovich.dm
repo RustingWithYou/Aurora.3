@@ -102,3 +102,7 @@
 	new /obj/item/coin/casino(src)
 	new /obj/item/coin/casino(src)
 	new /obj/item/coin/casino(src)
+
+/obj/machinery/radio_beacon/preset/casino
+	preset_prob = 100
+	preset_message = "Feel that fortune's left you behind? Looking to unwind from the stresses of modern life? If this sounds like you, then the Grand Romanovich is excited to invite you to a place where wealth and excitement lie around every corner. Gamble in our casino, gaze on the asteroids of the Romanovich Cloud, race on our scenic snowmobile track or stay in one of our exclusive suites - all these diversions and more await you here. Let go, and leave the world behind at the Grand Romanovich Hotel & Casino - guaranteed to be an experience you'll never forget."

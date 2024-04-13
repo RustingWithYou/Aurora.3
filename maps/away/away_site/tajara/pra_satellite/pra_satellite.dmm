@@ -32,7 +32,7 @@
 /area/pra_satellite)
 "aH" = (
 /obj/machinery/atmospherics/portables_connector{
-	dir = 1;
+	dir = 1
 	},
 /obj/structure/window/reinforced{
 	dir = 1
@@ -199,6 +199,12 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/smes/buildable/horizon_shuttle,
+/turf/simulated/floor{
+	temperature = 278.15
+	},
+/area/pra_satellite)
+"cX" = (
+/obj/machinery/radio_beacon/preset/pra_satellite,
 /turf/simulated/floor{
 	temperature = 278.15
 	},
@@ -724,7 +730,7 @@
 /area/pra_satellite)
 "oR" = (
 /obj/machinery/atmospherics/portables_connector{
-	dir = 1;
+	dir = 1
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -30182,7 +30188,7 @@ Kn
 wc
 jP
 ww
-ww
+cX
 wc
 aR
 AA

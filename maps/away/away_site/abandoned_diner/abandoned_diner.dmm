@@ -4469,7 +4469,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/abandoned_diner/backroom)
 "nZO" = (
-/obj/machinery/portable_atmospherics/canister/air,
+/obj/machinery/radio_beacon/preset/abandoned_diner,
 /turf/simulated/floor/plating,
 /area/abandoned_diner/maintenance)
 "oaX" = (

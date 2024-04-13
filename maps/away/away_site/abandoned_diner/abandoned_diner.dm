@@ -44,3 +44,7 @@
 		"diner_spacenorth",
 		"diner_spacesouth",
 	)
+
+/obj/machinery/radio_beacon/preset/abandoned_diner
+	preset_prob = 60
+	preset_message = "Tired of slugging it through the Spur? Pre-packaged meals in the microwave driving you up the wall? Starjack Inc. has got you covered! Hot food, cold drinks, and prices so low it's a wonder we're not bankrupt! Starjack - giving you a taste of home, across the stars!"

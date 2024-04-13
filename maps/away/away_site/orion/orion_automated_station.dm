@@ -250,3 +250,7 @@
 		This Long-Term Storage Unit could be yours! <br>\
 		Terms and conditions apply. <br>\
 		"
+
+/obj/machinery/radio_beacon/preset/orion_automated_station
+	preset_prob = 100
+	preset_message = "This Drummer-class automated supply station is the property of Orion Express. All activity aboard this station is monitored and recorded by Orion Express systems. Trespassing, theft, or damage and/or unlicensed modifications to station systems will be prosecuted."

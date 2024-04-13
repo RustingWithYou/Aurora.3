@@ -4937,24 +4937,7 @@
 /area/racers)
 "xFs" = (
 /obj/machinery/light/small,
-/obj/structure/closet/secure_closet/refrigerator/standard,
-/obj/item/reagent_containers/food/snacks/meatball,
-/obj/item/reagent_containers/food/snacks/meatball,
-/obj/item/reagent_containers/food/snacks/meatball,
-/obj/item/reagent_containers/food/snacks/meatball,
-/obj/item/reagent_containers/food/snacks/meatball,
-/obj/item/reagent_containers/food/snacks/meatball,
-/obj/item/reagent_containers/food/snacks/meatball,
-/obj/item/reagent_containers/food/snacks/meatball,
-/obj/item/reagent_containers/food/snacks/meatball,
-/obj/item/reagent_containers/food/snacks/meatball,
-/obj/item/reagent_containers/food/snacks/meatball,
-/obj/item/reagent_containers/food/snacks/meatball,
-/obj/item/reagent_containers/food/snacks/liquidfood,
-/obj/item/reagent_containers/food/snacks/liquidfood,
-/obj/item/reagent_containers/food/snacks/liquidfood,
-/obj/item/reagent_containers/food/snacks/liquidfood,
-/obj/item/reagent_containers/food/snacks/liquidfood,
+/obj/machinery/radio_beacon/preset/racers,
 /turf/simulated/floor/tiled{
 	name = "cooled floor";
 	temperature = 278

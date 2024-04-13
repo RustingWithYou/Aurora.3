@@ -6,26 +6,10 @@
 	},
 /turf/simulated/floor/wood,
 /area/derelict)
-"ab" = (
-/obj/machinery/door/airlock/centcom{
-	opacity = 1;
-	dir = 1
-	},
-/turf/simulated/floor/wood,
-/area/derelict)
-"ac" = (
-/obj/machinery/door/airlock/centcom{
-	opacity = 1;
-	dir = 1
-	},
-/turf/simulated/floor/wood,
-/area/derelict)
 "ad" = (
-/obj/machinery/door/airlock/centcom{
-	opacity = 1;
-	dir = 1
-	},
-/turf/simulated/floor/wood,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/radio_beacon/preset/bunker,
+/turf/simulated/floor/tiled/dark,
 /area/derelict)
 "aj" = (
 /obj/effect/decal/cleanable/dirt,
@@ -33415,7 +33399,7 @@ Ku
 kL
 du
 tV
-GX
+ad
 Uq
 Uq
 zM
@@ -34177,7 +34161,7 @@ fJ
 fJ
 Oi
 XK
-ab
+aa
 gd
 gd
 Bq
@@ -34427,14 +34411,14 @@ ML
 Mf
 gd
 Mf
-ac
+aa
 li
 Xd
 fJ
 fJ
 TN
 Xd
-ad
+aa
 gd
 sJ
 gd

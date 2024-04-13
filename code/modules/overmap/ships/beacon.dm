@@ -6,8 +6,9 @@
 	idle_power_usage = 0
 	active_power_usage = 1 KILO WATTS
 	var/obj/effect/overmap/radio_signal/signal
-	var/last_message_time = 0
+	///When the beacon was last activated.
 	var/last_activation_time = 0
+	///Cooldown on beacon activation to prevent spam.
 	var/const/activation_cooldown = 1 MINUTE
 
 /obj/machinery/radio_beacon/Initialize(mapload, d, populate_components, is_internal)
@@ -63,6 +64,8 @@
 	last_activation_time = world.time
 	signal.message = message
 	signal.set_origin(linked)
+	if(linked.has_called_distress_beacon)
+		signal.color = COLOR_RED
 
 	update_use_power(POWER_USE_ACTIVE)
 	update_icon()
@@ -91,12 +94,38 @@
 		add_overlay("[icon_state]_lights")
 	if(signal)
 		add_overlay("[icon_state]_lights_active")
-	else if(linked.has_called_distress_beacon)
+	else if(linked.has_called_distress_beacon) //Distress beacons should probably be reworked to use these properly.
 		add_overlay("[icon_state]_lights_distress")
 
 /obj/machinery/radio_beacon/Destroy()
 	QDEL_NULL(signal)
 	. = ..()
+
+//A preset radio beacon for mapped-in active beacons. All active away site beacons should be subtypes of this.
+/obj/machinery/radio_beacon/preset
+	///Preset message for mapped-in beacons. Will activate on initialize with this message if set.
+	var/preset_message
+	///Whether this beacon's preset signal is a distress signal. Currently only changes the color of the signal's overmap icon.
+	var/preset_distress = FALSE
+	///Probability this beacon is activated at roundstart. Percentage value of 0-100.
+	var/preset_prob = 100
+
+/obj/machinery/radio_beacon/preset/LateInitialize()
+	. = ..()
+	if(preset_message && prob(preset_prob))
+		activate_preset()
+
+/obj/machinery/radio_beacon/preset/proc/activate_preset()
+	if(!preset_message)
+		return
+	signal =  new()
+	last_activation_time = world.time
+	signal.message = preset_message
+	signal.set_origin(linked)
+	if(preset_distress)
+		signal.color = COLOR_RED
+	update_use_power(POWER_USE_ACTIVE)
+	update_icon()
 
 //Overmap effect
 /obj/effect/overmap/radio_signal

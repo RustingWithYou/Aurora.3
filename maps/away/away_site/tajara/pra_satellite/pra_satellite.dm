@@ -58,3 +58,7 @@
 	base_turf = /turf/simulated/floor/plating
 	no_light_control = TRUE
 	ambience = AMBIENCE_TECH_RUINS
+
+/obj/machinery/radio_beacon/preset/pra_satellite
+	preset_prob = 100
+	preset_message = "This satellite is the property of the People's Republic of Adhomai. Attempting to board this satellite without authorization from the People's Republic of Adhomai is a criminal offense. Report any damage to this satellite to the nearest Orbital Fleet vessel."

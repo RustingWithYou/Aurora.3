@@ -26,6 +26,12 @@
 	comms_support = TRUE
 	comms_name = "station"
 
+/obj/machinery/radio_beacon/preset/racers
+	preset_prob = 60
+	preset_message = "TONIGHT'S ENTERTAINMENT!<br>\
+	THE BURNING SUNSET TAKES ON THE CERULEAN WIND THROUGH THE ASTEROID BELT - 15000电 GRAND PRIZE!<br>\
+	IN THE RING - A SURPRISE MATCH ALL THE WAY FROM MOGHES - 10000电 GRAND PRIZE!"
+
 /area/racers
 	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP
 	name = "unregistered station"

@@ -5693,15 +5693,13 @@
 	pixel_x = 6;
 	pixel_y = 8
 	},
-/obj/item/storage/firstaid/fire{
-	},
+/obj/item/storage/firstaid/fire,
 /obj/effect/floor_decal/corner/lime/diagonal,
 /obj/item/storage/firstaid/toxin{
 	pixel_x = 6;
 	pixel_y = 8
 	},
-/obj/item/storage/firstaid/fire{
-	},
+/obj/item/storage/firstaid/fire,
 /obj/structure/sign/nosmoking_1{
 	pixel_y = 30
 	},
@@ -5995,8 +5993,7 @@
 /area/grand_romanovich)
 "uW" = (
 /obj/structure/table/standard,
-/obj/item/storage/box/fancy/tray{
-	},
+/obj/item/storage/box/fancy/tray,
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /turf/unsimulated/floor{
 	icon_state = "white"
@@ -6734,14 +6731,6 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood,
-/area/grand_romanovich)
-"FZ" = (
-/obj/structure/table/standard,
-/obj/item/storage/box/fancy/tray,
-/obj/effect/floor_decal/corner/paleblue/diagonal,
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
 /area/grand_romanovich)
 "Ga" = (
 /obj/structure/bed/roller,
@@ -7777,7 +7766,7 @@
 	dir = 9;
 	icon_state = "spline_fancy"
 	},
-/obj/structure/filingcabinet/filingcabinet,
+/obj/machinery/radio_beacon/preset/casino,
 /turf/simulated/floor/wood,
 /area/grand_romanovich)
 "VM" = (
@@ -33791,7 +33780,7 @@ uW
 Sy
 WY
 Ww
-FZ
+uW
 XU
 kZ
 kZ

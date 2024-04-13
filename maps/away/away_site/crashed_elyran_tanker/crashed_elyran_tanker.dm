@@ -85,3 +85,8 @@
 /area/crashed_elyran_tanker/tanks
 	name = "Crashed Elyran Tanker - Tanks"
 	icon_state = "atmos"
+
+/obj/machinery/radio_beacon/preset/crashed_elyran_tanker
+	preset_prob = 40
+	preset_message = "This is an automated distress message from the Elco transport vessel \[REGISTERED_IFF_LOST]. Critical system failures detected across vessel hull. Engines non-functional. All escape pods have been \[LAUNCHED]. Registered crew requiring rescue: \[0]. This message will repeat."
+	preset_distress = TRUE
