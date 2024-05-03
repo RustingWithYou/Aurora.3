@@ -71,6 +71,8 @@ GLOBAL_LIST_EMPTY(latejoin_cyborg)
 GLOBAL_LIST_EMPTY(latejoin_living_quarters_lift)
 GLOBAL_LIST_EMPTY(kickoffsloc)
 GLOBAL_LIST_EMPTY(virtual_reality_spawn)
+GLOBAL_LIST_EMPTY(kataphract_vr)
+GLOBAL_LIST_EMPTY(izharshan_vr)
 
 GLOBAL_LIST_EMPTY(tdome1)
 GLOBAL_LIST_EMPTY(tdome2)

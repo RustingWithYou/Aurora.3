@@ -3971,6 +3971,8 @@
 #include "maps\event\halloween\halloweenareas.dm"
 #include "maps\event\idris_cruise\code\idris_cruise.dm"
 #include "maps\event\idris_cruise\code\idris_cruise_areas.dm"
+#include "maps\event\ouerea\ouerea_hotel.dm"
+#include "maps\event\ouerea\ouerea_items.dm"
 #include "maps\event\rooftop\code\rooftop.dm"
 #include "maps\event\rooftop\code\rooftop_areas.dm"
 #include "maps\event\rooftop\code\rooftop_shuttles.dm"

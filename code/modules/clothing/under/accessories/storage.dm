@@ -223,5 +223,5 @@
 	. = ..()
 	hold.max_storage_space = 16
 	hold.can_hold = list(
-		/obj/item/ammo_casing/shotgun
+		/obj/item/ammo_casing
 	)

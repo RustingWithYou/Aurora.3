@@ -131,6 +131,12 @@
 	desc = "This plaque commemorates the fall of the Atmos FEA division. For all the charred, dizzy, and brittle men who have died in its hands."
 	icon_state = "atmosplaque"
 
+/obj/structure/sign/plaque
+	name = "plaque"
+	desc = null
+	icon = 'icons/turf/decals/decals.dmi'
+	icon_state = "plaque"
+
 /obj/structure/sign/science
 	name = "\improper SCIENCE sign"
 	desc = "A warning sign which reads 'SCIENCE'."

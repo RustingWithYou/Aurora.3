@@ -105,6 +105,11 @@ INITIALIZE_IMMEDIATE(/mob/living/carbon/human/dummy/mannequin)
 /mob/living/carbon/human/type_c
 	layer = 5
 
+/mob/living/carbon/human/type_c/equipped/Initialize(mapload)
+	. = ..(mapload, SPECIES_VAURCA_BREEDER)
+	species.before_equip(src)
+	species.after_equip(src)
+
 /mob/living/carbon/human/type_big/Initialize(mapload)
 	. = ..(mapload, SPECIES_VAURCA_WARFORM)
 	src.gender = NEUTER
@@ -120,6 +125,8 @@ INITIALIZE_IMMEDIATE(/mob/living/carbon/human/dummy/mannequin)
 	. = ..(mapload, SPECIES_VAURCA_BULWARK)
 	species.before_equip(src)
 	species.after_equip(src)
+	var/obj/item/organ/internal/vaurca/preserve/P = internal_organs_by_name[BP_PHORON_RESERVE]
+	internal = P
 
 /mob/living/carbon/human/axiori_skrell/Initialize(mapload)
 	h_style = "Skrell Average Tentacles"
