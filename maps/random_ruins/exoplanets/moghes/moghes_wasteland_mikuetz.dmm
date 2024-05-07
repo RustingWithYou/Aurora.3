@@ -114,7 +114,7 @@
 	},
 /area/moghes_mikuetz)
 "A" = (
-/turf/simulated/wall/cloth,
+/turf/simulated/wall,
 /area/moghes_mikuetz)
 "B" = (
 /obj/structure/railing/fence{

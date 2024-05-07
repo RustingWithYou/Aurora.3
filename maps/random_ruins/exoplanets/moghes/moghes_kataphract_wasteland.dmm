@@ -116,7 +116,7 @@
 	},
 /area/moghes/kataphract_wasteland)
 "R" = (
-/turf/simulated/wall/cloth,
+/turf/simulated/wall,
 /area/moghes/kataphract_wasteland)
 "S" = (
 /obj/structure/sign/flag/hegemony/large/north{

@@ -358,7 +358,7 @@
 	},
 /area/moghes_dorviza)
 "V" = (
-/turf/simulated/wall/cloth,
+/turf/simulated/wall,
 /area/moghes_dorviza)
 "W" = (
 /turf/simulated/floor/exoplanet/carpet/rubber{

@@ -21,7 +21,7 @@
 	},
 /area/moghes_reclaimer)
 "i" = (
-/turf/simulated/wall/cloth,
+/turf/simulated/wall,
 /area/moghes_reclaimer)
 "m" = (
 /obj/structure/bed/stool/bar/wood,

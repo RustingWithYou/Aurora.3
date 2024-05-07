@@ -72,7 +72,7 @@
 	},
 /area/moghes_queendom)
 "k" = (
-/turf/simulated/wall/cloth,
+/turf/simulated/wall,
 /area/moghes_queendom)
 "m" = (
 /obj/structure/railing/fence,
