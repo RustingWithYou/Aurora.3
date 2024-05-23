@@ -206,6 +206,7 @@
 
 /obj/structure/fake_warform/Initialize()
 	. = ..()
-	eye_overlay = image(icon, "overlay", plane = EFFECTS_ABOVE_LIGHTING_PLANE)
+	eye_overlay = image(icon, "overlay")
+	eye_overlay.plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	eye_overlay.appearance_flags = KEEP_APART
-	add_overlay(eye_overlay)
+	AddOverlays(eye_overlay)
