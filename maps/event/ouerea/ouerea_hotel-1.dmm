@@ -30,6 +30,18 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"ai" = (
+/obj/machinery/light{
+	must_start_working = 1;
+	dir = 4
+	},
+/obj/structure/bed/stool/chair/sofa/right/black{
+	dir = 8
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "ak" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8;
@@ -86,6 +98,10 @@
 /area/ouerea_hotel)
 "aD" = (
 /obj/structure/bed/stool/chair/office/dark,
+/obj/effect/ghostspawpoint{
+	name = "igs - hotel";
+	identifier = "hotel"
+	},
 /turf/simulated/floor/carpet/darkblue{
 	temperature = 298.15
 	},
@@ -186,6 +202,15 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"bf" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - hotel";
+	identifier = "hotel"
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "bg" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
@@ -260,6 +285,24 @@
 /obj/structure/sign/plaque{
 	name = "Gakal'zaal";
 	desc = "A sign has been attached to this plaque. It reads, 'Exhibit scheduled for removal'.";
+	layer = 2.1
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"bE" = (
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"bI" = (
+/obj/structure/sign/plaque{
+	name = "Model Skeleton";
+	desc = "This is a model Sinta'Unathi skeleton, originally on display at the Skalamar University of Medicine! Though not as excitingly lifelike as some of the other exhibits in this room, it is an incredibly accurate display of modern Unathi anatomy, and can show us a lot about how we as a species evolved! Observe the large digitigrade legs, designed for chasing down prey during our earliest hunter-gatherer roots, and the role which an Unathi's tail plays in balance when walking. Similar displays for humans and Skrell are planned to open next Travakh!";
 	layer = 2.1
 	},
 /turf/simulated/floor/wood{
@@ -387,6 +430,22 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"cl" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5;
+	icon_state = "spline_fancy"
+	},
+/obj/machinery/photocopier,
+/turf/simulated/floor/carpet/darkblue{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"cu" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "cz" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8;
@@ -463,6 +522,21 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"cY" = (
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 8
+	},
+/obj/machinery/papershredder{
+	pixel_x = -6
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/turf/simulated/floor/tiled/dark{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -596,6 +670,18 @@
 	},
 /obj/structure/window/reinforced,
 /turf/simulated/floor/exoplanet/grass/moghes,
+/area/ouerea_hotel)
+"er" = (
+/obj/machinery/light{
+	must_start_working = 1;
+	dir = 8
+	},
+/obj/structure/bed/stool/chair/sofa/left/black{
+	dir = 4
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
 /area/ouerea_hotel)
 "et" = (
 /obj/structure/bed/stool/chair/wood,
@@ -749,6 +835,19 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"fk" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8;
+	icon_state = "spline_fancy"
+	},
+/obj/effect/ghostspawpoint{
+	name = "igs - hotel";
+	identifier = "hotel"
+	},
+/turf/simulated/floor/carpet/darkblue{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "fr" = (
 /obj/machinery/atmospherics/pipe/tank/air,
 /obj/machinery/light{
@@ -786,6 +885,16 @@
 	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"fD" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8;
+	icon_state = "spline_fancy"
+	},
+/obj/structure/table/wood,
+/turf/simulated/floor/carpet/darkblue{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -830,6 +939,14 @@
 /obj/machinery/telecomms/bus/preset_one,
 /turf/unsimulated/floor,
 /area/ouerea_hotel)
+"fT" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "fZ" = (
 /obj/structure/bed/stool/chair/office/light{
 	dir = 8
@@ -839,6 +956,19 @@
 	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/white{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"ga" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
+/obj/structure/sign/flag/ouerea/old{
+	pixel_y = 32;
+	stand_icon = "banner"
+	},
+/turf/simulated/floor/carpet/darkblue{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -959,6 +1089,41 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel/shuttle)
+"gW" = (
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 8
+	},
+/obj/machinery/light{
+	must_start_working = 1;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"gX" = (
+/obj/machinery/light{
+	must_start_working = 1
+	},
+/obj/structure/bed/stool/chair/sofa/black{
+	dir = 1
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"hb" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8;
+	icon_state = "spline_fancy"
+	},
+/obj/machinery/door/airlock/glass{
+	name = "Elevators"
+	},
+/turf/simulated/floor/carpet/darkblue{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "hc" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/gukhefish,
@@ -974,6 +1139,13 @@
 /obj/structure/flora/bush/jungle/large/random,
 /obj/effect/decal/fake_object/light_source/invisible,
 /turf/simulated/floor/exoplanet/grass{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"hg" = (
+/obj/structure/table/wood,
+/obj/item/material/ashtray/bronze,
+/turf/simulated/floor/wood{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -1057,6 +1229,13 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"id" = (
+/obj/structure/table/wood,
+/obj/item/newspaper,
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "ie" = (
 /obj/structure/sign/plaque{
 	name = "Shrieker";
@@ -1115,6 +1294,23 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"is" = (
+/obj/structure/bed/stool/chair/sofa/left/black{
+	dir = 1
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"it" = (
+/obj/machinery/light,
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "iy" = (
 /obj/machinery/light{
 	must_start_working = 1
@@ -1156,6 +1352,14 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/ouerea_hotel)
+"iI" = (
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "iO" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	name = "Contact War Memorial"
@@ -1193,6 +1397,15 @@
 	layer = 9;
 	name = "giant overgrown pillar";
 	mouse_opacity = 1
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"jc" = (
+/obj/machinery/atm{
+	dir = 8;
+	pixel_x = -16
 	},
 /turf/simulated/floor/wood{
 	temperature = 298.15
@@ -1247,6 +1460,12 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel/shuttle)
+"jk" = (
+/obj/machinery/vending/cigarette,
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "jo" = (
 /obj/structure/table/stone/marble,
 /obj/item/reagent_containers/food/drinks/shaker,
@@ -1437,10 +1656,28 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel/shuttle)
+"kY" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "lb" = (
 /obj/structure/sign/plaque{
 	name = "Energy Barriers";
 	desc = "Developed during the Contact War based on human designs, the energy barrier provides great personal protection for warriors attempting to fight at close range. Though not often used by the Navy, a modified version of this hardlight barrier can often be seen wielded by the warriors of the Kataphract Guild, who favor melee combat wherever possible.";
+	layer = 2.1
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"lc" = (
+/obj/structure/sign/plaque{
+	name = "Stok";
+	desc = "An evolutionary ancestor of the Sinta'Unathi, the stok is a common sight across modern Moghes! Though often dismissed as pests, they are intelligent and curious beings, who can often form complex lifelong bonds! Stok are rare on Ouerea, as they were not imported in large numbers during colonisation!";
 	layer = 2.1
 	},
 /turf/simulated/floor/wood{
@@ -1556,6 +1793,15 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"lJ" = (
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 1
+	},
+/obj/machinery/cryopod,
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "lM" = (
 /obj/structure/sign/plaque{
 	name = "Religious Literature";
@@ -1566,11 +1812,41 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"lN" = (
+/obj/structure/bed/stool/chair/sofa/right/black{
+	dir = 1
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"lO" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/effect/ghostspawpoint{
+	name = "igs - hotel_sec";
+	identifier = "hotel_sec"
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "lS" = (
 /obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/ramp,
+/area/ouerea_hotel)
+"lX" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/obj/structure/table/standard,
+/obj/item/toy/comic/stormman,
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
 /area/ouerea_hotel)
 "lY" = (
 /obj/structure/table/reinforced/steel,
@@ -1593,6 +1869,16 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"mu" = (
+/obj/effect/floor_decal/corner/dark_blue/full,
+/obj/machinery/computer/cryopod{
+	pixel_x = -28;
+	pixel_y = 19
+	},
+/turf/simulated/floor/tiled/dark{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -1634,6 +1920,14 @@
 	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/white{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"mR" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - hotel_sec"identifier="hotel_sec"
+	},
+/turf/simulated/floor/tiled/dark{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -1746,6 +2040,15 @@
 	dir = 1
 	},
 /turf/unsimulated/floor,
+/area/ouerea_hotel)
+"nw" = (
+/obj/machinery/door/airlock/security{
+	dir = 8;
+	name = "Security"
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
 /area/ouerea_hotel)
 "nx" = (
 /obj/structure/table/standard,
@@ -1890,6 +2193,14 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"oQ" = (
+/obj/structure/bed/stool/chair/sofa/corner/concave/black{
+	dir = 8
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "oT" = (
 /obj/machinery/telecomms/broadcaster/preset_right,
 /turf/unsimulated/floor,
@@ -1924,6 +2235,15 @@
 "pc" = (
 /obj/effect/landmark/force_spawnpoint,
 /turf/simulated/floor/marble{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"pg" = (
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 4
+	},
+/obj/machinery/cryopod,
+/turf/simulated/floor/tiled/dark{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -2309,6 +2629,20 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel/shuttle)
+"sC" = (
+/obj/structure/bed/padded,
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 8
+	},
+/obj/item/bedsheet/blue,
+/obj/machinery/light{
+	must_start_working = 1;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "sH" = (
 /obj/structure/sign/plaque{
 	name = "Engine Room";
@@ -2319,6 +2653,22 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel/shuttle)
+"sI" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9;
+	icon_state = "spline_fancy"
+	},
+/obj/machinery/papershredder{
+	pixel_x = -6
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/turf/simulated/floor/carpet/darkblue{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "sJ" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/machinery/door/airlock/glass{
@@ -2448,6 +2798,16 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel/shuttle)
+"tI" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4;
+	icon_state = "spline_fancy"
+	},
+/obj/structure/table/wood,
+/turf/simulated/floor/carpet/darkblue{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "tQ" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -2489,6 +2849,14 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet/darkblue{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"uk" = (
+/mob/living/simple_animal/aquatic/fish/moghes{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/water/shallow/moghes{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -2737,6 +3105,22 @@
 	},
 /turf/simulated/floor/exoplanet/grass/moghes,
 /area/ouerea_hotel)
+"wi" = (
+/obj/item/modular_computer/console/preset/security{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"wn" = (
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "ws" = (
 /turf/simulated/wall/marble,
 /area/ouerea_hotel)
@@ -2756,6 +3140,12 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"wO" = (
+/obj/effect/floor_decal/corner/dark_blue,
+/turf/simulated/floor/tiled/dark{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -2851,6 +3241,30 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"xC" = (
+/obj/effect/decal/fake_object{
+	icon = 'maps/event/ouerea/ouerea_items.dmi';
+	icon_state = "stok";
+	name = "stok";
+	desc = "A taxidermied model of a small reptilian humanoid.";
+	layer = 3.2;
+	dir = 8;
+	mouse_opacity = 1
+	},
+/turf/simulated/floor/exoplanet/grass/moghes,
+/area/ouerea_hotel)
+"xF" = (
+/obj/effect/decal/fake_object{
+	icon = 'icons/mob/npc/moghes.dmi';
+	icon_state = "otzek";
+	name = "otzek";
+	desc = "A taxidermied model of a reptiian creature with shimmering yellow scales and large, spiralling horns.";
+	layer = 3.2;
+	dir = 8;
+	mouse_opacity = 1
+	},
+/turf/simulated/floor/exoplanet/grass/moghes,
+/area/ouerea_hotel)
 "xJ" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -2890,6 +3304,14 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/darkblue{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"xU" = (
+/obj/machinery/light,
+/obj/effect/floor_decal/corner/dark_blue/full,
+/obj/machinery/vending/security,
+/turf/simulated/floor/tiled/dark{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -3085,6 +3507,15 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"zl" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - hotel";
+	identifier = "hotel"
+	},
+/turf/simulated/floor/lino/diamond{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "zy" = (
 /obj/structure/table/stone/marble,
 /obj/structure/window/reinforced{
@@ -3111,6 +3542,15 @@
 "zF" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt/beach{
 	dir = 1;
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"zI" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/obj/structure/closet/secure_closet/security,
+/turf/simulated/floor/tiled/dark{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -3258,6 +3698,17 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel/shuttle)
+"Ay" = (
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
+	},
+/obj/effect/ghostspawpoint{
+	name = "igs - hotel_sec"identifier="hotel_sec"
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "AC" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	temperature = 298.15;
@@ -3402,6 +3853,18 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"By" = (
+/obj/effect/decal/fake_object{
+	icon = 'icons/mob/human_races/unathi/unathi_skeleton.dmi';
+	icon_state = "preview";
+	name = "Model Skeleton";
+	desc = "A wireframe model of an Unathi skeleton. Though a label informs the viewer that it is only a recreation, the model bones are uncomfortably realistic.";
+	layer = 3.2;
+	dir = 4;
+	mouse_opacity = 1
+	},
+/turf/simulated/floor/exoplanet/grass/moghes,
+/area/ouerea_hotel)
 "Bz" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -3491,7 +3954,8 @@
 	name = "taxidermied plains tyrant";
 	desc = "A giant reptile-looking creature, it hails from the world of Moghes.";
 	layer = 3.2;
-	mouse_opacity = 1
+	mouse_opacity = 1;
+	dir = 1
 	},
 /turf/simulated/floor/exoplanet/grass/moghes,
 /area/ouerea_hotel)
@@ -3503,6 +3967,18 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel/shuttle)
+"BQ" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/obj/machinery/light{
+	must_start_working = 1;
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "Ca" = (
 /obj/structure/table/stone/marble,
 /obj/structure/window/reinforced{
@@ -3744,6 +4220,26 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"CZ" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/machinery/recharger/wallcharger{
+	layer = 3.3;
+	pixel_x = 2;
+	pixel_y = 23
+	},
+/obj/machinery/recharger/wallcharger{
+	layer = 3.3;
+	pixel_x = 2;
+	pixel_y = 34
+	},
+/obj/structure/table/reinforced/steel,
+/obj/item/toy/desk/fan,
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "Db" = (
 /obj/structure/sign/flag/traditionalist/unmovable,
 /obj/structure/railing/mapped{
@@ -3815,7 +4311,13 @@
 	},
 /area/ouerea_hotel)
 "Dn" = (
-/turf/simulated/floor/exoplanet/grass/moghes{
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/bed/stool/chair{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -3888,6 +4390,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"DN" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -4272,6 +4782,24 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel/shuttle)
+"Hm" = (
+/obj/structure/bed/stool/chair/sofa/black{
+	dir = 1
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"Hn" = (
+/obj/machinery/light{
+	must_start_working = 1;
+	dir = 1
+	},
+/obj/machinery/vending/cola,
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "Hq" = (
 /obj/structure/bed/roller,
 /obj/effect/floor_decal/corner/lime/diagonal,
@@ -4381,6 +4909,16 @@
 	must_start_working = 1;
 	dir = 4
 	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"Is" = (
+/obj/machinery/light{
+	must_start_working = 1;
+	dir = 1
+	},
+/obj/machinery/vending/snack,
 /turf/simulated/floor/wood{
 	temperature = 298.15
 	},
@@ -4501,6 +5039,12 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel/shuttle)
+"IQ" = (
+/obj/machinery/vending/zora,
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "IV" = (
 /obj/structure/railing/fence{
 	dir = 4
@@ -4722,6 +5266,18 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel/shuttle)
+"KO" = (
+/obj/machinery/light,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/effect/ghostspawpoint{
+	name = "igs - hotel_sec"identifier="hotel_sec"
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "KP" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8;
@@ -4763,6 +5319,32 @@
 	layer = 3.4
 	},
 /turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"KY" = (
+/obj/effect/floor_decal/corner/dark_blue/full,
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"Li" = (
+/obj/machinery/door/airlock/glass_security{
+	dir = 1;
+	name = "Holding Cell";
+	req_one_access = list(2,4)
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"Lr" = (
+/obj/machinery/light,
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 4
+	},
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor/tiled/dark{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -5128,6 +5710,16 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"OX" = (
+/obj/structure/sign/plaque{
+	name = "Orzsi Fish";
+	desc = "The most common food source for modern Unathi, the orzsi or 'swarm fish' is a ubiquitous species across dozens of Hegemony worlds! Living in schools counting up to hundreds of fish, the orzsi has been cultivated by Unathi since prehistory! Despite not being native to Ouerea, they were first introduced to the planet's biosphere in the late 2380s, and have rapidly become just as helpful and delicious to us here as they did on Moghes!";
+	layer = 2.1
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "Pe" = (
 /obj/structure/bed/stool/chair/wood,
 /turf/simulated/floor/carpet/darkblue{
@@ -5194,6 +5786,18 @@
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/grass{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"PA" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4;
+	icon_state = "spline_fancy"
+	},
+/obj/machinery/door/airlock/glass{
+	name = "Elevators"
+	},
+/turf/simulated/floor/carpet/darkblue{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -5520,10 +6124,10 @@
 	},
 /area/ouerea_hotel)
 "Tj" = (
+/obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/structure/window/reinforced,
 /turf/simulated/floor/exoplanet/grass/moghes,
 /area/ouerea_hotel)
 "Tk" = (
@@ -5679,6 +6283,12 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel/shuttle)
+"Ul" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "Ur" = (
 /obj/structure/bed/stool/chair/remote/human/izharshan{
 	dir = 8
@@ -5718,6 +6328,16 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"UE" = (
+/obj/structure/sign/plaque{
+	name = "Otzek";
+	desc = "An animal often hunted by ancient and modern Unathi, the otzek's name literally translates to 'Golden Prey' in Sinta'Unathi. Due to many of their habitats being damaged by the Contact War, the otzek has become an increasingly rare sight on modern Moghes. Large herds of otzek were brought to Ouerea during the colonisation process, and many of them can still be seen in the planet's wilderness today!";
+	layer = 2.1
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "UP" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -5727,6 +6347,15 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/darkblue{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"UT" = (
+/obj/machinery/atm{
+	dir = 4;
+	pixel_x = 16
+	},
+/turf/simulated/floor/wood{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -5740,6 +6369,17 @@
 	dir = 1
 	},
 /turf/simulated/floor/lino/diamond{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"Vb" = (
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/brig{
+	id = "cell_1"
+	},
+/turf/simulated/floor/tiled/dark{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -5791,6 +6431,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/grass/moghes,
+/area/ouerea_hotel)
+"VJ" = (
+/obj/structure/bed/stool/chair/sofa/corner/concave/black{
+	dir = 1
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
 /area/ouerea_hotel)
 "VN" = (
 /obj/structure/table/standard,
@@ -5888,6 +6536,16 @@
 /obj/item/reagent_containers/food/snacks/porkbowl,
 /obj/item/reagent_containers/food/snacks/porkbowl,
 /obj/item/reagent_containers/food/snacks/porkbowl,
+/turf/simulated/floor/carpet/darkblue{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"Wy" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/ghostspawpoint{
+	name = "igs - hotel";
+	identifier = "hotel"
+	},
 /turf/simulated/floor/carpet/darkblue{
 	temperature = 298.15
 	},
@@ -6173,6 +6831,17 @@
 	desc = "In 2375, the IHV Venture was launched from the headquarters of the Izweski space programme near Skalamar, to set off on a journey that would take months and establish the colony you now stand on! The Venture has been restored to its historical condition at the time of launch - come, step aboard, and see how our ancestors first dreamed to traverse the stars!";
 	layer = 2.1
 	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"Yw" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/table/reinforced/steel,
+/obj/item/paper_bin,
+/obj/item/pen/black,
 /turf/simulated/floor/tiled/dark{
 	temperature = 298.15
 	},
@@ -20752,7 +21421,7 @@ Lz
 Lz
 ws
 mS
-yC
+zl
 yC
 Wr
 ER
@@ -21031,12 +21700,12 @@ ws
 Lz
 Lz
 Lz
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
+ws
+ws
+ws
+ws
+ws
+ws
 Lz
 Lz
 Lz
@@ -21288,12 +21957,12 @@ ws
 Lz
 Lz
 Lz
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
+ws
+cY
+BQ
+zI
+xU
+ws
 Lz
 Lz
 Lz
@@ -21542,15 +22211,15 @@ cO
 cX
 dA
 ws
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
+ws
+ws
+ws
+ws
+CZ
+Ay
+SG
+fT
+ws
 Lz
 Lz
 Lz
@@ -21799,14 +22468,14 @@ cO
 cX
 uU
 ws
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
-ws
-ws
+sC
+KY
+Li
+wn
+Yw
+wi
+SG
+fT
 ws
 ws
 ws
@@ -22056,15 +22725,15 @@ cO
 cX
 uU
 ws
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
+Vb
+bE
+Ul
+kY
+SG
+SG
+SG
+KO
 ws
-Lz
-Lz
 pc
 pc
 pc
@@ -22313,15 +22982,15 @@ cO
 Ih
 xm
 ws
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
 ws
-Lz
-Lz
+ws
+ws
+lO
+SG
+SG
+SG
+fT
+ws
 jN
 jN
 jN
@@ -22570,16 +23239,16 @@ sJ
 ws
 ws
 ws
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
+sC
+KY
+Li
+kY
+SG
+SG
+SG
+Dn
 ws
-Wh
-Lz
-jN
+kq
 dd
 Lz
 YP
@@ -22817,25 +23486,25 @@ ws
 ws
 ws
 ws
-Xk
+jk
 hY
-Xk
-Xk
+jc
+bf
 mx
 cO
 VA
-hY
-Xk
+er
+VJ
 ws
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
+Vb
+bE
+Ul
+kY
+SG
+mR
+SG
+Dn
 ws
-dd
-Lz
 jN
 jN
 jN
@@ -23073,7 +23742,7 @@ aZ
 aZ
 cz
 aZ
-aZ
+hb
 aZ
 aZ
 aZ
@@ -23081,18 +23750,18 @@ aZ
 uh
 cO
 VA
-Xk
-Xk
+id
+Hm
 ws
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
 ws
-Lz
-Lz
+ws
+ws
+kY
+SG
+wO
+lX
+Lr
+ws
 jN
 jN
 jN
@@ -23338,19 +24007,19 @@ cO
 cO
 cO
 VA
-Xk
-Ev
+FY
+gX
 ws
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
+gW
+mu
+Li
+kY
+SG
+fT
+ws
+ws
 ws
 Wh
-dd
-Lz
 Lz
 Lz
 dd
@@ -23578,7 +24247,7 @@ XX
 FF
 FF
 FF
-cO
+bS
 cO
 lH
 FF
@@ -23587,7 +24256,7 @@ FF
 FF
 FF
 FF
-FF
+PA
 FF
 FF
 FF
@@ -23596,18 +24265,18 @@ bS
 cO
 VA
 Xk
-Xk
+lN
 ws
-Lz
-Lz
-Lz
-Lz
-Lz
-Lz
+lJ
+pg
+Ul
+iI
+DN
+it
 ws
 DI
 Lz
-dq
+Lz
 gn
 dd
 dd
@@ -23831,10 +24500,10 @@ hL
 ws
 ws
 ws
+ws
+ws
 OW
 Xk
-Xk
-Xk
 mx
 cO
 VA
@@ -23845,7 +24514,7 @@ Xk
 Xk
 Xk
 ws
-Xk
+cu
 Xk
 Xk
 Xk
@@ -23858,7 +24527,7 @@ ws
 ws
 ws
 ws
-ws
+nw
 ws
 ws
 ws
@@ -24087,11 +24756,11 @@ NM
 Qn
 ws
 Lz
+Lz
+Lz
 ws
 na
 Xk
-Xk
-Xk
 mx
 cO
 VA
@@ -24102,7 +24771,7 @@ Oq
 Oq
 Oq
 ws
-OW
+Hn
 Xk
 Xk
 Xk
@@ -24111,7 +24780,7 @@ cO
 VA
 Xk
 Xk
-Xk
+jc
 hY
 Xk
 Xk
@@ -24129,7 +24798,7 @@ Lz
 Lz
 jN
 Lz
-Lz
+dq
 Lz
 Lz
 Zr
@@ -24344,10 +25013,10 @@ vX
 KF
 ws
 Lz
+Lz
+Lz
 ws
 na
-Xk
-Xk
 Xk
 mx
 cO
@@ -24359,10 +25028,10 @@ DL
 ON
 Oq
 ws
-MO
-jA
-jA
+sI
 aZ
+jA
+fD
 uh
 cO
 XC
@@ -24370,7 +25039,7 @@ aZ
 aZ
 aZ
 aZ
-aZ
+fk
 aZ
 aZ
 aZ
@@ -24601,10 +25270,10 @@ Fy
 xu
 ws
 Lz
+Lz
+Lz
 ws
 sp
-Xk
-Xk
 Xk
 Sa
 cO
@@ -24616,7 +25285,7 @@ DL
 DL
 Oq
 ws
-mx
+ga
 cO
 cO
 ZO
@@ -24858,10 +25527,10 @@ ws
 ws
 ws
 Lz
+Lz
+Lz
 ws
 na
-Xk
-Xk
 Xk
 mx
 cO
@@ -25115,10 +25784,10 @@ Lz
 Lz
 Lz
 Lz
+Lz
+Lz
 ws
 na
-Xk
-Xk
 Xk
 Tk
 cO
@@ -25130,7 +25799,7 @@ DL
 DL
 Oq
 ws
-mx
+ga
 cO
 cO
 Cx
@@ -25372,10 +26041,10 @@ Lz
 Lz
 Lz
 Lz
+Lz
+Lz
 ws
 sp
-Xk
-Xk
 Xk
 mx
 cO
@@ -25387,10 +26056,10 @@ DL
 qI
 Oq
 ws
-XX
-Dr
-Dr
+cl
 FF
+Dr
+tI
 cI
 cO
 lH
@@ -25629,11 +26298,11 @@ Lz
 Lz
 Lz
 Lz
+Lz
+Lz
 ws
 na
 Xk
-Xk
-Xk
 mx
 cO
 VA
@@ -25644,7 +26313,7 @@ Oq
 Oq
 Oq
 ws
-OW
+Is
 Xk
 Xk
 Xk
@@ -25653,7 +26322,7 @@ cO
 VA
 Xk
 Xk
-Xk
+UT
 oV
 Xk
 Xk
@@ -25886,10 +26555,10 @@ Lz
 Lz
 Lz
 Lz
+Lz
+Lz
 ws
 na
-Xk
-Xk
 Xk
 mx
 cO
@@ -25901,7 +26570,7 @@ Xk
 Xk
 Xk
 ws
-Xk
+IQ
 Xk
 Xk
 Xk
@@ -26143,30 +26812,30 @@ Lz
 Lz
 Lz
 Lz
+Lz
+Lz
 ws
 Fz
-Xk
-Xk
 Xk
 mx
 cO
 Ig
+fk
 aZ
 aZ
 aZ
 aZ
 aZ
-aZ
-aZ
+hb
 aZ
 aZ
 aZ
 aZ
 uh
 cO
-VA
+Wy
 Xk
-Xk
+is
 ws
 de
 Qb
@@ -26400,10 +27069,10 @@ Lz
 Lz
 Lz
 Lz
+Lz
+Lz
 ws
 na
-Xk
-Xk
 Xk
 mx
 cO
@@ -26422,8 +27091,8 @@ cO
 cO
 cO
 VA
-Xk
-Ev
+FY
+gX
 ws
 Xv
 CG
@@ -26657,11 +27326,11 @@ Lz
 Lz
 Lz
 Lz
+Lz
+Lz
 ws
 na
 Xk
-Xk
-oV
 XX
 FF
 FF
@@ -26671,7 +27340,7 @@ FF
 FF
 dy
 FF
-FF
+PA
 FF
 FF
 FF
@@ -26679,8 +27348,8 @@ FF
 cI
 cO
 VA
-Xk
-Xk
+hg
+Hm
 ws
 dG
 Ks
@@ -26914,6 +27583,8 @@ Lz
 Lz
 Lz
 Lz
+Lz
+Lz
 ws
 ws
 ws
@@ -26927,17 +27598,15 @@ ws
 ws
 ws
 ws
-ws
-ws
-Xk
+jk
 oV
-Xk
+UT
 Xk
 mx
 cO
 VA
-oV
-Xk
+ai
+oQ
 ws
 rR
 Ks
@@ -30526,19 +31195,19 @@ VA
 Xk
 Ev
 ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+Lz
+Lz
+Lz
+Lz
+Lz
+Lz
+Lz
+Lz
+Lz
+Lz
+Lz
+Lz
+Lz
 Lz
 Lz
 Lz
@@ -30783,18 +31452,18 @@ VA
 Xk
 Xk
 ws
-hQ
-oY
-yI
-hQ
-oY
-yI
-hQ
-oY
-yI
-hQ
-oY
-yI
+ws
+ws
+ws
+ws
+ws
+ws
+ws
+ws
+ws
+ws
+ws
+ws
 ws
 Lz
 Lz
@@ -31041,16 +31710,16 @@ YH
 Br
 ws
 hQ
-xt
+oY
 yI
 hQ
-yH
+oY
 yI
 hQ
-ge
+oY
 yI
 hQ
-hQ
+oY
 yI
 ws
 Lz
@@ -31298,16 +31967,16 @@ Xk
 Ev
 ws
 hQ
-hQ
+xt
 yI
 hQ
-hQ
+yH
 yI
 hQ
-hQ
+ge
 yI
 hQ
-hQ
+By
 yI
 ws
 Lz
@@ -31821,7 +32490,7 @@ Xk
 ie
 Xk
 Xk
-Xk
+bI
 Xk
 Xk
 cb
@@ -32840,13 +33509,13 @@ Xk
 Xk
 ws
 Xk
+UE
 Xk
 Xk
+OX
 Xk
 Xk
-Xk
-Xk
-Xk
+lc
 Xk
 mx
 cO
@@ -33354,12 +34023,12 @@ Xk
 Ev
 ws
 hQ
-hQ
+xF
 yI
-WA
+uk
 kL
 hQ
-hQ
+xC
 yI
 Xk
 mx
@@ -33610,13 +34279,13 @@ lv
 ws
 ws
 ws
-hQ
+wf
 hQ
 yI
-WA
+rt
 kL
 hQ
-Dn
+wf
 yI
 Xk
 mx
@@ -33867,14 +34536,14 @@ VA
 Nr
 Cz
 ws
-wf
-hQ
-yI
-rt
-kL
-hQ
-wf
-yI
+ws
+ws
+ws
+ws
+ws
+ws
+ws
+ws
 Xk
 mx
 cO
