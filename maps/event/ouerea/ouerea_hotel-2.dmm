@@ -74,14 +74,6 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
-"fg" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 6
-	},
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
 "fp" = (
 /obj/structure/sign/flag/izharshan,
 /turf/simulated/floor/shuttle/dark_red,
@@ -98,19 +90,6 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
-"kQ" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8;
-	icon_state = "spline_fancy"
-	},
-/obj/machinery/light{
-	must_start_working = 1;
-	dir = 4
-	},
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
 "lm" = (
 /turf/unsimulated/wall/darkshuttlewall,
 /area/ouerea_hotel)
@@ -118,17 +97,14 @@
 /turf/simulated/wall/marble,
 /area/ouerea_hotel)
 "lz" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4;
-	icon_state = "spline_fancy"
+/obj/structure/bed/stool/chair/office/bridge/generic{
+	dir = 8
 	},
-/mob/living/carbon/human/type_c/equipped,
-/obj/item/clothing/shoes/vaurca/breeder/klax,
-/obj/item/clothing/suit/vaurca/breeder/klax,
-/obj/item/clothing/head/vaurca_breeder/klax,
-/obj/item/card/id/syndicate,
-/obj/item/storage/backpack/typec/klax,
-/turf/simulated/floor/wood{
+/obj/effect/ghostspawpoint{
+	name = "igs - rep";
+	identifier = "rep"
+	},
+/turf/simulated/floor/carpet/darkblue{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -223,27 +199,6 @@
 "qs" = (
 /turf/unsimulated/floor/concrete,
 /area/ouerea_hotel)
-"qP" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4;
-	icon_state = "spline_fancy"
-	},
-/obj/item/clothing/under/unathi/mogazali,
-/obj/item/clothing/shoes/sandals/caligae,
-/obj/item/card/id/syndicate,
-/obj/item/clothing/accessory/poncho/rockstone{
-	color = "#800000"
-	},
-/obj/item/clothing/under/unathi/jizixi/orange,
-/mob/living/carbon/human/unathi,
-/obj/machinery/light{
-	must_start_working = 1;
-	dir = 8
-	},
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
 "sR" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood{
@@ -254,43 +209,6 @@
 /obj/structure/table/wood/mahogany,
 /obj/item/storage/slide_projector,
 /turf/simulated/floor/carpet/darkblue{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
-"uB" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8;
-	icon_state = "spline_fancy"
-	},
-/obj/item/card/id/syndicate,
-/obj/item/clothing/under/skrell,
-/obj/item/clothing/shoes/jackboots/kala,
-/obj/item/clothing/accessory/poncho/shouldercape/nationcapes,
-/mob/living/carbon/human/skrell,
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
-"uK" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4;
-	icon_state = "spline_fancy"
-	},
-/obj/item/card/id/syndicate,
-/obj/item/clothing/suit/unathi/jokfar{
-	color = "#800000"
-	},
-/obj/item/clothing/shoes/sandals/caligae,
-/obj/item/clothing/accessory/poncho/unathimantle/hephaestus{
-	color = "#663300"
-	},
-/obj/item/clothing/under/unathi{
-	color = "#663300";
-	accent_color = "#F8F8F8"
-	},
-/obj/item/clothing/accessory/pin/corporate/heph,
-/mob/living/carbon/human/unathi,
-/turf/simulated/floor/wood{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -309,15 +227,6 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
-"vF" = (
-/obj/machinery/door/airlock/command{
-	name = "Staff Only";
-	req_access = list(101)
-	},
-/turf/simulated/floor/carpet/darkblue{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -416,57 +325,12 @@
 	},
 /turf/simulated/floor/shuttle/tan,
 /area/cruise/virtual_reality)
-"Gt" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4;
-	icon_state = "spline_fancy"
-	},
-/obj/machinery/computer/cryopod{
-	pixel_x = -28;
-	pixel_y = 19
-	},
-/obj/machinery/cryopod{
-	dir = 4
-	},
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
-"Gv" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8;
-	icon_state = "spline_fancy"
-	},
-/obj/item/card/id/syndicate,
-/obj/item/clothing/under/skrell/nralakk/oqi/security,
-/obj/item/clothing/shoes/jackboots/kala,
-/obj/item/clothing/gloves/kala,
-/obj/item/clothing/suit/storage/vest/kala,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/gun/energy/fedpistol/nopsi,
-/obj/item/clothing/head/helmet/security/skrell,
-/obj/item/clothing/accessory/poncho/shouldercape/cloak/oqi,
-/mob/living/carbon/human/skrell,
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
 "GI" = (
 /obj/structure/bed/stool/chair/shuttle{
 	dir = 4
 	},
 /turf/simulated/floor/shuttle/dark_red,
 /area/cruise/virtual_reality)
-"Je" = (
-/obj/effect/floor_decal/spline/fancy/wood,
-/obj/structure/table/wood/mahogany,
-/obj/item/card/id/centcom{
-	name = "COPY ME"
-	},
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
 "JU" = (
 /turf/simulated/floor/reinforced{
 	temperature = 298.15
@@ -508,22 +372,6 @@
 /obj/structure/sign/flag/hegemony,
 /turf/simulated/floor/shuttle/tan,
 /area/cruise/virtual_reality)
-"MD" = (
-/obj/structure/sign/staff_only{
-	pixel_y = 4
-	},
-/turf/simulated/wall/marble,
-/area/ouerea_hotel)
-"MM" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8;
-	icon_state = "spline_fancy"
-	},
-/obj/machinery/cryopod,
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
 "MN" = (
 /obj/machinery/computer/terminal{
 	icon_screen = "engines";
@@ -557,27 +405,6 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
-"NK" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4;
-	icon_state = "spline_fancy"
-	},
-/obj/item/clothing/accessory/poncho/unathimantle/hephaestus{
-	color = "#663300"
-	},
-/obj/item/card/id/syndicate,
-/obj/item/clothing/shoes/sandals/caligae,
-/obj/item/clothing/under/rank/security/heph,
-/obj/item/clothing/suit/armor/carrier/officer,
-/obj/item/storage/belt/security/full,
-/obj/item/clothing/head/beret/corporate/heph,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/gun/energy/pistol,
-/mob/living/carbon/human/unathi,
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
 "Of" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8;
@@ -602,37 +429,10 @@
 	},
 /turf/simulated/floor/shuttle/dark_red,
 /area/cruise/virtual_reality)
-"OT" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4;
-	icon_state = "spline_fancy"
-	},
-/obj/structure/sign/flag/hegemony,
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
 "PU" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
 	},
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
-"QQ" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4;
-	icon_state = "spline_fancy"
-	},
-/obj/structure/sign/flag/klax,
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
-"QX" = (
-/obj/effect/floor_decal/spline/fancy/wood,
-/obj/machinery/acting/changer,
 /turf/simulated/floor/wood{
 	temperature = 298.15
 	},
@@ -653,13 +453,14 @@
 /turf/simulated/floor/shuttle/tan,
 /area/cruise/virtual_reality)
 "SF" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner,
-/obj/structure/sign/flag/heph,
-/obj/machinery/light{
-	must_start_working = 1;
-	dir = 8
+/obj/structure/bed/stool/chair/office/bridge/generic{
+	dir = 4
 	},
-/turf/simulated/floor/wood{
+/obj/effect/ghostspawpoint{
+	name = "igs - rep";
+	identifier = "rep"
+	},
+/turf/simulated/floor/carpet/darkblue{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -692,19 +493,6 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
-"Uk" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 8
-	},
-/obj/structure/sign/flag/nralakk,
-/obj/machinery/light{
-	must_start_working = 1;
-	dir = 4
-	},
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
 "UJ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
@@ -728,6 +516,10 @@
 /area/ouerea_hotel)
 "Wg" = (
 /obj/structure/bed/stool/chair/office/bridge/generic,
+/obj/effect/ghostspawpoint{
+	name = "igs - rep";
+	identifier = "rep"
+	},
 /turf/simulated/floor/carpet/darkblue{
 	temperature = 298.15
 	},
@@ -770,19 +562,6 @@
 /area/cruise/virtual_reality)
 "XJ" = (
 /obj/effect/map_effect/window_spawner/full/wood,
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
-"Yr" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4;
-	icon_state = "spline_fancy"
-	},
-/obj/machinery/light{
-	must_start_working = 1;
-	dir = 8
-	},
 /turf/simulated/floor/wood{
 	temperature = 298.15
 	},
@@ -5858,8 +5637,8 @@ db
 EF
 EF
 EF
-pJ
-pJ
+SF
+SF
 pJ
 pJ
 pJ
@@ -6886,8 +6665,8 @@ db
 EF
 EF
 EF
-yB
-yB
+lz
+lz
 yB
 yB
 yB
@@ -15368,17 +15147,17 @@ qs
 qs
 qs
 qs
-ln
-ln
-ln
-ln
-ln
-ln
-ln
-ln
-ln
-ln
-ln
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
 ln
 KY
 db
@@ -15625,20 +15404,20 @@ qs
 qs
 qs
 qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
 ln
-SF
-uK
-NK
-OT
-qP
-Cj
-QQ
-lz
-Yr
-Gt
-MD
-vZ
-fg
+Yy
+db
 EF
 EF
 EF
@@ -15882,20 +15661,20 @@ qs
 qs
 qs
 qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
 ln
-QX
-EF
-EF
-EF
-EF
-EF
-EF
-EF
-EF
-EF
-vF
-EF
-EF
+KY
+db
 EF
 EF
 EF
@@ -16139,20 +15918,20 @@ qs
 qs
 qs
 qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
 ln
-Je
-EF
-EF
-EF
-EF
-EF
-EF
-EF
-EF
-EF
-ln
-EF
-EF
+KY
+db
 EF
 EF
 EF
@@ -16396,20 +16175,20 @@ qs
 qs
 qs
 qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
 ln
-QX
-EF
-EF
-EF
-EF
-EF
-EF
-EF
-EF
-EF
-vF
-EF
-EF
+KY
+db
 EF
 EF
 EF
@@ -16653,20 +16432,20 @@ qs
 qs
 qs
 qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
 ln
-Uk
-uB
-Gv
-Of
-kQ
-Of
-Of
-Of
-kQ
-MM
-MD
-Of
-eO
+KY
+db
 EF
 EF
 EF
@@ -16910,17 +16689,17 @@ qs
 qs
 qs
 qs
-ln
-ln
-ln
-ln
-ln
-ln
-ln
-ln
-ln
-ln
-ln
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
+qs
 ln
 Yy
 db
