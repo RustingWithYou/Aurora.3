@@ -1045,6 +1045,7 @@
 	desc = "The Uueoa-Esa star system is where you currently are, and the home of the Unathi people for millions of years! While in the modern day we have spread far and wide across the Orion Spur, for millennia our ancestors looked up at the night sky from Moghes, dreaming of what lay in wait out there. Be proud, in knowing that you fulfil those dreams, carrying the honor of those who came before you into the universe.";
 	layer = 2.1
 	},
+/obj/effect/floor_decal/spline/fancy/wood/full,
 /turf/simulated/floor/wood{
 	temperature = 298.15
 	},
