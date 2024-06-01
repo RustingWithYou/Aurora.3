@@ -158,7 +158,9 @@
 	suit = /obj/item/clothing/suit/vaurca/breeder/klax
 	shoes = /obj/item/clothing/shoes/vaurca/breeder/klax
 	mask = /obj/item/clothing/mask/gas/vaurca/filter
+	head = /obj/item/clothing/head/vaurca_breeder/klax/flag
 	back = /obj/item/storage/backpack/typec/klax
+	suit_accessory = /obj/item/clothing/accessory/vaurca_breeder/rockstone_cape/red
 	id = /obj/item/card/id
 
 /obj/outfit/admin/hive_rep/post_equip(mob/living/carbon/human/H, visualsOnly)

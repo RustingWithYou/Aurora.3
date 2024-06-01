@@ -29,6 +29,8 @@
 	build_from_parts = TRUE
 	worn_overlay =  "chain"
 	has_accents = TRUE
+/obj/item/clothing/accessory/vaurca_breeder/rockstone_cape/red
+	color = "#800000"
 
 /obj/item/clothing/accessory/vaurca_breeder/star_cape
 	name = "c'thur star cape"
