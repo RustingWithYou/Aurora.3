@@ -5371,6 +5371,12 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"Lt" = (
+/obj/machinery/recharge_station,
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "Lw" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -24511,8 +24517,8 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
+Lt
+Lt
 ws
 cu
 Xk
@@ -26567,8 +26573,8 @@ Xk
 Xk
 Xk
 Xk
-Xk
-Xk
+Lt
+Lt
 ws
 IQ
 Xk
