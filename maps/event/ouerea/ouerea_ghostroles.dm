@@ -97,7 +97,7 @@
 	desc = "Represent Hephaestus Industries"
 	spawnpoints = list("rep")
 	max_count = 1
-	possible_species = list(SPECIES_UNATHI)
+	possible_species = list(SPECIES_HUMAN, SPECIES_UNATHI)
 	uses_species_whitelist = FALSE
 	outfit = /obj/outfit/admin/heph_rep
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
