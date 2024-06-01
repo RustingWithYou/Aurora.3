@@ -8,8 +8,9 @@
 	outfit = /obj/outfit/admin/hotel_staff
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	respawn_flag = null
-	assigned_role = "Grand Ouerean Staff"
-	special_role = "Grand Ouerean Staff"
+	assigned_role = "Grand Ouerean Hotel Staff"
+	special_role = "Grand Ouerean Hotel Staff"
+	password = "minimumwage"
 
 /obj/outfit/admin/hotel_staff
 	name = "Hotel Staff"
@@ -38,8 +39,9 @@
 	outfit = /obj/outfit/admin/hotel_sec
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	respawn_flag = null
-	assigned_role = "Grand Ouerean Staff"
-	special_role = "Grand Ouerean Staff"
+	assigned_role = "Grand Ouerean Hotel Security"
+	special_role = "Grand Ouerean Hotel Security"
+	password = "stopresisting"
 
 /obj/outfit/admin/hotel_sec
 	name = "Hotel Security"
@@ -72,6 +74,7 @@
 	respawn_flag = null
 	assigned_role = "Hegemony Representative"
 	special_role = "Hegemony Representative"
+	password = "honor"
 
 /obj/outfit/admin/hegemony_rep
 	uniform = /obj/item/clothing/under/unathi/mogazali/blue
@@ -98,6 +101,7 @@
 	respawn_flag = null
 	assigned_role = "Hephaestus Representative"
 	special_role = "Hephaestus Representative"
+	password = "unionsbad"
 
 /obj/outfit/admin/heph_rep
 	head = /obj/item/clothing/head/beret/corporate/heph
@@ -125,6 +129,7 @@
 	respawn_flag = null
 	assigned_role = "Nralakk Federation Representative"
 	special_role = "Nralakk Federation Representative"
+	password = "warble"
 
 /obj/outfit/admin/fed_rep
 	uniform = /obj/item/clothing/under/skrell
@@ -152,6 +157,7 @@
 	respawn_flag = null
 	assigned_role = "K'lax Hive Representative"
 	special_role = "K'lax Hive Representative"
+	password = "nowarinheavenhere"
 
 /obj/outfit/admin/hive_rep
 	uniform = /obj/item/clothing/under/gearharness
