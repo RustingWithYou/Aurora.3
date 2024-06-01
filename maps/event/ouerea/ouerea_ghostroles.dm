@@ -7,6 +7,7 @@
 	possible_species = list(SPECIES_UNATHI, SPECIES_HUMAN, SPECIES_SKRELL, SPECIES_SKRELL_AXIORI, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_BULWARK)
 	outfit = /obj/outfit/admin/hotel_staff
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
+	uses_species_whitelist = FALSE
 	respawn_flag = null
 	assigned_role = "Grand Ouerean Hotel Staff"
 	special_role = "Grand Ouerean Hotel Staff"
@@ -36,6 +37,7 @@
 	max_count = 4
 	spawnpoints = list("hotel_sec")
 	possible_species = list(SPECIES_UNATHI, SPECIES_HUMAN, SPECIES_SKRELL, SPECIES_SKRELL_AXIORI, SPECIES_VAURCA_WARRIOR)
+	uses_species_whitelist = FALSE
 	outfit = /obj/outfit/admin/hotel_sec
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	respawn_flag = null
@@ -96,6 +98,7 @@
 	spawnpoints = list("rep")
 	max_count = 1
 	possible_species = list(SPECIES_UNATHI)
+	uses_species_whitelist = FALSE
 	outfit = /obj/outfit/admin/heph_rep
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	respawn_flag = null
@@ -124,6 +127,7 @@
 	spawnpoints = list("rep")
 	max_count = 1
 	possible_species = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)
+	uses_species_whitelist = FALSE
 	outfit = /obj/outfit/admin/fed_rep
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	respawn_flag = null
@@ -152,6 +156,7 @@
 	spawnpoints = list("rep")
 	max_count = 1
 	possible_species = list(SPECIES_VAURCA_BREEDER)
+	uses_species_whitelist = FALSE
 	outfit = /obj/outfit/admin/hive_rep
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	respawn_flag = null
