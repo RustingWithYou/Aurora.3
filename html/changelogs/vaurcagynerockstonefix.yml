@@ -44,7 +44,7 @@
 #################################
 
 # Your name.
-author: FluffyGhost
+author: SimpleMaroon
 
 # Optional: Remove this file after generating master changelog.  Useful for PR changelogs that won't get used again.
 delete-after: True
@@ -55,10 +55,4 @@ delete-after: True
 # Also, this gets changed to [] after reading.  Just remove the brackets when you add new shit.
 # Please surround your changes in  double quotes ("). It works without them, but if you use certain characters it screws up compiling. The quotes will not show up in the changelog.
 changes:
-  - refactor: "Minor refactor of the APC file, turned biteshifts into the BITFLAG macro, reordering."
-  - rscadd: "Added APCs maplints."
-  - refactor: "Fixed maps to pass the maplints."
-  - code_imp: "APCs now draw time-constant power."
-  - code_imp: "Removed power objects handling code, only the powersink existed that used it."
-  - refactor: "Refactored powersink to use the processing subsystem, made it time-constant, DMDoc'd."
-  - balance: "Made powersinks drain power from an APC faster."
+  - bugfix: "Fixed the K'lax rockstone cape being mixed up with the Unathi rockstone cape in the loadout."

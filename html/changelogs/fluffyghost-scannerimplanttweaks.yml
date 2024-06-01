@@ -55,5 +55,5 @@ delete-after: True
 # Also, this gets changed to [] after reading.  Just remove the brackets when you add new shit.
 # Please surround your changes in  double quotes ("). It works without them, but if you use certain characters it screws up compiling. The quotes will not show up in the changelog.
 changes:
-  - bugfix: "Fixed background inventory screens not being clickable."
-  - rscadd: "Clicking on a storage item that is already open now closes it."
+  - bugfix: "Body scan now respects the known/hidden setting in the implant."
+  - rscadd: "Body scan now reports how many unknown implanted things are present in an organ."
