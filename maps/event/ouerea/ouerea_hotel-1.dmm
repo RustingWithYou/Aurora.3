@@ -2344,6 +2344,12 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"qq" = (
+/obj/machinery/recharge_station,
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "qt" = (
 /obj/machinery/light{
 	must_start_working = 1;
@@ -3919,7 +3925,9 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/mob/living/heavy_vehicle/premade/light/kataphract,
+/mob/living/heavy_vehicle/premade/light/kataphract{
+	hatch_locked = 1
+	},
 /turf/simulated/floor/wood{
 	temperature = 298.15
 	},
@@ -4592,6 +4600,16 @@
 /obj/item/material/kitchen/utensil/spoon,
 /obj/item/material/kitchen/utensil/spoon,
 /obj/item/material/kitchen/utensil/spoon,
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"Fr" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
+/obj/machinery/vending/dinnerware/metal,
 /turf/simulated/floor/wood{
 	temperature = 298.15
 	},
@@ -5371,12 +5389,6 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
-"Lt" = (
-/obj/machinery/recharge_station,
-/turf/simulated/floor/wood{
-	temperature = 298.15
-	},
-/area/ouerea_hotel)
 "Lw" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -6045,6 +6057,13 @@
 	name = "Museum";
 	dir = 4
 	},
+/turf/simulated/floor/carpet/darkblue{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"Sm" = (
+/obj/structure/table/wood,
+/obj/item/storage/chewables/tobacco/koko,
 /turf/simulated/floor/carpet/darkblue{
 	temperature = 298.15
 	},
@@ -8585,7 +8604,7 @@ cO
 VA
 ws
 aH
-sU
+Sm
 cO
 VA
 ws
@@ -11140,7 +11159,7 @@ QQ
 Lz
 Lz
 ws
-cX
+Fr
 uU
 cO
 cO
@@ -14738,7 +14757,7 @@ QQ
 Lz
 Lz
 ws
-cX
+Fr
 uU
 cO
 cO
@@ -17308,7 +17327,7 @@ Zr
 Lz
 Lz
 ws
-cX
+Fr
 Jy
 Yo
 Yo
@@ -24517,8 +24536,8 @@ Xk
 Xk
 Xk
 Xk
-Lt
-Lt
+qq
+qq
 ws
 cu
 Xk
@@ -26573,8 +26592,8 @@ Xk
 Xk
 Xk
 Xk
-Lt
-Lt
+qq
+qq
 ws
 IQ
 Xk

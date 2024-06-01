@@ -124,11 +124,30 @@
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
+"mj" = (
+/obj/structure/table/wood/mahogany,
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/wine{
+	pixel_x = 5
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/wine{
+	pixel_x = -5
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "mJ" = (
 /obj/machinery/light{
 	must_start_working = 1;
 	dir = 4
 	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"mT" = (
+/obj/structure/table/wood/mahogany,
+/obj/item/material/ashtray/bronze,
 /turf/simulated/floor/wood{
 	temperature = 298.15
 	},
@@ -167,8 +186,8 @@
 /turf/simulated/floor/shuttle/tan,
 /area/cruise/virtual_reality)
 "ot" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 1
+/obj/structure/bed/stool/chair/sofa/right/black{
+	dir = 4
 	},
 /turf/simulated/floor/wood{
 	temperature = 298.15
@@ -268,6 +287,14 @@
 "xT" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/cruise/virtual_reality)
+"ys" = (
+/obj/structure/bed/stool/chair/sofa/left/black{
+	dir = 8
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "yB" = (
 /obj/structure/bed/stool/chair/office/bridge/generic{
 	dir = 8
@@ -325,12 +352,56 @@
 	},
 /turf/simulated/floor/shuttle/tan,
 /area/cruise/virtual_reality)
+"Gv" = (
+/obj/structure/table/wood/mahogany,
+/obj/item/reagent_containers/food/drinks/bottle/sarezhiwine{
+	pixel_y = 6
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "GI" = (
 /obj/structure/bed/stool/chair/shuttle{
 	dir = 4
 	},
 /turf/simulated/floor/shuttle/dark_red,
 /area/cruise/virtual_reality)
+"GO" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
+/obj/structure/bed/stool/chair/sofa/right/black{
+	dir = 8
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"Hz" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
+/obj/structure/bed/stool/chair/sofa/left/black{
+	dir = 4
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"HF" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4;
+	icon_state = "spline_fancy"
+	},
+/obj/machinery/light{
+	must_start_working = 1;
+	dir = 8
+	},
+/turf/simulated/floor/wood{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
 "JU" = (
 /turf/simulated/floor/reinforced{
 	temperature = 298.15
@@ -339,6 +410,9 @@
 "JZ" = (
 /turf/simulated/wall/shuttle/raider,
 /area/cruise/virtual_reality)
+"Kj" = (
+/turf/unsimulated/wall/fakeairlock,
+/area/ouerea_hotel)
 "Kr" = (
 /obj/machinery/door/airlock/glass_command{
 	name = "Conference Room"
@@ -361,6 +435,19 @@
 "LM" = (
 /obj/structure/table/wood/mahogany,
 /turf/simulated/floor/carpet/darkblue{
+	temperature = 298.15
+	},
+/area/ouerea_hotel)
+"LQ" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8;
+	icon_state = "spline_fancy"
+	},
+/obj/machinery/light{
+	must_start_working = 1;
+	dir = 4
+	},
+/turf/simulated/floor/wood{
 	temperature = 298.15
 	},
 /area/ouerea_hotel)
@@ -5658,8 +5745,8 @@ dT
 Cj
 Cj
 Cj
-dT
-Cj
+HF
+Hz
 ot
 XJ
 Nc
@@ -5916,8 +6003,8 @@ EF
 EF
 EF
 EF
-EF
 vt
+mT
 XJ
 Nc
 Nc
@@ -6173,8 +6260,8 @@ EF
 EF
 EF
 EF
-EF
 vt
+mj
 XJ
 Nc
 Nc
@@ -6430,8 +6517,8 @@ EF
 EF
 EF
 EF
-EF
 vt
+Gv
 XJ
 Nc
 Nc
@@ -6686,9 +6773,9 @@ EF
 UJ
 Of
 Of
-NB
-Of
-PU
+LQ
+GO
+ys
 XJ
 Nc
 Nc
@@ -13616,7 +13703,7 @@ qs
 qs
 qs
 qs
-ln
+Kj
 KY
 db
 EF
@@ -13624,7 +13711,7 @@ EF
 EF
 vt
 KY
-ln
+Kj
 qs
 qs
 qs
@@ -14901,7 +14988,7 @@ qs
 qs
 qs
 qs
-ln
+Kj
 KY
 db
 EF
@@ -14909,7 +14996,7 @@ EF
 EF
 vt
 KY
-ln
+Kj
 qs
 qs
 qs
@@ -17214,7 +17301,7 @@ qs
 qs
 qs
 qs
-ln
+Kj
 KY
 db
 EF
@@ -17222,7 +17309,7 @@ EF
 EF
 vt
 KY
-ln
+Kj
 qs
 qs
 qs
@@ -20046,7 +20133,7 @@ ln
 ln
 ln
 ln
-ln
+Kj
 ln
 ln
 ln
