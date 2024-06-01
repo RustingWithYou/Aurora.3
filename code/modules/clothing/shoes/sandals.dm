@@ -10,6 +10,9 @@
 	icon_auto_adapt = TRUE
 	icon_supported_species_tags = list("taj")
 
+/obj/item/clothing/shoes/sandals/brown
+	color = "#4a2716"
+
 /obj/item/clothing/shoes/sandals/geta
 	name = "geta"
 	desc = "A pair of rather plain Konyang-styled wooden sandals."

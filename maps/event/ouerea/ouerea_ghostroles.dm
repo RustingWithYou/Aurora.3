@@ -18,7 +18,7 @@
 	uniform = /obj/item/clothing/under/waiter
 	shoes = /obj/item/clothing/shoes/laceup
 	species_shoes = list(
-		SPECIES_UNATHI = /obj/item/clothing/shoes/footwraps,
+		SPECIES_UNATHI = /obj/item/clothing/shoes/sandals/brown,
 		SPECIES_VAURCA_WORKER = /obj/item/clothing/shoes/vaurca,
 		SPECIES_VAURCA_BULWARK = /obj/item/clothing/shoes/vaurca
 	)
@@ -79,14 +79,14 @@
 	password = "honor"
 
 /obj/outfit/admin/hegemony_rep
-	uniform = /obj/item/clothing/under/unathi/mogazali/blue
-	shoes = /obj/item/clothing/shoes/sandals
+	uniform = /obj/item/clothing/under/unathi/jizixi
+	shoes = /obj/item/clothing/shoes/sandals/brown
 	accessory = /obj/item/clothing/accessory/poncho/rockstone/red
 	backpack_contents = list(/obj/item/gun/energy/pistol/hegemony = 1)
 	id = /obj/item/card/id
 	back = /obj/item/storage/backpack/satchel/leather
 	l_pocket = /obj/item/storage/wallet/sol_rich
-	l_ear = /obj/item/device/radio/headset
+	l_ear = /obj/item/device/radio/headset/headset_com
 
 /obj/outfit/admin/hegemony_rep/get_id_access()
 	return list(ACCESS_CENT_GENERAL)
@@ -111,11 +111,13 @@
 	uniform = /obj/item/clothing/under/rank/liaison/heph
 	suit = /obj/item/clothing/suit/storage/liaison/heph
 	id = /obj/item/card/id/hephaestus
+	shoes = /obj/item/clothing/shoes/laceup
 	accessory = /obj/item/clothing/accessory/tie/corporate/heph
 	suit_accessory = /obj/item/clothing/accessory/pin/corporate/heph
 	back = /obj/item/storage/backpack/satchel/heph
 	l_pocket = /obj/item/storage/wallet/sol_rich
 	backpack_contents = list(/obj/item/stamp/hephaestus = 1)
+	l_ear = /obj/item/device/radio/headset/headset_com
 
 /obj/outfit/admin/heph_rep/get_id_access()
 	return list(ACCESS_CENT_GENERAL)
@@ -138,6 +140,7 @@
 /obj/outfit/admin/fed_rep
 	uniform = /obj/item/clothing/under/skrell
 	shoes = /obj/item/clothing/shoes/laceup
+	suit = /obj/item/clothing/accessory/poncho/shouldercape/nationcapes
 	accessory = /obj/item/clothing/accessory/holster/hip
 	accessory_contents = list(/obj/item/gun/energy/fedpistol = 1)
 	back = /obj/item/storage/backpack/satchel/leather
@@ -145,6 +148,7 @@
 	l_pocket = /obj/item/storage/wallet/sol_rich
 	l_ear = /obj/item/device/radio/headset
 	id = /obj/item/card/id
+	l_ear = /obj/item/device/radio/headset/headset_com
 
 /obj/outfit/admin/fed_rep/get_id_access()
 	return list(ACCESS_CENT_GENERAL)
@@ -158,6 +162,7 @@
 	possible_species = list(SPECIES_VAURCA_BREEDER)
 	uses_species_whitelist = FALSE
 	outfit = /obj/outfit/admin/hive_rep
+	culture_restriction = list(/singleton/origin_item/culture/klax_breeder)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	respawn_flag = null
 	assigned_role = "K'lax Hive Representative"
@@ -170,14 +175,15 @@
 	shoes = /obj/item/clothing/shoes/vaurca/breeder/klax
 	mask = /obj/item/clothing/mask/gas/vaurca/filter
 	head = /obj/item/clothing/head/vaurca_breeder/klax/flag
-	back = /obj/item/storage/backpack/typec/klax
 	suit_accessory = /obj/item/clothing/accessory/vaurca_breeder/rockstone_cape/red
 	id = /obj/item/card/id
+	l_ear = /obj/item/device/radio/headset/headset_com
 
 /obj/outfit/admin/hive_rep/post_equip(mob/living/carbon/human/H, visualsOnly)
 	var/obj/item/organ/internal/vaurca/preserve/preserve = H.internal_organs_by_name[BP_PHORON_RESERVE]
 	H.internal = preserve
 	H.internals.icon_state = "internal1"
+	H.equip_to_slot_or_del(new /obj/item/storage/backpack/typec/klax(H), slot_back)
 	H.equip_or_collect(new /obj/item/reagent_containers/food/snacks/koisbar, slot_in_backpack)
 	H.update_body()
 
