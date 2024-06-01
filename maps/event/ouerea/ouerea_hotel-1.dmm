@@ -1925,7 +1925,8 @@
 /area/ouerea_hotel)
 "mR" = (
 /obj/effect/ghostspawpoint{
-	name = "igs - hotel_sec"identifier="hotel_sec"
+	name = "igs - hotel_sec";
+	identifier = "hotel_sec"
 	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 298.15
@@ -3709,7 +3710,8 @@
 	dir = 4
 	},
 /obj/effect/ghostspawpoint{
-	name = "igs - hotel_sec"identifier="hotel_sec"
+	name = "igs - hotel_sec";
+	identifier = "hotel_sec"
 	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 298.15
@@ -5290,7 +5292,8 @@
 	dir = 10
 	},
 /obj/effect/ghostspawpoint{
-	name = "igs - hotel_sec"identifier="hotel_sec"
+	name = "igs - hotel_sec";
+	identifier = "hotel_sec"
 	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 298.15
