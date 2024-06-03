@@ -1040,6 +1040,13 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors/dam)
+"gY" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/railing/fence{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/grass/moghes,
+/area/new_blades)
 "hb" = (
 /obj/structure/rod_railing{
 	dir = 10
@@ -4053,12 +4060,11 @@
 	},
 /area/new_blades/interiors)
 "BM" = (
-/obj/structure/lattice/catwalk/indoor/urban,
-/obj/structure/rod_railing{
-	dir = 9
+/obj/structure/railing/fence{
+	dir = 1
 	},
-/turf/simulated/floor/exoplanet/water/shallow/moghes,
-/area/new_blades/lake)
+/turf/simulated/floor/exoplanet/grass/moghes,
+/area/new_blades)
 "BP" = (
 /obj/structure/table/standard,
 /obj/item/clothing/glasses/hud/health,
@@ -5722,6 +5728,15 @@
 	},
 /turf/simulated/floor/exoplanet/grass/moghes,
 /area/new_blades)
+"Nk" = (
+/obj/structure/railing/fence{
+	dir = 1
+	},
+/obj/structure/railing/fence{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/grass/moghes,
+/area/new_blades)
 "Nr" = (
 /obj/item/clothing/under/unathi{
 	color = "#4a3407"
@@ -5744,9 +5759,14 @@
 	},
 /area/skrell_shuttle)
 "Ny" = (
-/obj/structure/lattice/catwalk/indoor/urban,
-/turf/simulated/floor/exoplanet/water/shallow/moghes,
-/area/new_blades/lake)
+/obj/structure/railing/fence{
+	dir = 1
+	},
+/obj/structure/railing/fence{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/grass/moghes,
+/area/new_blades)
 "ND" = (
 /obj/structure/table/wood,
 /obj/item/material/ashtray/bronze{
@@ -6282,6 +6302,12 @@
 /turf/simulated/floor/exoplanet/grass/moghes/dirt/beach{
 	dir = 6
 	},
+/area/new_blades)
+"Rh" = (
+/obj/structure/railing/fence{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/water/shallow/moghes,
 /area/new_blades)
 "Rk" = (
 /obj/structure/table/rack/retail_shelf,
@@ -7293,6 +7319,13 @@
 "YP" = (
 /obj/machinery/door/urban,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt,
+/area/new_blades)
+"YR" = (
+/obj/structure/flora/grass/junglegrass/random,
+/obj/structure/railing/fence{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/grass/moghes,
 /area/new_blades)
 "YW" = (
 /obj/structure/table/rack,
@@ -27565,13 +27598,13 @@ bP
 bP
 bP
 bP
-Ql
-Ql
-Ql
-Ql
-BM
-Ny
-Ny
+bP
+bP
+bP
+bP
+Rb
+XP
+XP
 aG
 DN
 DN
@@ -27822,12 +27855,12 @@ bP
 bP
 bP
 bP
-Ql
-Ql
-Ql
-BM
-Ny
-Ny
+bP
+bP
+bP
+Rb
+XP
+XP
 aG
 Ql
 Ql
@@ -28079,11 +28112,11 @@ bP
 bP
 bP
 bP
-Ql
-Ql
-BM
-Ny
-Ny
+bP
+bP
+Rb
+XP
+XP
 aG
 Ql
 Ql
@@ -28336,10 +28369,10 @@ bM
 Yb
 bP
 bP
-Ql
-BM
-Ny
-Ny
+bP
+Rb
+XP
+XP
 aG
 Ql
 Ql
@@ -28593,9 +28626,9 @@ Sa
 zh
 Yb
 bP
-BM
-Ny
-Ny
+Rb
+XP
+XP
 aG
 Ql
 Ql
@@ -28850,8 +28883,8 @@ ld
 Sa
 zh
 Rb
-Ny
-Ny
+XP
+XP
 aG
 Ql
 Ql
@@ -29107,7 +29140,7 @@ uR
 uR
 Rb
 XP
-Ny
+XP
 aG
 Ql
 Ql
@@ -38155,7 +38188,7 @@ Ql
 Ql
 Ql
 Ql
-BM
+Rb
 XP
 XP
 hM
@@ -38411,8 +38444,8 @@ Ql
 Ql
 Ql
 Ql
-BM
-Ny
+Rb
+XP
 XP
 Ie
 bP
@@ -38667,9 +38700,9 @@ Ql
 Ql
 Ql
 Ql
-BM
-Ny
-Ny
+Rb
+XP
+XP
 Ie
 bP
 bP
@@ -38923,10 +38956,10 @@ Ql
 Ql
 Ql
 Ql
-BM
-Ny
-Ny
-aG
+Rb
+XP
+XP
+Ie
 bP
 bP
 bP
@@ -39179,11 +39212,11 @@ RI
 RI
 RI
 RI
-BM
-Ny
-Ny
-aG
-Ql
+Rb
+XP
+XP
+Ie
+bP
 bP
 bP
 bP
@@ -55324,7 +55357,7 @@ SZ
 ET
 fM
 Qa
-Ni
+Ny
 Ni
 Ni
 Ni
@@ -55581,7 +55614,7 @@ Qa
 fM
 fM
 fM
-fM
+BM
 hP
 Qa
 fM
@@ -55838,7 +55871,7 @@ Qa
 fM
 ET
 fM
-kl
+gY
 fM
 Qa
 Qa
@@ -56095,7 +56128,7 @@ Qa
 fM
 fM
 Qa
-fM
+BM
 fM
 fM
 Qa
@@ -56352,7 +56385,7 @@ fM
 fM
 SZ
 fM
-fM
+BM
 fM
 fM
 fM
@@ -56609,7 +56642,7 @@ SZ
 fM
 fM
 fM
-fM
+BM
 fM
 fM
 kl
@@ -56866,7 +56899,7 @@ fM
 fM
 SZ
 fM
-fM
+BM
 fM
 fM
 Qa
@@ -57123,7 +57156,7 @@ fM
 fM
 fM
 fM
-fM
+BM
 SZ
 fM
 Qa
@@ -57380,7 +57413,7 @@ SZ
 Qa
 fM
 fM
-fM
+BM
 fM
 fM
 fM
@@ -57637,7 +57670,7 @@ fM
 Qa
 fM
 fM
-fM
+BM
 fM
 fM
 fM
@@ -57894,7 +57927,7 @@ Qa
 fM
 fM
 fM
-Qa
+YR
 Qa
 fM
 fM
@@ -58151,7 +58184,7 @@ fM
 SZ
 fM
 fM
-fM
+BM
 Qa
 fM
 fM
@@ -58408,7 +58441,7 @@ fM
 fM
 ET
 fM
-fM
+BM
 fM
 fM
 fM
@@ -58665,7 +58698,7 @@ Qa
 Qa
 fM
 fM
-fM
+BM
 SZ
 fM
 Qa
@@ -58922,7 +58955,7 @@ fM
 fM
 SZ
 fM
-fM
+BM
 fM
 fM
 fM
@@ -59179,7 +59212,7 @@ fM
 fM
 fM
 fM
-fM
+BM
 kl
 fM
 fM
@@ -59436,7 +59469,7 @@ SZ
 Qa
 fM
 fM
-fM
+BM
 fM
 fM
 fM
@@ -59693,7 +59726,7 @@ fM
 Qa
 fM
 fM
-fM
+BM
 Qa
 Qa
 fM
@@ -59950,7 +59983,7 @@ Qa
 fM
 fM
 fM
-fM
+BM
 fM
 fM
 fM
@@ -60207,7 +60240,7 @@ fM
 SZ
 fM
 fM
-fM
+BM
 fM
 fM
 fM
@@ -60464,7 +60497,7 @@ fM
 fM
 fM
 fM
-fM
+BM
 fM
 fM
 fM
@@ -60721,7 +60754,7 @@ Qa
 Qa
 fM
 fM
-fM
+BM
 kl
 fM
 fM
@@ -60978,7 +61011,7 @@ fM
 Qa
 fM
 fM
-fM
+BM
 fM
 Qa
 kl
@@ -61235,7 +61268,7 @@ fM
 fM
 SZ
 Qa
-fM
+BM
 Qa
 Qa
 fM
@@ -61492,7 +61525,7 @@ fM
 fM
 fM
 Qa
-fM
+BM
 fM
 SZ
 fM
@@ -61749,7 +61782,7 @@ fM
 SZ
 ET
 fM
-fM
+BM
 fM
 fM
 fM
@@ -62006,7 +62039,7 @@ fM
 Qa
 fM
 fM
-fM
+BM
 fM
 fM
 fM
@@ -62263,7 +62296,7 @@ fM
 Qa
 fM
 ET
-fM
+BM
 fM
 fM
 Qa
@@ -62520,7 +62553,7 @@ fM
 Qa
 fM
 fM
-fM
+BM
 fM
 fM
 fM
@@ -62777,7 +62810,7 @@ fM
 fM
 fM
 SZ
-kl
+gY
 fM
 fM
 Qa
@@ -63034,7 +63067,7 @@ fM
 SZ
 fM
 fM
-fM
+BM
 fM
 fM
 Qa
@@ -63291,7 +63324,7 @@ fM
 ET
 fM
 fM
-fM
+BM
 fM
 fM
 fM
@@ -63548,7 +63581,7 @@ fM
 fM
 fM
 Qa
-fM
+BM
 Jc
 fM
 fM
@@ -63805,7 +63838,7 @@ fM
 SZ
 ET
 fM
-fM
+BM
 fM
 fM
 fM
@@ -64062,7 +64095,7 @@ fM
 Qa
 fM
 fM
-fM
+BM
 fM
 fM
 kl
@@ -64319,7 +64352,7 @@ fM
 Qa
 fM
 ET
-fM
+BM
 fM
 fM
 fM
@@ -64576,7 +64609,7 @@ fM
 Qa
 fM
 fM
-fM
+BM
 Qa
 Qa
 fM
@@ -64833,7 +64866,7 @@ fM
 fM
 fM
 SZ
-fM
+BM
 fM
 fM
 fM
@@ -65090,7 +65123,7 @@ fM
 SZ
 fM
 fM
-fM
+BM
 fM
 bP
 fM
@@ -65347,7 +65380,7 @@ SZ
 Qa
 fM
 fM
-fM
+BM
 bP
 bP
 bP
@@ -65604,7 +65637,7 @@ fM
 fM
 fM
 Qa
-bP
+Rh
 bP
 bP
 bP
@@ -65861,7 +65894,7 @@ fM
 SZ
 ET
 fM
-fM
+BM
 bP
 bP
 bP
@@ -66118,7 +66151,7 @@ fM
 Qa
 fM
 fM
-fM
+BM
 bP
 bP
 bP
@@ -66375,7 +66408,7 @@ fM
 Qa
 fM
 ET
-fM
+BM
 bP
 bP
 bP
@@ -66632,7 +66665,7 @@ fM
 Qa
 fM
 fM
-fM
+BM
 bP
 bP
 bP
@@ -66889,7 +66922,7 @@ fM
 fM
 fM
 SZ
-fM
+BM
 fM
 bP
 bP
@@ -67146,7 +67179,7 @@ fM
 SZ
 fM
 fM
-fM
+BM
 fM
 fM
 fM
@@ -67403,7 +67436,7 @@ fM
 ET
 fM
 fM
-fM
+BM
 fM
 fM
 fM
@@ -67660,7 +67693,7 @@ fM
 fM
 fM
 Qa
-fM
+BM
 Qa
 Qa
 fM
@@ -67917,7 +67950,7 @@ fM
 SZ
 ET
 fM
-fM
+BM
 fM
 fM
 Qa
@@ -68174,7 +68207,7 @@ fM
 Qa
 fM
 fM
-QF
+Nk
 QF
 QF
 QF
