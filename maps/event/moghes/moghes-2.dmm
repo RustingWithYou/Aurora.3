@@ -37,7 +37,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "ak" = (
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 1
@@ -77,7 +77,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "as" = (
 /obj/structure/rod_railing,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt/beach{
@@ -111,7 +111,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "aY" = (
 /obj/effect/decal/cleanable/floor_damage/rust,
 /turf/simulated/floor/tiled{
@@ -127,7 +127,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "bf" = (
 /obj/machinery/door/blast/regular/open{
 	id = "skrell_shuttle";
@@ -177,14 +177,14 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "bA" = (
 /obj/machinery/light,
 /obj/random/dirt_75,
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "bD" = (
 /obj/machinery/mech_recharger,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -217,7 +217,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "bL" = (
 /obj/item/crowbar/red,
 /obj/item/material/hatchet/butch,
@@ -249,7 +249,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "bR" = (
 /obj/structure/railing/fence{
 	dir = 4
@@ -461,11 +461,11 @@
 "dd" = (
 /obj/structure/closet/crate/weapon,
 /obj/item/ammo_magazine/crackrifle,
-/obj/item/gun/projectile/shotgun/pump/rifle/unathi,
 /obj/item/gun/projectile/automatic/tempestsmg,
 /obj/item/gun/projectile/automatic/tempestsmg,
 /obj/item/ammo_magazine/tempestsmg,
 /obj/item/ammo_magazine/tempestsmg,
+/obj/item/gun/projectile/shotgun/pump/rifle/magazine_fed/crackrifle,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt,
 /area/new_blades/caves)
 "de" = (
@@ -490,7 +490,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "dn" = (
 /obj/structure/flora/grass/junglegrass/dense/random,
 /mob/living/simple_animal/threshbeast,
@@ -502,7 +502,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "dq" = (
 /obj/machinery/telecomms/bus/preset_four,
 /turf/unsimulated/floor,
@@ -554,7 +554,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "dE" = (
 /obj/structure/table/skrell,
 /obj/structure/closet/walllocker/medical/secure{
@@ -769,7 +769,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "eV" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/syringes,
@@ -792,7 +792,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "ff" = (
 /obj/structure/table/wood,
 /obj/item/device/flashlight/lamp,
@@ -805,7 +805,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "fr" = (
 /obj/structure/track,
 /obj/structure/simple_door/iron,
@@ -819,7 +819,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "fu" = (
 /obj/structure/table/wood,
 /obj/structure/reagent_dispensers/keg/xuizikeg{
@@ -1026,7 +1026,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "gT" = (
 /obj/machinery/iv_drip,
 /turf/simulated/floor/wood{
@@ -1080,7 +1080,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "hn" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(208);
@@ -1105,7 +1105,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "hu" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(19)
@@ -1145,7 +1145,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "hz" = (
 /obj/effect/decal/cleanable/floor_damage/rust,
 /obj/machinery/light/colored/decayed/dimmed{
@@ -1195,7 +1195,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "hO" = (
 /turf/simulated/wall/sandstone,
 /area/new_blades/interiors)
@@ -1212,7 +1212,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "hS" = (
 /obj/structure/bed/stool/chair/shuttle{
 	dir = 4
@@ -1242,14 +1242,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"ia" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut{
-	temperature = 303.15
-	},
-/area/new_blades)
 "ih" = (
 /obj/structure/closet,
 /obj/item/clothing/under/unathi/huytai{
@@ -1267,7 +1259,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "ii" = (
 /turf/simulated/mineral/planet,
 /area/new_blades/caves)
@@ -1482,7 +1474,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "jS" = (
 /obj/structure/window/shuttle/scc_space_ship,
 /obj/structure/grille,
@@ -1558,7 +1550,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "kr" = (
 /obj/structure/table/rack,
 /obj/item/shovel,
@@ -1602,7 +1594,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "kF" = (
 /obj/structure/table/steel,
 /obj/random/dirt_75,
@@ -1653,7 +1645,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "kX" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 8
@@ -1678,7 +1670,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "ld" = (
 /turf/simulated/floor/exoplanet/grass/moghes{
 	icon_state = "corner";
@@ -1739,7 +1731,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "lp" = (
 /obj/structure/rod_railing{
 	dir = 4
@@ -1895,7 +1887,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "mk" = (
 /obj/machinery/door/airlock/multi_tile{
 	name = "Heavy Equipment";
@@ -1937,7 +1929,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "mx" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt/beach{
 	dir = 5
@@ -2009,14 +2001,14 @@
 /area/new_blades/interiors)
 "nk" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
-/obj/structure/closet/secure_closet/freezer/fridge,
 /obj/item/reagent_containers/food/drinks/bottle/sarezhiwine,
 /obj/item/reagent_containers/food/drinks/bottle/sarezhiwine,
 /obj/item/reagent_containers/food/drinks/bottle/sarezhiwine,
+/obj/structure/closet/secure_closet/freezer,
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "no" = (
 /obj/structure/flora/grass/junglegrass/random,
 /obj/structure/flora/grass/junglegrass/dense/random,
@@ -2079,7 +2071,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "nH" = (
 /obj/random/dirt_75,
 /obj/effect/decal/cleanable/blood/drip,
@@ -2112,7 +2104,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "oq" = (
 /obj/structure/table/stone/marble,
 /obj/item/reagent_containers/food/condiment/enzyme{
@@ -2359,7 +2351,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "pJ" = (
 /obj/structure/bed/stool/chair/sofa/yellow{
 	dir = 1
@@ -2389,7 +2381,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "pS" = (
 /obj/structure/trash_pile,
 /obj/machinery/light{
@@ -2417,13 +2409,13 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "qp" = (
 /obj/structure/coatrack,
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "qq" = (
 /obj/item/clothing/head/cone,
 /obj/effect/floor_decal/industrial/warning{
@@ -2574,7 +2566,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "rn" = (
 /obj/structure/table/wood,
 /obj/item/device/radio/phone,
@@ -2652,11 +2644,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"rW" = (
-/turf/simulated/floor/tiled/freezer{
-	temperature = 303.15
-	},
-/area/new_blades)
 "sg" = (
 /obj/machinery/conveyor{
 	id = "miners_guild_outpost";
@@ -2678,7 +2665,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "ss" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 24
@@ -2695,7 +2682,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "sy" = (
 /obj/structure/table/rack,
 /obj/item/storage/firstaid/radiation,
@@ -2724,7 +2711,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "sM" = (
 /obj/structure/rod_railing{
 	dir = 8
@@ -2753,7 +2740,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "sY" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/simulated/floor/holofloor/lino{
@@ -3019,16 +3006,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"uw" = (
-/obj/structure/table/rack,
-/obj/item/towel/random,
-/obj/item/towel/random,
-/obj/item/reagent_containers/toothpaste,
-/obj/item/reagent_containers/toothbrush,
-/turf/simulated/floor/tiled/freezer{
-	temperature = 303.15
-	},
-/area/new_blades)
 "uy" = (
 /obj/structure/table/skrell,
 /obj/item/bodybag/cryobag,
@@ -3260,14 +3237,14 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "vK" = (
 /obj/random/dirt_75,
 /obj/structure/table/rack,
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "vM" = (
 /obj/structure/railing/fence{
 	dir = 4
@@ -3396,7 +3373,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "wy" = (
 /obj/machinery/conveyor{
 	id = "miners_guild_outpost1";
@@ -3432,7 +3409,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "wL" = (
 /obj/machinery/appliance/cooker/stove,
 /obj/effect/floor_decal/spline/plain/black{
@@ -3496,7 +3473,7 @@
 /turf/simulated/floor/tiled/freezer{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "xc" = (
 /obj/machinery/iff_beacon/horizon,
 /turf/unsimulated/floor,
@@ -3696,7 +3673,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "yA" = (
 /obj/machinery/door/airlock/glass_command{
 	req_access = list(19)
@@ -3852,7 +3829,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "zL" = (
 /obj/machinery/light,
 /turf/simulated/floor/wood/walnut{
@@ -3905,12 +3882,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"Ah" = (
-/obj/machinery/light,
-/turf/simulated/floor/wood/walnut{
-	temperature = 303.15
-	},
-/area/new_blades)
 "Ai" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/reagentgrinder{
@@ -3939,7 +3910,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Au" = (
 /turf/simulated/floor/tiled/freezer{
 	temperature = 303.15
@@ -4033,11 +4004,6 @@
 	temperature = 303.15
 	},
 /area/skrell_shuttle)
-"Bj" = (
-/turf/simulated/floor/wood/walnut{
-	temperature = 303.15
-	},
-/area/new_blades)
 "Bk" = (
 /obj/machinery/body_scanconsole{
 	dir = 8
@@ -4054,7 +4020,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Bx" = (
 /turf/simulated/floor/marble/dark{
 	temperature = 303.15
@@ -4126,7 +4092,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Ce" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -4276,7 +4242,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "CU" = (
 /obj/machinery/light{
 	dir = 1
@@ -4397,7 +4363,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Ef" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light/colored/decayed/dimmed{
@@ -4576,7 +4542,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Fq" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/engineering_electrical{
@@ -4630,7 +4596,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "FL" = (
 /obj/structure/rod_railing{
 	dir = 4
@@ -4796,7 +4762,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "GV" = (
 /obj/structure/table/stone/marble{
 	color = "#ccc3b8"
@@ -4861,7 +4827,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Ho" = (
 /obj/machinery/door/airlock/skrell{
 	req_access = list(208);
@@ -4887,7 +4853,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "HB" = (
 /obj/machinery/chemical_dispenser/full,
 /obj/machinery/light/skrell{
@@ -4926,7 +4892,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "HU" = (
 /obj/structure/railing/fence{
 	dir = 4
@@ -5018,7 +4984,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Ik" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/gloves,
@@ -5151,7 +5117,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "IQ" = (
 /obj/machinery/light{
 	dir = 1
@@ -5248,7 +5214,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "JB" = (
 /obj/item/clothing/head/cone,
 /obj/effect/floor_decal/industrial/warning{
@@ -5305,7 +5271,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "JQ" = (
 /obj/structure/closet/secure_closet/freezer,
 /obj/machinery/light,
@@ -5332,7 +5298,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Kp" = (
 /obj/structure/flora/grass/junglegrass/random,
 /turf/simulated/floor/exoplanet/grass/moghes{
@@ -5375,7 +5341,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Ky" = (
 /obj/structure/closet/crate/hydroponics,
 /obj/item/seeds/xuiziseed,
@@ -5576,7 +5542,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "LW" = (
 /obj/random/dirt_75,
 /turf/simulated/wall/wood,
@@ -5667,7 +5633,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "ML" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt,
 /area/new_blades/lake)
@@ -5732,7 +5698,6 @@
 	},
 /area/new_blades)
 "Nd" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
 /obj/item/reagent_containers/food/drinks/bottle/small/xuizijuice,
 /obj/item/reagent_containers/food/drinks/bottle/small/xuizijuice,
 /obj/item/reagent_containers/food/drinks/bottle/small/xuizijuice,
@@ -5791,7 +5756,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "NF" = (
 /obj/item/material/sword/longsword,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt,
@@ -5832,7 +5797,7 @@
 /turf/simulated/floor/tiled/freezer{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "NV" = (
 /obj/structure/table/wood,
 /obj/structure/television{
@@ -5860,7 +5825,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Of" = (
 /obj/machinery/sleeper{
 	dir = 4
@@ -5896,7 +5861,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "On" = (
 /obj/machinery/cryopod{
 	dir = 2
@@ -6025,7 +5990,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Pi" = (
 /obj/structure/bed/stool/chair/padded/black{
 	dir = 4
@@ -6057,13 +6022,13 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Po" = (
 /obj/structure/bed/stool/chair/sofa/brown,
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Pt" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/clothing/accessory/sinta_hood{
@@ -6096,12 +6061,6 @@
 /area/new_blades/interiors)
 "Pw" = (
 /turf/unsimulated/mineral,
-/area/new_blades)
-"Py" = (
-/obj/structure/simple_door/wood,
-/turf/simulated/floor/wood/walnut{
-	temperature = 303.15
-	},
 /area/new_blades)
 "PA" = (
 /obj/effect/landmark/scorcher,
@@ -6159,7 +6118,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "PV" = (
 /obj/structure/bed/stool/chair/sofa/left/brown,
 /turf/simulated/floor/carpet/green{
@@ -6402,7 +6361,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Rz" = (
 /obj/structure/pit/closed/grave{
 	species = "Unathi"
@@ -6494,7 +6453,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Sm" = (
 /obj/structure/flora/grass/junglegrass/dense/random,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt,
@@ -6529,7 +6488,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Sw" = (
 /obj/random/dirt_75,
 /obj/structure/closet/crate/freezer,
@@ -6544,7 +6503,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "SC" = (
 /obj/structure/railing/fence{
 	dir = 8
@@ -6627,13 +6586,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"Ti" = (
-/obj/structure/curtain/open/shower,
-/obj/machinery/shower,
-/turf/simulated/floor/tiled/freezer{
-	temperature = 303.15
-	},
-/area/new_blades)
 "Tm" = (
 /obj/structure/closet/secure_closet/chemical,
 /obj/item/stack/material/phoron,
@@ -6695,19 +6647,13 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors/dam)
-"TU" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/turf/simulated/floor/concrete{
-	temperature = 303.15
-	},
-/area/new_blades/interiors/dam)
 "TW" = (
 /obj/structure/table/wood,
 /obj/item/storage/chewables/rollable/unathi,
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "TX" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 4
@@ -6748,7 +6694,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Uy" = (
 /obj/machinery/light/skrell{
 	dir = 4
@@ -6784,7 +6730,7 @@
 /turf/simulated/floor/tiled/freezer{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "UK" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt/beach,
 /area/new_blades)
@@ -6822,7 +6768,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "UU" = (
 /obj/structure/track,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt,
@@ -6965,7 +6911,6 @@
 	},
 /area/new_blades/interiors)
 "VZ" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
 /obj/item/reagent_containers/food/drinks/bottle/small/xuizijuice,
 /obj/item/reagent_containers/food/drinks/bottle/small/xuizijuice,
 /obj/item/reagent_containers/food/drinks/bottle/small/xuizijuice,
@@ -6989,11 +6934,11 @@
 /obj/item/clothing/accessory/poncho/maxtlatl,
 /obj/item/clothing/head/unathi/maxtlatl,
 /obj/item/clothing/wrists/unathi/maxtlatl,
-/obj/item/cane/shaman,
 /obj/item/key{
 	name = "key - shrine";
 	key_data = "shrine"
 	},
+/obj/item/nullrod/shaman,
 /turf/simulated/floor/wood{
 	temperature = 303.15
 	},
@@ -7034,7 +6979,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "WH" = (
 /turf/simulated/floor/exoplanet/grass/moghes{
 	icon_state = "edge";
@@ -7059,7 +7004,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "WW" = (
 /obj/structure/table/skrell,
 /obj/item/clothing/glasses/hud/health,
@@ -7160,7 +7105,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Xr" = (
 /obj/machinery/light{
 	dir = 4
@@ -7185,7 +7130,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Xy" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -7279,7 +7224,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Yg" = (
 /obj/structure/bed/stool/chair/sofa/corner/concave/brown{
 	dir = 1
@@ -7288,7 +7233,7 @@
 /turf/simulated/floor/carpet/red{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "Yh" = (
 /obj/structure/table/skrell,
 /obj/item/reagent_containers/hypospray/cmo,
@@ -7453,7 +7398,7 @@
 /turf/simulated/floor/wood/walnut{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "ZE" = (
 /obj/structure/table/wood,
 /obj/machinery/reagentgrinder{
@@ -7484,7 +7429,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/new_blades)
+/area/new_blades/interiors)
 "ZZ" = (
 /obj/machinery/telecomms/server/presets/service,
 /turf/unsimulated/floor,
@@ -48823,7 +48768,7 @@ Vy
 Jo
 WB
 jG
-TU
+Jo
 Jo
 Jo
 jW
@@ -49080,7 +49025,7 @@ Vy
 qW
 Jo
 jG
-TU
+Jo
 Jo
 vW
 Jo
@@ -55391,11 +55336,11 @@ Ni
 Ni
 Ni
 Xd
-fR
-fR
-Py
-fR
-fR
+CK
+CK
+PS
+CK
+CK
 Xd
 Ni
 ap
@@ -55648,11 +55593,11 @@ fM
 fM
 kl
 fM
-fR
+CK
 qp
 aj
 aj
-fR
+CK
 fM
 fM
 fM
@@ -55905,11 +55850,11 @@ Qa
 fM
 hP
 fM
-fR
+CK
 ql
 aj
 aj
-fR
+CK
 fM
 fM
 kl
@@ -56162,11 +56107,11 @@ Qa
 fM
 fM
 fM
-fR
+CK
 Ss
 aj
 aj
-fR
+CK
 fM
 Qa
 fM
@@ -56419,11 +56364,11 @@ fM
 fM
 fM
 fM
-fR
+CK
 bQ
 aj
 aj
-fR
+CK
 fM
 fM
 fM
@@ -56673,16 +56618,16 @@ Qa
 fM
 fM
 fM
-fR
-fR
-fR
-fR
-fR
-Py
-fR
-fR
-fR
-fR
+CK
+CK
+CK
+CK
+CK
+PS
+CK
+CK
+CK
+CK
 fM
 fM
 fM
@@ -56930,7 +56875,7 @@ fM
 fM
 fM
 fM
-fR
+CK
 aq
 PT
 nG
@@ -56938,8 +56883,8 @@ nG
 nG
 nG
 kp
-Ah
-fR
+zL
+CK
 fM
 fM
 kl
@@ -57187,7 +57132,7 @@ fM
 fM
 fM
 fM
-fR
+CK
 Po
 hy
 aj
@@ -57195,7 +57140,7 @@ aj
 aj
 aj
 gN
-Bj
+Ig
 fp
 fM
 fM
@@ -57444,7 +57389,7 @@ SZ
 fM
 fM
 fM
-fR
+CK
 Uv
 hy
 WT
@@ -57452,7 +57397,7 @@ op
 op
 dD
 gN
-Bj
+Ig
 fp
 fM
 fM
@@ -57701,7 +57646,7 @@ fM
 fM
 fM
 fM
-fR
+CK
 Pg
 hy
 WT
@@ -57709,7 +57654,7 @@ op
 op
 dD
 gN
-Bj
+Ig
 fp
 fM
 fM
@@ -57953,20 +57898,20 @@ Qa
 Qa
 fM
 fM
-fR
-fR
-fR
-fR
-fR
-fR
-Bj
+CK
+CK
+CK
+CK
+CK
+CK
+Ig
 hy
 WT
 op
 op
 dD
 gN
-Bj
+Ig
 fp
 fM
 fM
@@ -58210,20 +58155,20 @@ fM
 Qa
 fM
 fM
-fR
+CK
 vF
 fe
 fe
 fe
-Py
-Bj
+PS
+Ig
 hy
 WT
 op
 op
 dD
 gN
-Bj
+Ig
 fp
 fM
 Qa
@@ -58467,26 +58412,26 @@ fM
 fM
 fM
 fM
-fR
+CK
 Hn
 fe
 fe
 Yc
-fR
-ia
+CK
+dv
 hy
 WT
 op
 op
 dD
 gN
-Ah
-fR
-fR
-fR
-fR
-fR
-fR
+zL
+CK
+CK
+CK
+CK
+CK
+CK
 fM
 Qa
 fM
@@ -58724,26 +58669,26 @@ fM
 SZ
 fM
 Qa
-fR
+CK
 CT
 fe
 fe
 dm
-fR
-Bj
+CK
+Ig
 hy
 WT
 op
 op
 dD
 gN
-Bj
-fR
+Ig
+CK
 Hu
-Bj
-Bj
+Ig
+Ig
 Hu
-fR
+CK
 fM
 Qa
 fM
@@ -58981,12 +58926,12 @@ fM
 fM
 fM
 fM
-fR
+CK
 Xo
 fe
 fe
 ZR
-fR
+CK
 Pg
 hy
 WT
@@ -58994,13 +58939,13 @@ op
 op
 dD
 gN
-Bj
-fR
-fR
-ia
-Bj
-fR
-fR
+Ig
+CK
+CK
+dv
+Ig
+CK
+CK
 fM
 SZ
 fM
@@ -59238,12 +59183,12 @@ fM
 kl
 fM
 fM
-fR
+CK
 IP
 fe
 fe
 aP
-fR
+CK
 TW
 hy
 WT
@@ -59251,13 +59196,13 @@ op
 op
 dD
 gN
-Bj
-fR
+Ig
+CK
 ZD
-Bj
-Bj
+Ig
+Ig
 Hu
-fR
+CK
 fM
 fM
 kl
@@ -59495,12 +59440,12 @@ fM
 fM
 fM
 fM
-fR
+CK
 hN
 fe
 fe
 nk
-fR
+CK
 aZ
 hy
 aj
@@ -59508,13 +59453,13 @@ aj
 aj
 aj
 gN
-Bj
-fR
-fR
-Bj
-Bj
-fR
-fR
+Ig
+CK
+CK
+Ig
+Ig
+CK
+CK
 fM
 Qa
 kl
@@ -59752,12 +59697,12 @@ fM
 Qa
 Qa
 fM
-fR
+CK
 sF
 fe
 fe
 bK
-fR
+CK
 sp
 hy
 aj
@@ -59765,13 +59710,13 @@ aj
 aj
 aj
 gN
-Bj
-Py
-Bj
-Bj
-Bj
+Ig
+PS
+Ig
+Ig
+Ig
 Hu
-fR
+CK
 fM
 fM
 fM
@@ -60009,12 +59954,12 @@ fM
 fM
 fM
 fM
-fR
+CK
 kW
 fe
 fe
 mj
-fR
+CK
 Jz
 WG
 zI
@@ -60022,13 +59967,13 @@ zI
 zI
 zI
 jO
-Ah
-fR
+zL
+CK
 Pm
 ih
 Ok
 Ok
-fR
+CK
 fM
 fM
 fM
@@ -60266,26 +60211,26 @@ fM
 fM
 fM
 fM
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-Py
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-fR
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+PS
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+CK
 fM
 fM
 kl
@@ -60524,25 +60469,25 @@ fM
 fM
 fM
 fM
-fR
+CK
 Fn
 WT
 eQ
 wK
 dD
 hQ
-fR
+CK
 aj
 aj
 mr
-fR
+CK
 lo
 aj
 aj
 aj
 GT
 Yg
-fR
+CK
 fM
 fM
 fM
@@ -60781,25 +60726,25 @@ kl
 fM
 fM
 fM
-fR
+CK
 hy
 WT
 op
 sV
 dD
 gN
-fR
+CK
 aj
 aj
 aj
-fR
+CK
 sx
 aj
 aj
 aj
 ND
 MI
-fR
+CK
 fM
 Qa
 SZ
@@ -61038,25 +60983,25 @@ fM
 Qa
 kl
 fM
-fR
+CK
 WG
 zI
 zI
 zI
 zI
 jO
-fR
+CK
 aj
 aj
 aj
-fR
+CK
 hy
 aj
 op
 aj
 aj
 pG
-fR
+CK
 fM
 Qa
 fM
@@ -61295,25 +61240,25 @@ Qa
 Qa
 fM
 fM
-fR
+CK
 pQ
-Bj
+Ig
 pQ
-Bj
-Bj
-Bj
-Py
+Ig
+Ig
+Ig
+PS
 aj
 aj
 aj
-Py
+PS
 hy
 aj
 kC
 aj
 aj
 aj
-fR
+CK
 fM
 fM
 Qa
@@ -61552,25 +61497,25 @@ fM
 SZ
 fM
 fM
-fR
+CK
 pQ
-Bj
+Ig
 Od
-Bj
+Ig
 Kn
-Bj
-fR
+Ig
+CK
 aj
 aj
 aj
-fR
+CK
 hy
 aj
 op
 aj
 aj
 JM
-fR
+CK
 fM
 fM
 fM
@@ -61809,25 +61754,25 @@ fM
 fM
 fM
 fM
-fR
+CK
 pQ
-Bj
+Ig
 pQ
-Bj
+Ig
 Aq
-Bj
-fR
+Ig
+CK
 aj
 aj
 aj
-fR
+CK
 dp
 aj
 aj
 aj
 Sh
 MI
-fR
+CK
 fM
 fM
 fM
@@ -62066,25 +62011,25 @@ fM
 fM
 fM
 fM
-fR
+CK
 Od
 yz
 pQ
 yz
 Kn
 yz
-fR
+CK
 aj
 aj
 mr
-fR
+CK
 hk
 aj
 aj
 aj
 Rx
 bu
-fR
+CK
 fM
 Qa
 fM
@@ -62323,25 +62268,25 @@ fM
 fM
 Qa
 fM
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-Py
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-fR
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+PS
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+CK
 fM
 Qa
 NH
@@ -62581,21 +62526,21 @@ fM
 fM
 fM
 fM
-fR
-Bj
+CK
+Ig
 UT
 rj
-fR
+CK
 FJ
-Bj
-Bj
-Bj
-Ah
-fR
+Ig
+Ig
+Ig
+zL
+CK
 wY
-rW
+Au
 NT
-fR
+CK
 fM
 fM
 fM
@@ -62838,21 +62783,21 @@ fM
 Qa
 fM
 fM
-Py
-Bj
-Bj
+PS
+Ig
+Ig
 bA
-fR
+CK
 DZ
 SB
-Bj
-Bj
-Bj
-Py
-rW
-rW
-rW
-fR
+Ig
+Ig
+Ig
+PS
+Au
+Au
+Au
+CK
 fM
 fM
 fM
@@ -63095,21 +63040,21 @@ fM
 Qa
 fM
 fM
-fR
+CK
 HQ
 vK
 wt
-fR
+CK
 fs
-Bj
-Bj
-Bj
-Bj
-fR
-Ti
-rW
+Ig
+Ig
+Ig
+Ig
+CK
+oi
+Au
 UG
-fR
+CK
 fM
 fM
 fM
@@ -63352,21 +63297,21 @@ fM
 fM
 Qa
 fM
-fR
-fR
-fR
-fR
-fR
+CK
+CK
+CK
+CK
+CK
 nG
 nG
 nG
 nG
 kp
-fR
-Ti
-rW
-uw
-fR
+CK
+oi
+Au
+tH
+CK
 fM
 fM
 fM
@@ -63613,17 +63558,17 @@ fM
 fM
 fM
 fM
-fR
+CK
 kZ
 aj
 aj
 aj
 hQ
-fR
-fR
-fR
-fR
-fR
+CK
+CK
+CK
+CK
+CK
 fM
 fM
 SZ
@@ -63870,13 +63815,13 @@ fM
 fM
 fM
 fM
-fR
+CK
 LV
 aj
 aj
 aj
 gN
-fR
+CK
 fM
 fM
 fM
@@ -64127,13 +64072,13 @@ fM
 fM
 fM
 fM
-fR
+CK
 Ii
 aj
 aj
 aj
 gN
-fR
+CK
 fM
 fM
 fM
@@ -64384,13 +64329,13 @@ fM
 fM
 fM
 fM
-fR
+CK
 aj
 aj
 aj
 aj
 gN
-fR
+CK
 fM
 fM
 fM
@@ -64641,13 +64586,13 @@ kl
 fM
 kl
 fM
-fR
+CK
 BU
 Bt
 Kv
 Xu
 hQ
-fR
+CK
 fM
 fM
 fM
@@ -64898,13 +64843,13 @@ Qa
 fM
 fM
 fM
-fR
+CK
 hs
 hs
 hs
 hs
-fR
-fR
+CK
+CK
 fM
 fM
 fM
