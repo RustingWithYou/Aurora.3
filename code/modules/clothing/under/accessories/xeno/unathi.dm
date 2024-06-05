@@ -205,3 +205,6 @@
 	build_from_parts = TRUE
 	worn_overlay =  "chain"
 	has_accents = TRUE
+
+/obj/item/clothing/accessory/poncho/rockstone/red
+	color = "#8c0e0e"

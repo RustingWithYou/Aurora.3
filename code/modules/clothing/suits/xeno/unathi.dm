@@ -46,6 +46,9 @@
 	build_from_parts = TRUE
 	worn_overlay = "trim"
 
+/obj/item/clothing/suit/unathi/jokfar/black
+	color = "#2b2a28"
+
 /obj/item/clothing/suit/unathi/wrapping
 	name = "Th'akhist body wrappings"
 	desc = "A bunch of stitched together clothing with bandages covering them. Looks tailored for a Unathi."

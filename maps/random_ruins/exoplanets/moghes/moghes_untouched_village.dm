@@ -60,13 +60,16 @@
 	)
 	back = /obj/item/storage/backpack/satchel/leather
 
-	l_ear = null
+	l_ear = /obj/item/device/radio/headset/town
 
 	id = null
-	backpack_contents = list(/obj/item/storage/wallet/random = 1)
+	r_pocket = /obj/item/storage/wallet/random
 
 /obj/outfit/admin/unathi_village/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(!H)
 		return
+	if(H.w_uniform)
+		H.w_uniform.color = pick("#dad9d6", "#422c09")
+		H.w_uniform.accent_color = H.w_uniform.color
 	if(H.shoes)
 		H.shoes.color = "#423509"

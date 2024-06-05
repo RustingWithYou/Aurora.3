@@ -213,6 +213,14 @@ SUBSYSTEM_DEF(radio)
 			return "expradio"
 		if (COAL_FREQ) // Coalition navy (rangers, xanu, gadpathur, etc)
 			return "coalitionradio"
+		if (TOWN_FREQ)
+			return "shipradio"
+		if (SKRELL_FREQ)
+			return "centradio"
+		if (GAWG_FREQ)
+			return "syndradio"
+		if	(WATCH_FREQ)
+			return "secradio"
 
 	if(DEPT_FREQS_ASSOC[fstr])
 		return "deptradio"

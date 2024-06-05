@@ -54,6 +54,18 @@
 /obj/item/device/encryptionkey/ship/coal_navy
 	additional_channels = list(CHANNEL_COALITION_NAVY = TRUE)
 
+/obj/item/device/encryptionkey/town
+	channels = list(CHANNEL_TOWN = TRUE, CHANNEL_HAILING = TRUE)
+
+/obj/item/device/encryptionkey/watch
+	channels = list(CHANNEL_TOWN = TRUE, CHANNEL_HAILING = TRUE, CHANNEL_WATCH = TRUE)
+
+/obj/item/device/encryptionkey/skrell
+	channels = list(CHANNEL_SKRELL = TRUE, CHANNEL_HAILING = TRUE)
+
+/obj/item/device/encryptionkey/gawgaryn
+	channels = list(CHANNEL_GAWGARYN = TRUE)
+
 /obj/item/device/encryptionkey/syndicate
 	icon_state = "cypherkey"
 	additional_channels = list(CHANNEL_MERCENARY = TRUE, CHANNEL_HAILING = TRUE)

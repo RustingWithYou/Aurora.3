@@ -74,6 +74,14 @@
 	. = ..()
 	freq_listening += COAL_FREQ
 
+/obj/machinery/telecomms/allinone/event
+	freq_listening = list(
+		TOWN_FREQ,
+		SKRELL_FREQ,
+		GAWG_FREQ,
+		WATCH_FREQ
+	)
+
 //This goes on the station map so away ships can maintain radio contact.
 /obj/machinery/telecomms/allinone/ship/station_relay
 	name = "external signal receiver"

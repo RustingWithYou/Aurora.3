@@ -71,13 +71,12 @@
 
 	uniform = /obj/item/clothing/under/unathi
 	accessory = /obj/item/clothing/accessory/holster/hip
-	accessory_contents = list(/obj/random/civgun = 1)
 	suit = list(/obj/item/clothing/suit/unathi/robe, /obj/item/clothing/suit/unathi/robe/kilt)
 	back = /obj/item/storage/backpack/satchel/leather
 	shoes = /obj/item/clothing/shoes/sandals/caligae
 	glasses = /obj/item/clothing/glasses/safety/goggles/wasteland
 	id = null
-	l_ear = null
+	l_ear = /obj/item/device/radio/headset/gawgaryn
 
 /obj/outfit/admin/moghes_gawgaryn/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(!H)

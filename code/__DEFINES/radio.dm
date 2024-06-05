@@ -37,6 +37,11 @@
 #define ENG_FREQ 1357
 #define SEC_FREQ 1359
 
+#define TOWN_FREQ 1445
+#define SKRELL_FREQ 1444
+#define GAWG_FREQ 1214
+#define WATCH_FREQ 1446
+
 var/list/AWAY_FREQS_UNASSIGNED = list(1491, 1493, 1495, 1497, 1499, 1501, 1503, 1505, 1507, 1509)
 var/list/AWAY_FREQS_ASSIGNED = list("Hailing" = HAIL_FREQ)
 
@@ -65,7 +70,11 @@ var/list/radiochannels = list(
 	"Medical (I)"	= MED_I_FREQ,
 	"Security (I)"	= SEC_I_FREQ,
 	"Interrogation" = INT_FREQ,
-	"Expeditionary" = EXP_FREQ
+	"Expeditionary" = EXP_FREQ,
+	"Nralakk" 		= SKRELL_FREQ,
+	"Kazseres"		= TOWN_FREQ,
+	"Gawgaryn"		= GAWG_FREQ,
+	"Watch"			= WATCH_FREQ
 )
 
 var/list/reverseradiochannels = list(
@@ -91,7 +100,11 @@ var/list/reverseradiochannels = list(
 	"[AI_FREQ]"		= "AI Private",
 	"[ENT_FREQ]"	= "Entertainment",
 	"[MED_I_FREQ]"	= "Medical (I)",
-	"[SEC_I_FREQ]"	= "Security (I)"
+	"[SEC_I_FREQ]"	= "Security (I)",
+	"[TOWN_FREQ]"	= "Kazseres",
+	"[SKRELL_FREQ]"	= "Nralakk",
+	"[GAWG_FREQ]"	= "Gawgaryn",
+	"[WATCH_FREQ]"	= "Watch"
 )
 
 // The assoc variants are separate lists because they need the keys to be strings, but some code expects numbers.

@@ -897,6 +897,27 @@
 	use_common = TRUE
 	ks1type = /obj/item/device/encryptionkey/ship/common
 
+/obj/item/device/radio/headset/skrell
+	name = "\improper Nralakk Federation radio headset"
+	icon_state = "com_headset"
+	ks1type = /obj/item/device/encryptionkey/skrell
+	default_frequency = SKRELL_FREQ
+
+/obj/item/device/radio/headset/town
+	name = "\improper Kazseres radio headset"
+	ks1type = /obj/item/device/encryptionkey/town
+	default_frequency = TOWN_FREQ
+
+/obj/item/device/radio/headset/town/watch
+	name = "\improper Kazseres watch radio headset"
+	icon_state = "sec_headset"
+	ks1type = /obj/item/device/encryptionkey/watch
+	default_frequency = WATCH_FREQ
+
+/obj/item/device/radio/headset/gawgaryn
+	ks1type = /obj/item/device/encryptionkey/gawgaryn
+	default_frequency = GAWG_FREQ
+
 /obj/item/device/radio/headset/binary
 	origin_tech = list(TECH_ILLEGAL = 3)
 	ks2type = /obj/item/device/encryptionkey/binary
