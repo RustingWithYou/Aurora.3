@@ -43,6 +43,18 @@
 	shoes = /obj/item/clothing/shoes/sneakers/brown
 	id = /obj/item/card/id/navy
 	l_hand = /obj/item/clipboard
+	accessory = /obj/item/clothing/accessory/holster/waist
+	accessory_contents = list(
+		/obj/item/gun/energy/disruptorpistol/magnum = 1
+	)
+	backpack_contents = list(
+		/obj/item/storage/box/survival = 1,
+		/obj/item/device/camera = 1,
+		/obj/item/device/camera_film = 2,
+		/obj/item/device/taperecorder = 1,
+		/obj/item/device/megaphone/sci = 1,
+		/obj/item/device/scanner = 1
+	)
 
 	headset = /obj/item/device/radio/headset/heads/rd
 	bowman = /obj/item/device/radio/headset/heads/rd/alt

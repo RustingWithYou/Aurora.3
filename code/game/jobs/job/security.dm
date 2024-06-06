@@ -43,6 +43,26 @@
 	id = /obj/item/card/id/navy
 	shoes = null
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud/head
+	suit = /obj/item/clothing/suit/armor/carrier/hos/equipped
+	head = /obj/item/clothing/head/helmet/hos
+	species_head = list(
+		SPECIES_SKRELL = /obj/item/clothing/head/helmet/hos/skrell,
+		SPECIES_SKRELL_AXIORI = /obj/item/clothing/head/helmet/hos/skrell
+	)
+	accessory = /obj/item/clothing/accessory/holster/hip
+	accessory_contents = list(
+		/obj/item/gun/energy/repeater/pistol = 1
+	)
+	belt = /obj/item/storage/belt/security
+	belt_contents = list(
+		/obj/item/melee/baton/loaded = 1,
+		/obj/item/handcuffs = 1,
+		/obj/item/device/flash = 1,
+		/obj/item/device/flashlight/maglight = 1,
+		/obj/item/melee/telebaton = 1,
+		/obj/item/shield/riot/tact = 1,
+		/obj/item/device/megaphone/sec = 1
+	)
 
 	headset = /obj/item/device/radio/headset/heads/hos
 	bowman = /obj/item/device/radio/headset/heads/hos/alt
