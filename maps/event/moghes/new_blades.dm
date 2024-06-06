@@ -6,6 +6,7 @@
 	no_light_control = FALSE
 	base_turf = /turf/simulated/floor/exoplanet/grass/moghes
 	ambience = AMBIENCE_JUNGLE
+	is_outside = TRUE
 	var/lighting = TRUE
 
 /area/new_blades/Initialize()
@@ -25,6 +26,7 @@
 	base_turf = /turf/simulated/floor/exoplanet/grass/moghes/dirt
 	ambience = AMBIENCE_RUINS
 	area_flags = AREA_FLAG_RAD_SHIELDED
+	is_outside = FALSE
 
 /area/new_blades/outflow
 	name = "Dam Outflow"
@@ -34,6 +36,7 @@
 	icon_state = "blue"
 	lighting = FALSE
 	area_flags = AREA_FLAG_RAD_SHIELDED
+	is_outside = FALSE
 
 /area/new_blades/interiors/dam
 	name = "Tza Dam"
@@ -46,6 +49,7 @@
 	dynamic_lighting = TRUE
 	no_light_control = FALSE
 	area_flags = AREA_FLAG_RAD_SHIELDED
+	is_outside = FALSE
 
 /area/skrell_shuttle
 	name = "Nralakk Transport Shuttle"
@@ -54,6 +58,7 @@
 	dynamic_lighting = TRUE
 	no_light_control = FALSE
 	area_flags = AREA_FLAG_RAD_SHIELDED
+	is_outside = FALSE
 
 /datum/shuttle/autodock/ferry/supply/moghes
 	name = "OX Supply Shuttle"
@@ -78,9 +83,24 @@
 
 /obj/machinery/computer/terminal/dam_control
 	name = "dam control terminal"
+	desc = "This terminal is labeled as \"DAM CONTROL\". A thick layer of dust covers its screen."
 	icon_screen = "mass_driver"
 	icon_keyboard = "tech_key"
 	var/used = FALSE
+
+/obj/machinery/computer/terminal/dam_control/get_examine_text(mob/user)
+	. = ..()
+	if(stat & NOPOWER)
+		. += "The screen is dark and unresponsive. It does not appear to have power."
+	else
+		. += "The screen displays flashing Sinta'Unathi text."
+	if(used)
+		if(GLOB.all_languages[LANGUAGE_UNATHI] in user.languages)
+			. += "It reads: \"FLOODGATE FAILSAFE ENGAGED - SYSTEM REBOOTING. ETD: 89 HOURS."
+	else
+		if(GLOB.all_languages[LANGUAGE_UNATHI] in user.languages)
+			. += "It reads: \"CRITICAL SYSTEM FAILURES DETECTED. RECOMMENDED COURSE OF ACTION - SEAL FLOODGATES AND CONTACT A QUALIFIED JUNZI ELECTRIC GUILDSMAN FOR FULL DAMAGE ASSESSMENT.\""
+
 
 /obj/machinery/computer/terminal/dam_control/attack_hand(mob/user)
 	if(..())
@@ -88,7 +108,7 @@
 	if(stat & (NOPOWER|BROKEN))
 		return
 	if(used)
-		to_chat(user, SPAN_NOTICE("The terminal flashes an error - the system is still rebooting. It will be done in a mere 89 hours."))
+		to_chat(user, SPAN_NOTICE("The terminal flashes an error - it appears the system is unresponsive at this time."))
 		return
 	var/choice = alert(user, "Major system failure detected. Engage failsafe operations?", "Dam Control","Yes", "No")
 	if(choice == "Yes")

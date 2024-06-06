@@ -14,3 +14,7 @@
 		log_debug("Invalid weather type mapped in at [x] [y] [z]!")
 		return INITIALIZE_HINT_QDEL
 	SSweather.setup_weather_system(z, weather_type)
+
+/obj/abstract/weather_marker/moghes
+	name = "Kazseres Weather"
+	weather_type = /singleton/state/weather/calm/jungle_planet

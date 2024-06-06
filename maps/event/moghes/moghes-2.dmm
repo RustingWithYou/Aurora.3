@@ -301,6 +301,10 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
+"ce" = (
+/obj/abstract/weather_marker/moghes,
+/turf/simulated/floor/exoplanet/grass/moghes,
+/area/new_blades)
 "cg" = (
 /obj/machinery/light{
 	dir = 8;
@@ -17467,7 +17471,7 @@ ET
 jZ
 fM
 fM
-fM
+ce
 fM
 fM
 Qa
