@@ -60,7 +60,7 @@
 /obj/item/device/scanner/afterattack(atom/target, mob/user, proximity_flag, click_parameters)
 	if(!proximity_flag) return
 
-	if(!is_type_in_list(target, valid_types) || istype(/turf/simulated/floor/exoplanet/grass/moghes/dirt))
+	if(!is_type_in_list(target, valid_types) || istype(target, /turf/simulated/floor/exoplanet/grass/moghes/dirt))
 		to_chat(user, SPAN_WARNING("No scan data available on \the [target]!"))
 		return
 	var/scan = "Scan Result: \the [target]"
@@ -93,7 +93,7 @@
 			scan += "<br>Botanical Analysis: Nutrient levels acceptable. Water levels below nominal parameters. Recommend soil sample for further analysis."
 			scan += "<br>Analysis: Minor signs of radiation exposure. Scans do not indicate any serious damage to tree's genetic structure."
 			scan += "<br>Projection: Current water levels are insufficient for continued growth. Without environmental alteration, specimen lifespan projected at 1-5 years."
-		if(/obj/structure/flora/grass/junglegrass || /turf/simulated/floor/exoplanet/grass/moghes)
+		if(/obj/structure/flora/grass/junglegrass, /turf/simulated/floor/exoplanet/grass/moghes)
 			scan += "<br>Info: Sample of several native grasses identified as originating from the planet Moghes. Consult Zeng-Hu botanical database for further cross-referenced information."
 			scan += "<br>Botanical Analysis: Water levels lower than required for sustained growth. Nutrient levels acceptable. Some grasses present in sample show signs of radioactive contamination."
 			scan += "<br>Analysis: Insufficient water and radioactive contamination in soil is hampering the growth of local flora."
@@ -104,3 +104,4 @@
 			scan += "<br>Signs of radioactive sediment detected in low quantities. Prolonged consumption may cause adverse effects."
 	scan += "<br>Supply this data for analysis. Property of Zeng-Hu Pharmaceuticals."
 	last_data = scan
+	to_chat(user, SPAN_NOTICE("Scan complete."))

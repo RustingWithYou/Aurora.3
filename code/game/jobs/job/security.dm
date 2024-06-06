@@ -43,7 +43,7 @@
 	id = /obj/item/card/id/navy
 	shoes = null
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud/head
-	suit = /obj/item/clothing/suit/armor/carrier/hos/equipped
+	suit = /obj/item/clothing/suit/armor/carrier/hos
 	head = /obj/item/clothing/head/helmet/hos
 	species_head = list(
 		SPECIES_SKRELL = /obj/item/clothing/head/helmet/hos/skrell,
