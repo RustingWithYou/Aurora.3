@@ -4720,6 +4720,10 @@
 /obj/structure/flora/grass/junglegrass/dense/random,
 /turf/simulated/floor/exoplanet/grass/moghes,
 /area/new_blades)
+"EV" = (
+/mob/living/simple_animal/aquatic/fish/moghes,
+/turf/simulated/floor/exoplanet/water/shallow/moghes,
+/area/new_blades)
 "EZ" = (
 /turf/simulated/floor/wood/birch{
 	temperature = 303.15
@@ -6985,6 +6989,10 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors/dam)
+"TN" = (
+/mob/living/simple_animal/aquatic/fish/moghes,
+/turf/simulated/floor/exoplanet/water/shallow/moghes,
+/area/new_blades/lake)
 "TW" = (
 /obj/structure/table/wood,
 /obj/item/storage/chewables/rollable/unathi,
@@ -13477,7 +13485,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -16311,7 +16319,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -17864,7 +17872,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -20705,7 +20713,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -21735,7 +21743,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -25347,7 +25355,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -26383,7 +26391,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -29732,7 +29740,7 @@ Ql
 Ql
 Ql
 Ql
-Ql
+TN
 Ql
 Ql
 Ql
@@ -34377,7 +34385,7 @@ Ql
 Ql
 Ql
 Ql
-Ql
+TN
 Ql
 Ql
 Ql
@@ -35931,7 +35939,7 @@ Ql
 Ql
 Ql
 Ql
-Ql
+TN
 Ql
 Ql
 Ql
@@ -36980,7 +36988,7 @@ XP
 uR
 uR
 kN
-bP
+EV
 vE
 bP
 Id
@@ -37496,7 +37504,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -37737,7 +37745,7 @@ Ql
 Ql
 Ql
 Ql
-Ql
+TN
 Ql
 Ql
 Ql
@@ -37994,7 +38002,7 @@ Ql
 Ql
 Ql
 Ql
-Ql
+TN
 Ql
 Ql
 Ql
@@ -39299,7 +39307,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -40324,7 +40332,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -42132,7 +42140,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -42411,7 +42419,7 @@ Un
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -42638,8 +42646,8 @@ bP
 bP
 bP
 bP
-bP
-bP
+EV
+EV
 bP
 bP
 bP
@@ -43941,7 +43949,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -43961,7 +43969,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP
@@ -46283,7 +46291,7 @@ bP
 bP
 bP
 bP
-bP
+EV
 bP
 bP
 bP

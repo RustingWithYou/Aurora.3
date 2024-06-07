@@ -8,6 +8,8 @@
 
 /// This list of names is here to make sure we don't state the area blurb to a mob more than once.
 var/global/list/area_blurb_stated_to = list()
+var/global/list/job_blurb_stated_to = list()
+var/global/list/misc_blurb_stated_to = list()
 
 /area
 	var/global/global_uid = 0

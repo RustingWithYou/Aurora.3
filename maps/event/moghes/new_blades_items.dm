@@ -117,7 +117,6 @@
 	icon_keyboard = "tech_key"
 	var/scan_progress = 0
 	var/list/scanned = list()
-	var/printed = FALSE
 
 /obj/machinery/computer/terminal/scanner/get_examine_text(mob/user, distance, is_adjacent, infix, suffix)
 	. = ..()
@@ -247,7 +246,6 @@
 
 	var/obj/item/paper/P = new /obj/item/paper(get_turf(src))
 	P.set_content("Kazseres Region Environmental Analysis",output)
-	printed = TRUE
 //Mcguffins and fluff papers for the scanner
 
 /obj/item/disk/mcguffin1
