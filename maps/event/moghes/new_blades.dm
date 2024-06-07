@@ -87,6 +87,7 @@
 	icon_screen = "mass_driver"
 	icon_keyboard = "tech_key"
 	var/used = FALSE
+	var/has_disk = TRUE
 
 /obj/machinery/computer/terminal/dam_control/get_examine_text(mob/user)
 	. = ..()
@@ -107,11 +108,22 @@
 		return
 	if(stat & (NOPOWER|BROKEN))
 		return
-	if(used)
+	if(used && !has_disk)
 		to_chat(user, SPAN_NOTICE("The terminal flashes an error - it appears the system is unresponsive at this time."))
 		return
-	var/choice = alert(user, "Major system failure detected. Engage failsafe operations?", "Dam Control","Yes", "No")
-	if(choice == "Yes")
+	if(used && has_disk)
+		var/disk = tgui_alert(user, "External disk storage full. Eject?", "Dam Control", list("Eject","Cancel"))
+		if(disk == "Eject")
+			visible_message(SPAN_NOTICE("\The [src] ejects a small disk."))
+			new /obj/item/disk/mcguffin1(get_turf(src))
+			has_disk = FALSE
+	var/choice = "Cancel"
+	if(has_disk)
+		choice = tgui_alert(user, "Major system failures detected. External data disk full. Recommended action: Seal floodgates. Proceed?", "Dam Control", list("Seal Floodgates","Eject Disk", "Cancel"))
+	else
+		choice = tgui_alert(user, "Major system failures detected. Recommended action: Seal floodgates. Proceed?", "Dam Control", list("Seal Floodgates","Cancel"))
+	if(choice == "Seal Floodgates")
+		playsound(loc, 'sound/misc/bloblarm.ogg', 50)
 		var/area/lake = GLOB.areas_by_type[/area/new_blades/lake]
 		if(istype(lake))
 			for(var/turf/simulated/floor/exoplanet/grass/moghes/T in lake)
@@ -126,3 +138,7 @@
 				T.set_light(4, 5, COLOR_WHITE)
 		to_world(SPAN_DANGER("You hear the roaring of distant machinery, and the sudden sound of rushing water!"))
 		used = TRUE
+	else if(choice == "Eject Disk")
+		visible_message(SPAN_NOTICE("\The [src] ejects a small disk."))
+		new /obj/item/disk/mcguffin1(get_turf(src))
+		has_disk = FALSE

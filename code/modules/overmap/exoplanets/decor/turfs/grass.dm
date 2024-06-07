@@ -54,7 +54,6 @@
 /turf/simulated/floor/exoplanet/grass/moghes/dirt
 	icon_state = "dirt"
 	color = null
-	does_footprint = TRUE
 
 /turf/simulated/floor/exoplanet/grass/moghes/dirt/beach
 	icon_state = "beach"
