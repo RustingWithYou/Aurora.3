@@ -10,6 +10,10 @@
 	worn_overlay = "belt"
 	has_accents = TRUE
 
+/obj/item/clothing/under/unathi/white
+	color = "#422c09"
+	accent_color = "#dad9d6"
+
 /obj/item/clothing/under/unathi/jizixi
 	name = "jizixi dress"
 	desc = "A striking, modern dress typically worn by Moghean women of high birth."
@@ -93,6 +97,10 @@
 	build_from_parts = TRUE
 	worn_overlay = "belt"
 	has_accents = TRUE
+
+/obj/item/clothing/under/unathi/himation/white
+	color = "#dad9d6"
+	accent_color = "#dad9d6"
 
 /obj/item/clothing/under/unathi/izweski
 	name = "izweski navy uniform"

@@ -107,6 +107,9 @@
 	Unathi, however, this mantle is a badge of betrayal - a sign of alien influence and infiltration."
 	worn_overlay = "hephguild"
 
+/obj/item/clothing/accessory/poncho/unathimantle/hephaestus/brown
+	color = "#422c09"
+
 /obj/item/clothing/accessory/poncho/unathimantle/merchant
 	name = "merchants' guild mantle"
 	desc = "The cured hide and skin of a large beast, dyed in the purple colors of the Merchants' Guild. These mantles are reserved for full-fledged guildsmen, as a sign of \
@@ -122,6 +125,9 @@
 	desc_extended = "The Miners' Guild is a powerful one still, though the expansion of Hephaestus mining operations into the Hegemony broke up its monopoly. While the two competed for a time, \
 	Hephaestus finally won, absorbing the Miners' Guild alongside several others as a subsidiary corporation."
 	worn_overlay = "minersguild"
+
+/obj/item/clothing/accessory/poncho/unathimantle/miner/brown
+	color = "#422c09"
 
 /obj/item/clothing/accessory/poncho/unathimantle/junzi
 	name = "junzi electric guild mantle"

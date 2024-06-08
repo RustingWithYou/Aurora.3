@@ -106,6 +106,23 @@
 		else if(!(turf_is_exoplanet || turf_is_asteroid))
 			ground_report += "The probe cannot penetrate the ground deep enough to get any meaningful data."
 
+		if(turf_is_exoplanet && !SSatlas.current_map.use_overmap)
+			report_location = "Kazseres, Moghes"
+			ground_report += "<b>Estimated Mass and Volume: </b>0.97/1.03BSS(Biesels)"
+			ground_report += "<br><b>Surface Gravity: </b>0.93Gs"
+			ground_report += "<br><b>Geological Variables: </b>High tectonic heat. Significant geothermal activity detected."
+			ground_report += "<br><b>Surface Water Coverage: </b>34% surface water. Weak tidal forces from natural satellite."
+			ground_report += "<br><b>Apparent Weather Data: </b>Global full-atmosphere hydrological weather system. Substantial meteorological activity, violent storms unpredictable. Heavy radioactive contamination detected in planetary atmosphere."
+			ground_report += "<br>"
+			if(istype(turf, /turf/simulated/floor/exoplanet/grass/moghes))
+				ground_report += "<br>Minor water depletion detected in local soil samples. May cause long-term decline in local grasses and herbivore populations."
+				ground_report += "<br>Radioactive contamination levels in local soil samples are below statistically significant levels and do not appear to have caused much harm to the local biosphere."
+				ground_report += "<br>The largest danger to local flora is dehydration caused from lowered water levels in the region."
+			if(istype(turf, /turf/simulated/floor/exoplanet/grass/moghes/dirt))
+				ground_report += "<br>Rich subsurface mineral deposits detected."
+				ground_report += "<br>Radioactive contamination in soil minimal."
+				ground_report += "<br>Water depletion detected in soil samples."
+			atmos_report += "<br>Atmospheric fallout levels low, safe for habitation. Rate of dispersal uncertain."
 		// ground survey from sector / exoplanet
 		if((turf_is_exoplanet || turf_is_asteroid) && SSatlas.current_map.use_overmap)
 			var/obj/effect/overmap/visitable/sector/sector = GLOB.map_sectors["[z]"]
@@ -139,6 +156,7 @@
 			<br><br>\
 			<br><b>Additional notes: </b><span class=\"paper_field\"></span>\
 			<br><span class=\"paper_field\"></span>\
+			<br><b>Provide this report for analysis at the Zeng-Hu Analysis Terminal.</b>\
 			<br><br>\
 		"
 		// Translate to a specific written language

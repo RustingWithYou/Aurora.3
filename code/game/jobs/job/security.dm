@@ -34,6 +34,9 @@
 
 	blacklisted_species = list(SPECIES_HUMAN_OFFWORLD, SPECIES_TAJARA_ZHAN, SPECIES_DIONA, SPECIES_DIONA_COEUS, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_WARRIOR, SPECIES_VAURCA_BULWARK, SPECIES_VAURCA_BREEDER)
 
+/datum/job/hos/after_spawn(mob/living/carbon/human/H)
+	to_chat(H, SPAN_NOTICE("Combat is not projected as a particularly significant risk on this mission, but you and your team still have important work to do. Ensure that the mission goes smoothly, and cooperate with local law enforcement as needed to ensure that crewmembers or locals do not disrupt operations. Weapons have been placed in the SCC shuttle, and rechargers are located throughout Kazseres."))
+
 /obj/outfit/job/hos
 	name = "Head of Security"
 	jobtype = /datum/job/hos

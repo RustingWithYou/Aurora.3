@@ -357,7 +357,7 @@
 
 /obj/item/storage/belt/security/full/alt
 	starts_with = list(
-		/obj/item/melee/baton/loaded = 1,
+		/obj/item/melee/classic_baton = 1,
 		/obj/item/reagent_containers/spray/pepper = 1,
 		/obj/item/handcuffs = 2,
 		/obj/item/device/flash = 1,

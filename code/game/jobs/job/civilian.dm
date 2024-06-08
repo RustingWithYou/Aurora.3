@@ -362,6 +362,9 @@
 
 	blacklisted_species = list(SPECIES_TAJARA_MSAI, SPECIES_TAJARA_ZHAN, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_WARRIOR, SPECIES_VAURCA_BULWARK, SPECIES_VAURCA_BREEDER)
 
+/datum/job/operations_manager/after_spawn(mob/living/carbon/human/H)
+	to_chat(H, SPAN_NOTICE("Your department's responsibilities on this mission are twofold. Firstly, you can manage the Horizon's cargo drone to bring additional supplies for the humanitarian mission. This will likely be necessary to achieve the best outcome available. Your miners may be able to help with generating funds for this purpose."))
+
 /obj/outfit/job/operations_manager
 	name = "Operations Manager"
 	jobtype = /datum/job/operations_manager

@@ -31,6 +31,9 @@
 
 	blacklisted_species = list(SPECIES_TAJARA_MSAI, SPECIES_TAJARA_ZHAN, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_WARRIOR, SPECIES_VAURCA_BULWARK, SPECIES_VAURCA_BREEDER)
 
+/datum/job/cmo/after_spawn(mob/living/carbon/human/H)
+	to_chat(H, SPAN_NOTICE("You and your team have standard duties here - keep the crew alive and in working shape. In addition, you may need to provide medical aid to the local population as requested. The shuttle itself does not have a fully-equipped medical bay, but there is a clinic located in Kazseres which may prove more useful for you and your staff."))
+
 /obj/outfit/job/cmo
 	name = "Chief Medical Officer"
 	jobtype = /datum/job/cmo

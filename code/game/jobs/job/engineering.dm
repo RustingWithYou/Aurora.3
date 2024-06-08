@@ -32,6 +32,9 @@
 
 	blacklisted_species = list(SPECIES_TAJARA_MSAI, SPECIES_TAJARA_ZHAN, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_WARRIOR, SPECIES_VAURCA_BULWARK, SPECIES_VAURCA_BREEDER)
 
+/datum/job/chief_engineer/after_spawn(mob/living/carbon/human/H)
+	to_chat(H, SPAN_NOTICE("You and your team's immediate objective will require liaising with locals in order to determine where repairs and construction are needed. Other objectives which need your skills may become apparent over the course of the mission."))
+
 /obj/outfit/job/chief_engineer
 	name = "Chief Engineer"
 	jobtype = /datum/job/chief_engineer

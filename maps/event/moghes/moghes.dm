@@ -5,7 +5,7 @@
 	lobby_icons = list('icons/misc/titlescreens/aurora/tajara.dmi')
 	lobby_transitions = FALSE
 
-	allowed_jobs = list(/datum/job/visitor, /datum/job/passenger, /datum/job/captain, /datum/job/xo, /datum/job/operations_manager, /datum/job/chief_engineer, /datum/job/cmo, /datum/job/rd, /datum/job/hos, /datum/job/eventeng, /datum/job/eventmed, /datum/job/eventops, /datum/job/eventsci, /datum/job/eventsec, /datum/job/eventsrv)
+	allowed_jobs = list(/datum/job/visitor, /datum/job/passenger, /datum/job/captain, /datum/job/xo, /datum/job/operations_manager, /datum/job/chief_engineer, /datum/job/cmo, /datum/job/rd, /datum/job/hos, /datum/job/eventeng, /datum/job/eventmed, /datum/job/eventops, /datum/job/eventsci, /datum/job/eventsec, /datum/job/eventsrv, /datum/job/consular, /datum/job/representative, /datum/job/consular_assistant, /datum/job/bridge_crew)
 
 	station_levels = list(2)
 	admin_levels = list(1)

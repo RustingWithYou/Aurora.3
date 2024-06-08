@@ -26,6 +26,9 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 
 	blacklisted_species = list(SPECIES_TAJARA, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_ZHAN, SPECIES_UNATHI, SPECIES_DIONA, SPECIES_IPC, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_WARRIOR, SPECIES_VAURCA_BULWARK, SPECIES_VAURCA_BREEDER, SPECIES_DIONA, SPECIES_DIONA_COEUS)
 
+/datum/job/captain/after_spawn(mob/living/carbon/human/H)
+	to_chat(H, SPAN_NOTICE("There is a heavy task on your shoulders, Captain - coordinate with the local authorities and Nralakk Federation team in order to provide aid to your town. The standard Hailing channel should allow you to speak with them. Objectives in this mission may not be immediately obvious, and investigation and exploration will be required to achieve the best possible outcome for the Conglomerate, the mission, and yourself."))
+
 /obj/outfit/job/captain
 	name = "Captain"
 	jobtype = /datum/job/captain
@@ -118,6 +121,9 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 							ACCESS_JANITOR,   ACCESS_HOP, ACCESS_RC_ANNOUNCE, ACCESS_KEYCARD_AUTH, ACCESS_GATEWAY, ACCESS_WEAPONS, ACCESS_JOURNALIST, ACCESS_BRIDGE_CREW, ACCESS_INTREPID, ACCESS_TELEPORTER)
 
 	blacklisted_species = list(SPECIES_TAJARA_MSAI, SPECIES_TAJARA_ZHAN, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_WARRIOR, SPECIES_VAURCA_BULWARK, SPECIES_VAURCA_BREEDER)
+
+/datum/job/xo/after_spawn(mob/living/carbon/human/H)
+	to_chat(H, SPAN_NOTICE("Your duties here are the same as ever - departmental management and assisting the Captain in their duties. The service department may have a useful role to play in providing aid, and there are facilities in Kazseres which may be of use to them."))
 
 /obj/outfit/job/xo
 	name = "Executive Officer"

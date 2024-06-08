@@ -65,9 +65,8 @@
 	uniform = /obj/item/clothing/under/unathi
 	shoes = /obj/item/clothing/shoes/sandals/caligae/socks
 	accessory = /obj/item/clothing/accessory/holster/hip/brown
-	accessory_contents = list(/obj/item/gun/energy/taser = 1)
 	back = /obj/item/storage/backpack/satchel/leather
-	belt = /obj/item/storage/belt/security/full
+	belt = /obj/item/storage/belt/security/full/alt
 	backpack_contents = list(
 		/obj/item/clothing/suit/armor/carrier/generic = 1,
 		/obj/item/clothing/head/helmet/security/generic = 1

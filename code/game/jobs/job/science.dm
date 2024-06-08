@@ -34,6 +34,9 @@
 
 	blacklisted_species = list(SPECIES_TAJARA_MSAI, SPECIES_TAJARA_ZHAN, SPECIES_VAURCA_BREEDER, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_WARRIOR, SPECIES_VAURCA_BULWARK)
 
+/datum/job/rd/after_spawn(mob/living/carbon/human/H)
+	to_chat(H, SPAN_NOTICE("You and your team have been provided with Zeng-Hu Bioscanners, which can provide analysis of local flora and fauna. These reports can be printed and used at the Zeng-Hu Environmental Analysis Terminal, located at the Nralakk Federation outpost in Kazseres. Other scans and samples from the region may also prove useful for this terminal."))
+
 /obj/outfit/job/rd
 	name = "Research Director"
 	jobtype = /datum/job/rd
@@ -53,7 +56,8 @@
 		/obj/item/device/camera_film = 2,
 		/obj/item/device/taperecorder = 1,
 		/obj/item/device/megaphone/sci = 1,
-		/obj/item/device/scanner = 1
+		/obj/item/device/scanner = 1,
+		/obj/item/storage/box/fancy/vials = 1
 	)
 
 	headset = /obj/item/device/radio/headset/heads/rd
