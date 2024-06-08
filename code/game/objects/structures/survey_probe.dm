@@ -107,7 +107,7 @@
 			ground_report += "The probe cannot penetrate the ground deep enough to get any meaningful data."
 
 		if(turf_is_exoplanet && !SSatlas.current_map.use_overmap)
-			report_location = "Kazseres, Moghes"
+			report_location = "\the [turf.name]"
 			ground_report += "<b>Estimated Mass and Volume: </b>0.97/1.03BSS(Biesels)"
 			ground_report += "<br><b>Surface Gravity: </b>0.93Gs"
 			ground_report += "<br><b>Geological Variables: </b>High tectonic heat. Significant geothermal activity detected."

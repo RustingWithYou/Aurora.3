@@ -163,6 +163,7 @@
 		/obj/item/device/taperecorder = 1,
 		/obj/item/device/scanner = 1
 	)
+	belt = /obj/item/storage/belt/archaeology
 
 /datum/job/eventops
 	title = "Operations Personnel"

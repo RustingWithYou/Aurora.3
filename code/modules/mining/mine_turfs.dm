@@ -500,7 +500,7 @@ var/list/mineral_can_smooth_with = list(
 		ORE_BAUXITE = 6,
 		ORE_GALENA = 4
 	)
-	var/mineralChance = 55
+	var/mineralChance = 15
 
 /turf/simulated/mineral/random/phoron
 	mineralSpawnChanceList = list(
