@@ -908,12 +908,6 @@
 	ks1type = /obj/item/device/encryptionkey/town
 	default_frequency = TOWN_FREQ
 
-/obj/item/device/radio/headset/town/watch
-	name = "\improper Kazseres watch radio headset"
-	icon_state = "sec_headset"
-	ks1type = /obj/item/device/encryptionkey/watch
-	default_frequency = WATCH_FREQ
-
 /obj/item/device/radio/headset/gawgaryn
 	ks1type = /obj/item/device/encryptionkey/gawgaryn
 	default_frequency = GAWG_FREQ

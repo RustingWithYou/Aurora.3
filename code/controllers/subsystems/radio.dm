@@ -219,8 +219,6 @@ SUBSYSTEM_DEF(radio)
 			return "centradio"
 		if (GAWG_FREQ)
 			return "syndradio"
-		if	(WATCH_FREQ)
-			return "secradio"
 
 	if(DEPT_FREQS_ASSOC[fstr])
 		return "deptradio"

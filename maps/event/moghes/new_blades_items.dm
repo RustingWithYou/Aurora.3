@@ -309,7 +309,7 @@
 	name = "On Emergency Procedure"
 	desc = "A stained and crumpled scrap of paper. It looks as if it has been taken from a larger book."
 	language = LANGUAGE_UNATHI
-	icon_state == "scrap"
+	icon_state = "scrap"
 	info = "...event of critical system failure, floodgates can be...matic seal process can secure operations for up to...central control terminal. Contact Junzi Electric-certified...chnician"
 
 /obj/item/disk/mcguffin2

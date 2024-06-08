@@ -57,9 +57,6 @@
 /obj/item/device/encryptionkey/town
 	channels = list(CHANNEL_TOWN = TRUE, CHANNEL_HAILING = TRUE)
 
-/obj/item/device/encryptionkey/watch
-	channels = list(CHANNEL_TOWN = TRUE, CHANNEL_HAILING = TRUE, CHANNEL_WATCH = TRUE)
-
 /obj/item/device/encryptionkey/skrell
 	channels = list(CHANNEL_SKRELL = TRUE, CHANNEL_HAILING = TRUE)
 

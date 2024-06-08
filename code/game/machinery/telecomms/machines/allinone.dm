@@ -79,7 +79,7 @@
 		TOWN_FREQ,
 		SKRELL_FREQ,
 		GAWG_FREQ,
-		WATCH_FREQ
+		HAIL_FREQ
 	)
 
 //This goes on the station map so away ships can maintain radio contact.

@@ -21,6 +21,7 @@
 
 /datum/ghostspawner/human/nbow_civ/post_spawn(mob/user)
 	. = ..()
+	renegades.add_antagonist(user.mind, do_not_equip = TRUE)
 
 /datum/ghostspawner/human/nbow_civ/trader
 	name = "Kazseres Merchant"
@@ -31,9 +32,6 @@
 	special_role = "Kazseres Merchant"
 	password = "money"
 
-/datum/ghostspawner/human/nbow_civ/trader/post_spawn(mob/user)
-	. = ..()
-	renegades.add_antagonist(user.mind, do_not_equip = TRUE)
 
 /datum/ghostspawner/human/nbow_civ/shaman
 	name = "Kazseres Shaman"
@@ -44,10 +42,6 @@
 	special_role = "Th'akh Shaman"
 	outfit = /obj/outfit/admin/moghes_thakh/shaman
 	password = "shadowspiritmoneygang"
-
-/datum/ghostspawner/human/nbow_civ/shaman/post_spawn(mob/user)
-	. = ..()
-	renegades.add_antagonist(user.mind, do_not_equip = TRUE)
 
 /datum/ghostspawner/human/nbow_civ/watch
 	name = "Kazseres Watchman"
@@ -60,10 +54,6 @@
 	special_role = "Kazseres Watchman"
 	password = "criminalscum"
 
-/datum/ghostspawner/human/nbow_civ/watch/post_spawn(mob/user)
-	. = ..()
-	renegades.add_antagonist(user.mind, do_not_equip = TRUE)
-
 /obj/outfit/admin/watchman
 	name = "Kazseres Watchman"
 	uniform = /obj/item/clothing/under/unathi
@@ -75,7 +65,7 @@
 		/obj/item/clothing/suit/armor/carrier/generic = 1,
 		/obj/item/clothing/head/helmet/security/generic = 1
 	)
-	l_ear = /obj/item/device/radio/headset/town/watch
+	l_ear = /obj/item/device/radio/headset/town
 	id = /obj/item/card/id
 	r_pocket = /obj/item/storage/wallet/random
 
@@ -119,9 +109,6 @@
 	special_role = "Manservant"
 	password = "yesmilord"
 
-/datum/ghostspawner/human/nbow_civ/servant/post_spawn(mob/user)
-	renegades.add_antagonist(user.mind, do_not_equip = TRUE)
-
 /obj/outfit/admin/nbow_noble
 	uniform = /obj/item/clothing/under/unathi/mogazali
 	suit = /obj/item/clothing/suit/unathi/jokfar/black
@@ -129,7 +116,7 @@
 	suit_accessory = /obj/item/clothing/accessory/poncho/rockstone/red
 	back = /obj/item/storage/backpack/satchel/leather
 	r_pocket = /obj/item/storage/wallet/sol_rich
-	l_ear = /obj/item/device/radio/headset/town/watch
+	l_ear = /obj/item/device/radio/headset/town
 
 //Nralakk Federation
 /datum/ghostspawner/human/nralakk

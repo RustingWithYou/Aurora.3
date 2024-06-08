@@ -103,5 +103,5 @@
 	head = /obj/item/clothing/head/unathi/maxtlatl
 	wrist = /obj/item/clothing/wrists/unathi/maxtlatl
 	belt = /obj/item/nullrod/athame
-	l_ear = /obj/item/device/radio/headset/town/watch
+	l_ear = /obj/item/device/radio/headset/town
 	r_pocket = /obj/item/storage/wallet/random
