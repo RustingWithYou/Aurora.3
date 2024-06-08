@@ -79,15 +79,6 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED
 	is_outside = FALSE
 
-/area/skrell_shuttle
-	name = "Nralakk Transport Shuttle"
-	icon_state = "shuttle"
-	requires_power = FALSE
-	dynamic_lighting = TRUE
-	no_light_control = FALSE
-	area_flags = AREA_FLAG_RAD_SHIELDED
-	is_outside = FALSE
-
 /datum/shuttle/autodock/ferry/supply/moghes
 	name = "OX Supply Shuttle"
 	location = 1

@@ -1,14 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"ab" = (
-/obj/structure/table/skrell,
-/obj/item/storage/firstaid/surgery,
-/obj/machinery/light/skrell{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white{
-	temperature = 303.15
-	},
-/area/skrell_shuttle)
 "ae" = (
 /obj/item/gun/projectile/peac,
 /obj/structure/closet/secure_closet/guncabinet{
@@ -128,14 +118,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"bf" = (
-/obj/machinery/door/blast/regular/open{
-	id = "skrell_shuttle";
-	dir = 4
-	},
-/obj/structure/window/shuttle/skrell,
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
 "bg" = (
 /obj/structure/bed/stool/chair/sofa/brown{
 	dir = 4
@@ -145,15 +127,12 @@
 	},
 /area/new_blades/interiors/dam)
 "bi" = (
-/obj/machinery/door/airlock/skrell{
-	dir = 2;
-	name = "Medical Bay";
-	req_access = list(208)
-	},
-/turf/simulated/floor/tiled/white{
+/obj/machinery/light/colored/decayed/dimmed,
+/obj/machinery/photocopier,
+/turf/simulated/floor/carpet/green{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors/dam)
 "bm" = (
 /obj/machinery/light/colored/decayed/dimmed,
 /turf/simulated/floor/concrete{
@@ -434,13 +413,14 @@
 	},
 /area/new_blades/interiors/dam)
 "cY" = (
-/obj/structure/bed/stool/chair/office/hover{
-	dir = 8
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12
 	},
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "cZ" = (
 /obj/item/gun/projectile/automatic/rifle/carbine/civcarbine,
 /obj/item/gun/projectile/automatic/rifle/carbine/civcarbine,
@@ -524,11 +504,15 @@
 	},
 /area/new_blades/interiors)
 "dt" = (
-/obj/machinery/light/skrell,
-/turf/simulated/floor/tiled/white{
+/obj/structure/table/skrell,
+/obj/item/storage/box/gloves,
+/obj/item/storage/box/gloves,
+/obj/item/device/scanner,
+/obj/item/autopsy_scanner,
+/turf/simulated/floor/carpet/rubber{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "dv" = (
 /obj/machinery/light{
 	dir = 1
@@ -537,12 +521,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"dy" = (
-/obj/machinery/bioprinter,
-/turf/simulated/floor/tiled/white{
-	temperature = 303.15
-	},
-/area/skrell_shuttle)
 "dz" = (
 /obj/structure/lattice/catwalk/indoor/planks,
 /obj/structure/rope_post,
@@ -552,13 +530,14 @@
 	},
 /area/new_blades)
 "dB" = (
-/obj/machinery/body_scanconsole{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white{
+/obj/structure/table/skrell,
+/obj/machinery/light,
+/obj/item/storage/box/beakers,
+/obj/item/storage/box/fancy/vials,
+/turf/simulated/floor/carpet/rubber{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "dD" = (
 /obj/structure/bed/stool/chair/wood{
 	dir = 1
@@ -567,22 +546,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"dE" = (
-/obj/structure/table/skrell,
-/obj/structure/closet/walllocker/medical/secure{
-	name = "O- Blood Locker";
-	pixel_y = 32;
-	req_access = list(208)
-	},
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/turf/simulated/floor/tiled/white{
-	temperature = 303.15
-	},
-/area/skrell_shuttle)
 "dF" = (
 /obj/machinery/door/airlock/glass_medical{
 	dir = 4
@@ -592,17 +555,24 @@
 	},
 /area/scc_shuttle)
 "dJ" = (
-/obj/machinery/light/skrell{
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/closet/walllocker/secure{
+	name = "personal storage";
+	pixel_x = 32
+	},
+/obj/item/clothing/ears/skrell/tailband/ix,
+/obj/item/clothing/accessory/poncho/shouldercape/cloak/ix,
+/obj/item/clothing/accessory/poncho/skrell/gray,
+/obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/button/remote/blast_door{
-	id = "skrell_shuttle";
-	name = "blast door";
-	pixel_y = 25;
-	req_access = null
+/turf/simulated/floor/wood{
+	temperature = 303.15
 	},
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "dK" = (
 /obj/item/reagent_containers/food/drinks/bottle/sarezhiwine{
 	pixel_y = 6
@@ -721,49 +691,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors/dam)
-"eM" = (
-/obj/structure/closet/skrell,
-/obj/item/clothing/under/skrell/nralakk/oqi/engineer,
-/obj/item/clothing/under/skrell/nralakk/oqi/engineer,
-/obj/item/clothing/under/skrell/nralakk/oqi/med,
-/obj/item/clothing/under/skrell/nralakk/oqi/med,
-/obj/item/clothing/under/skrell/nralakk/oqi/security,
-/obj/item/clothing/under/skrell/nralakk/oqi/security,
-/obj/item/clothing/under/skrell/nralakk/oqi/service,
-/obj/item/clothing/under/skrell/nralakk/oqi/service,
-/obj/item/clothing/under/skrell/wetsuit,
-/obj/item/clothing/accessory/tshirt/skrell/maelstrom,
-/obj/item/clothing/accessory/tshirt/skrell/nebula,
-/obj/item/clothing/accessory/tshirt/skrell/nebula/nralakk,
-/obj/item/clothing/under/skrell/wetsuit,
-/obj/item/clothing/accessory/tshirt/skrell/nebula/white,
-/obj/item/clothing/shoes/jackboots/kala,
-/obj/item/clothing/shoes/jackboots/kala,
-/obj/item/clothing/shoes/jackboots/kala,
-/obj/item/clothing/shoes/jackboots/kala,
-/obj/item/clothing/under/skrell/nralakk/ix/engineer,
-/obj/item/clothing/under/skrell/nralakk/ix/engineer,
-/obj/item/clothing/under/skrell/nralakk/ix/med,
-/obj/item/clothing/under/skrell/nralakk/ix/med,
-/obj/item/clothing/under/skrell/nralakk/ix/security,
-/obj/item/clothing/under/skrell/nralakk/ix/security,
-/obj/item/clothing/under/skrell/nralakk/ix/service,
-/obj/item/clothing/under/skrell/nralakk/ix/service,
-/obj/item/clothing/under/skrell/cthur,
-/obj/item/clothing/under/skrell/cthur,
-/obj/item/clothing/mask/gas/vaurca/filter,
-/obj/item/clothing/mask/gas/vaurca/filter,
-/obj/item/clothing/shoes/vaurca,
-/obj/item/clothing/shoes/vaurca,
-/obj/item/clothing/shoes/vaurca,
-/obj/item/clothing/mask/gas/vaurca/filter,
-/obj/item/clothing/under/skrell/cthur,
-/obj/item/clothing/under/gearharness,
-/obj/item/clothing/under/gearharness,
-/obj/item/device/uv_light,
-/obj/item/device/uv_light,
-/turf/simulated/floor/shuttle/skrell,
-/area/skrell_shuttle)
 "eN" = (
 /obj/random/dirt_75,
 /obj/structure/table/rack,
@@ -819,7 +746,6 @@
 	},
 /area/new_blades/interiors)
 "fr" = (
-/obj/structure/track,
 /obj/structure/simple_door/iron,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt,
 /area/new_blades/interiors)
@@ -958,28 +884,25 @@
 	},
 /area/new_blades/interiors/dam)
 "gf" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(208);
-	name = "body armor cabinet"
-	},
-/obj/item/clothing/suit/storage/vest/kala,
-/obj/item/clothing/suit/storage/vest/kala,
-/obj/item/clothing/accessory/arm_guard/kala,
-/obj/item/clothing/accessory/arm_guard/kala,
-/obj/item/clothing/head/helmet/security/skrell,
-/obj/item/clothing/head/helmet/security/skrell,
-/obj/machinery/light/skrell,
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/obj/structure/sign/flag/nralakk/large/west,
+/turf/simulated/floor/exoplanet/grass/moghes,
+/area/new_blades)
 "gg" = (
 /obj/structure/closet/secure_closet/guncabinet{
-	name = "energy rifle cabinet";
-	req_access = list(208)
+	req_access = list(208);
+	name = "baton cabinet"
 	},
-/obj/item/gun/energy/rifle/laser/qukala,
-/obj/item/gun/energy/rifle/laser/qukala,
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/obj/item/melee/telebaton/nlom,
+/obj/item/melee/telebaton/nlom,
+/obj/item/melee/telebaton/nlom,
+/obj/item/melee/telebaton/nlom,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/wood{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "gh" = (
 /obj/structure/railing/fence{
 	dir = 1
@@ -1027,7 +950,7 @@
 /obj/item/clothing/gloves/latex/unathi,
 /obj/item/clothing/gloves/latex/unathi,
 /obj/item/clothing/gloves/latex/unathi,
-/turf/simulated/floor/wood{
+/turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
@@ -1080,7 +1003,9 @@
 "gX" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/structure/lattice/catwalk/indoor/grate,
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/plating{
+	temperature = 303.15
+	},
 /area/new_blades/interiors/dam)
 "gY" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -1130,19 +1055,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"hn" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(208);
-	name = "shield cabinet"
-	},
-/obj/item/shield/riot/tact,
-/obj/item/shield/riot/tact,
-/obj/item/shield/riot/tact,
-/obj/machinery/light/skrell{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
 "hq" = (
 /obj/structure/flora/grass/junglegrass/random,
 /mob/living/simple_animal/hostile/retaliate/hegeranzi,
@@ -1364,14 +1276,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"iA" = (
-/obj/machinery/light/skrell{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white{
-	temperature = 303.15
-	},
-/area/skrell_shuttle)
 "iB" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/effect/decal/cleanable/floor_damage,
@@ -1382,14 +1286,16 @@
 "iC" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(208);
-	name = "baton cabinet"
+	name = "energy carbine cabinet"
 	},
-/obj/item/melee/telebaton/nlom,
-/obj/item/melee/telebaton/nlom,
-/obj/item/melee/telebaton/nlom,
-/obj/item/melee/telebaton/nlom,
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/obj/item/gun/energy/gun/qukala,
+/obj/item/gun/energy/gun/qukala,
+/obj/item/gun/energy/gun/qukala,
+/obj/item/gun/energy/gun/qukala,
+/turf/simulated/floor/wood{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "iE" = (
 /obj/structure/closet/secure_closet/engineering_welding,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -1406,6 +1312,10 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
+"iG" = (
+/obj/effect/landmark/corpse/watch,
+/turf/simulated/floor/exoplanet/grass/moghes,
+/area/new_blades)
 "iH" = (
 /obj/structure/bonfire/light_up,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt,
@@ -1492,6 +1402,12 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
+"jr" = (
+/obj/machinery/computer/terminal,
+/turf/simulated/floor/carpet/green{
+	temperature = 303.15
+	},
+/area/new_blades/interiors/dam)
 "js" = (
 /obj/machinery/light{
 	dir = 8
@@ -1524,13 +1440,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors/dam)
-"jD" = (
-/obj/structure/table/skrell,
-/obj/item/defibrillator/loaded,
-/turf/simulated/floor/tiled/white{
-	temperature = 303.15
-	},
-/area/skrell_shuttle)
 "jF" = (
 /turf/simulated/floor/carpet/orange{
 	temperature = 303.15
@@ -1605,13 +1514,16 @@
 /turf/simulated/floor/exoplanet/grass/moghes,
 /area/new_blades)
 "ka" = (
-/obj/machinery/light/skrell{
+/obj/machinery/bodyscanner{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/carpet/rubber{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "kf" = (
 /obj/effect/decal/cleanable/floor_damage/burned3,
 /turf/simulated/wall/concrete,
@@ -1628,8 +1540,18 @@
 /area/new_blades/interiors)
 "kk" = (
 /obj/structure/table/skrell,
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/obj/machinery/photocopier/faxmachine{
+	department = "Federation Outpost";
+	req_access = list(208);
+	req_one_access = null
+	},
+/obj/structure/sign/flag/nralakk/large/north{
+	pixel_y = 32
+	},
+/turf/simulated/floor/wood{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "kl" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/exoplanet/grass/moghes,
@@ -1715,6 +1637,10 @@
 	dir = 4
 	},
 /area/new_blades)
+"kS" = (
+/obj/item/paper/fluff/mine,
+/turf/simulated/floor/exoplanet/grass/moghes/dirt,
+/area/new_blades/caves)
 "kW" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/reagentgrinder{
@@ -1869,21 +1795,28 @@
 	},
 /area/scc_shuttle)
 "lM" = (
-/obj/machinery/door/airlock/skrell{
-	req_access = list(208);
-	name = "Medical Storage"
+/obj/machinery/photocopier,
+/obj/machinery/light{
+	dir = 1
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "lN" = (
 /obj/structure/table/skrell,
-/obj/item/device/advanced_healthanalyzer,
-/turf/simulated/floor/tiled/white{
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/roller/hover,
+/obj/item/roller/hover,
+/obj/item/roller/hover,
+/obj/machinery/light,
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "lR" = (
 /obj/structure/table/wood,
 /obj/random/dirt_75,
@@ -1973,10 +1906,13 @@
 	},
 /area/new_blades/interiors)
 "mg" = (
-/turf/simulated/floor/tiled/white{
+/obj/effect/floor_decal/spline/plain{
+	dir = 5
+	},
+/turf/simulated/floor/carpet/rubber{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "mj" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/structure/reagent_dispensers/keg/xuizikeg{
@@ -2139,21 +2075,13 @@
 	},
 /area/scc_shuttle)
 "nw" = (
-/obj/structure/table/skrell,
-/obj/item/storage/firstaid/adv,
-/obj/item/storage/firstaid/adv,
-/obj/item/storage/firstaid/o2,
-/obj/item/storage/firstaid/o2,
-/obj/item/storage/firstaid/radiation,
-/obj/item/storage/firstaid/radiation,
-/obj/item/storage/firstaid/toxin,
-/obj/item/storage/firstaid/toxin,
-/obj/item/storage/firstaid/trauma,
-/obj/item/storage/firstaid/trauma,
-/turf/simulated/floor/tiled/white{
+/obj/structure/bed/stool/chair/office/hover{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "ny" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt/beach{
 	icon_state = "beachcorner";
@@ -2268,7 +2196,7 @@
 "ow" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/fancy/tray,
-/turf/simulated/floor/wood{
+/turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
@@ -2282,15 +2210,22 @@
 /turf/simulated/floor/shuttle/dark_red,
 /area/scc_shuttle)
 "oA" = (
-/obj/machinery/door/airlock/skrell{
-	dir = 4;
-	name = "Pharmacy";
-	req_access = list(208)
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/closet/walllocker/secure{
+	name = "personal storage";
+	pixel_x = -32
 	},
-/turf/simulated/floor/tiled/white{
+/obj/item/clothing/ears/skrell/tailband/ix,
+/obj/item/clothing/accessory/poncho/shouldercape/cloak/ix,
+/obj/item/clothing/accessory/poncho/skrell,
+/obj/item/clothing/ears/skrell/workcap/long,
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "oC" = (
 /turf/simulated/floor/shuttle/dark_red,
 /area/scc_shuttle)
@@ -2340,15 +2275,10 @@
 	},
 /area/scc_shuttle)
 "pa" = (
-/obj/structure/closet/secure_closet/medical1,
-/obj/item/tank/anesthetic,
-/obj/item/tank/anesthetic,
-/obj/item/clothing/mask/breath/medical,
-/obj/item/clothing/mask/breath/medical,
 /turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "pb" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
@@ -2404,9 +2334,16 @@
 /turf/unsimulated/floor,
 /area/new_blades/caves)
 "pk" = (
-/obj/machinery/light/skrell,
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/obj/structure/table/skrell,
+/obj/item/storage/box/slides,
+/obj/item/storage/box/evidence,
+/obj/effect/floor_decal/spline/plain{
+	dir = 5
+	},
+/turf/simulated/floor/carpet/rubber{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "pm" = (
 /obj/effect/ghostspawpoint{
 	name = "igs - nbow_trader";
@@ -2431,41 +2368,21 @@
 	},
 /area/new_blades/interiors)
 "pA" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(208);
-	name = "energy carbine cabinet"
+/obj/structure/bed/aqua,
+/obj/item/bedsheet/blue,
+/obj/effect/ghostspawpoint{
+	name = "igs - nralakk";
+	identifier = "nralakk"
 	},
-/obj/item/gun/energy/gun/qukala,
-/obj/item/gun/energy/gun/qukala,
-/obj/item/gun/energy/gun/qukala,
-/obj/item/gun/energy/gun/qukala,
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/turf/simulated/floor/wood{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "pB" = (
 /obj/structure/lattice/catwalk/indoor/planks,
 /obj/structure/rope_post,
 /turf/simulated/floor/exoplanet/water/shallow/moghes,
 /area/new_blades)
-"pC" = (
-/obj/structure/closet/skrell,
-/obj/item/clothing/ears/skrell/band/silver,
-/obj/item/clothing/ears/skrell/band/ebony,
-/obj/item/clothing/ears/skrell/chain/silver,
-/obj/item/clothing/ears/skrell/chain/silver/long,
-/obj/item/clothing/ears/skrell/cloth,
-/obj/item/clothing/ears/skrell/chain/bluejewels,
-/obj/item/clothing/ears/skrell/band/silver,
-/obj/item/clothing/ears/skrell/workcap,
-/obj/item/clothing/ears/skrell/workcap/long,
-/obj/item/clothing/ears/skrell/tailband/iqi,
-/obj/machinery/light/skrell{
-	dir = 8
-	},
-/obj/machinery/light/skrell{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle/skrell,
-/area/skrell_shuttle)
 "pG" = (
 /obj/structure/bed/stool/chair/sofa/right/brown{
 	dir = 1
@@ -2517,6 +2434,12 @@
 /obj/machinery/telecomms/processor/preset_one,
 /turf/unsimulated/floor,
 /area/new_blades/caves)
+"qc" = (
+/obj/structure/bed/stool/chair/office/dark,
+/turf/simulated/floor/carpet/green{
+	temperature = 303.15
+	},
+/area/new_blades/interiors/dam)
 "qd" = (
 /obj/structure/closet/secure_closet/custodial/offship,
 /obj/effect/decal/cleanable/cobweb,
@@ -2585,9 +2508,11 @@
 	},
 /area/new_blades/interiors)
 "qw" = (
-/obj/random/dirt_75,
-/obj/machinery/light,
-/turf/simulated/floor/wood{
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/obj/machinery/dnaforensics,
+/turf/simulated/floor/carpet/rubber{
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
@@ -2703,7 +2628,13 @@
 	},
 /area/new_blades/interiors/dam)
 "ra" = (
-/obj/machinery/chem_heater,
+/obj/machinery/chem_heater{
+	pixel_y = 6
+	},
+/obj/structure/table/standard,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/wood{
 	temperature = 303.15
 	},
@@ -2765,13 +2696,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors/dam)
-"ry" = (
-/obj/effect/ghostspawpoint{
-	name = "igs - nralakk";
-	identifier = "nralakk"
-	},
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
 "rC" = (
 /obj/structure/bonfire/fireplace,
 /turf/simulated/floor/wood{
@@ -2791,14 +2715,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"rJ" = (
-/obj/machinery/door/airlock/skrell{
-	dir = 4;
-	req_access = list(208);
-	name = "Armory"
-	},
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
 "rL" = (
 /obj/machinery/telecomms/server/presets/supply,
 /turf/unsimulated/floor,
@@ -2835,11 +2751,15 @@
 	},
 /area/new_blades/interiors)
 "si" = (
-/obj/machinery/bodyscanner,
-/turf/simulated/floor/tiled/white{
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/item/skrell_projector,
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "sp" = (
 /obj/machinery/vending/dinnerware/metal,
 /turf/simulated/floor/wood/walnut{
@@ -2873,6 +2793,13 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
+"sz" = (
+/obj/structure/table/steel,
+/obj/item/paper/fluff/dam_gen,
+/turf/simulated/floor/carpet/green{
+	temperature = 303.15
+	},
+/area/new_blades/interiors/dam)
 "sA" = (
 /obj/structure/lattice/catwalk/indoor/planks,
 /obj/structure/rope_railing{
@@ -2967,27 +2894,16 @@
 /turf/simulated/floor/exoplanet/grass/moghes/dirt,
 /area/new_blades/caves)
 "tp" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(208);
-	name = "non-lethal weaponry cabinet"
-	},
-/obj/item/melee/baton/loaded,
-/obj/item/melee/baton/loaded,
-/obj/item/reagent_containers/spray/pepper,
-/obj/item/reagent_containers/spray/pepper,
-/obj/item/device/flash,
-/obj/item/device/flash,
-/obj/item/storage/belt/security,
-/obj/item/storage/belt/security,
-/obj/item/storage/box/handcuffs,
-/obj/item/storage/box/handcuffs,
-/obj/item/storage/box/flashbangs,
-/obj/item/storage/box/teargas,
-/obj/machinery/light/skrell{
+/obj/machinery/cryopod{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/obj/machinery/computer/cryopod{
+	pixel_y = -32
+	},
+/turf/simulated/floor/wood{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "tq" = (
 /obj/structure/bed/stool/chair/office/dark,
 /turf/simulated/floor/wood{
@@ -3208,90 +3124,18 @@
 	},
 /area/new_blades)
 "uy" = (
-/obj/structure/table/skrell,
-/obj/item/bodybag/cryobag,
-/obj/item/bodybag/cryobag,
-/obj/item/bodybag/cryobag,
-/obj/item/storage/belt/medical,
-/obj/item/storage/belt/medical,
-/obj/item/storage/belt/medical/first_responder,
-/obj/item/storage/belt/medical/first_responder,
-/turf/simulated/floor/tiled/white{
+/obj/random/dirt_75,
+/obj/item/pen/black,
+/turf/simulated/floor/carpet/green{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors/dam)
 "uz" = (
 /obj/effect/landmark{
 	name = "Observer-Start"
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/scc_shuttle)
-"uA" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/under/unathi/himation,
-/obj/item/clothing/under/unathi/himation,
-/obj/item/clothing/under/unathi{
-	color = "#4a3407"
-	},
-/obj/item/clothing/under/unathi,
-/obj/item/clothing/under/unathi/huytai{
-	color = "#4a3407"
-	},
-/obj/item/clothing/under/unathi/huytai{
-	color = "#4a3407"
-	},
-/obj/item/clothing/under/unathi/huytai{
-	color = "#4a3407"
-	},
-/obj/item/clothing/under/unathi/himation,
-/obj/item/clothing/under/unathi/himation,
-/obj/item/clothing/under/unathi/himation,
-/obj/item/clothing/under/unathi/himation,
-/obj/item/clothing/under/unathi,
-/obj/item/clothing/under/unathi,
-/obj/item/clothing/under/unathi,
-/obj/item/clothing/under/unathi,
-/obj/item/clothing/under/unathi{
-	color = "#4a3407"
-	},
-/obj/item/clothing/under/unathi{
-	color = "#4a3407"
-	},
-/obj/item/clothing/under/unathi{
-	color = "#4a3407"
-	},
-/obj/item/clothing/accessory/poncho/unathimantle/mountain{
-	color = "#613d10"
-	},
-/obj/item/clothing/accessory/poncho/unathimantle/mountain{
-	color = "#613d10"
-	},
-/obj/item/clothing/accessory/poncho/unathimantle/mountain{
-	color = "#613d10"
-	},
-/obj/item/clothing/accessory/poncho/unathimantle/mountain{
-	color = "#613d10"
-	},
-/obj/item/clothing/accessory/poncho/unathimantle/mountain{
-	color = "#613d10"
-	},
-/obj/item/clothing/accessory/poncho/unathimantle/mountain{
-	color = "#613d10"
-	},
-/obj/item/clothing/shoes/sandals/caligae,
-/obj/item/clothing/shoes/sandals/caligae,
-/obj/item/clothing/shoes/sandals/caligae,
-/obj/item/clothing/shoes/sandals/caligae,
-/obj/item/clothing/shoes/sandals/caligae,
-/obj/item/clothing/shoes/footwraps,
-/obj/item/clothing/shoes/footwraps,
-/obj/item/clothing/gloves/unathi,
-/obj/item/clothing/gloves/unathi,
-/obj/item/clothing/gloves/unathi,
-/turf/simulated/floor/wood/birch{
-	temperature = 303.15
-	},
-/area/new_blades/interiors)
 "uC" = (
 /obj/machinery/telecomms/message_server,
 /turf/unsimulated/floor,
@@ -3313,12 +3157,6 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/shuttle/dark_blue,
 /area/scc_shuttle)
-"uI" = (
-/obj/machinery/light/skrell{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
 "uL" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -3347,6 +3185,13 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
+"uP" = (
+/obj/structure/table/steel,
+/obj/item/paper/fluff/dam_last,
+/turf/simulated/floor/carpet/green{
+	temperature = 303.15
+	},
+/area/new_blades/interiors/dam)
 "uQ" = (
 /turf/simulated/floor/shuttle/dark_blue,
 /area/scc_shuttle)
@@ -3552,7 +3397,7 @@
 /obj/structure/closet/secure_closet/medical2{
 	req_access = null
 	},
-/turf/simulated/floor/wood{
+/turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
@@ -3688,20 +3533,31 @@
 /area/new_blades/interiors)
 "wZ" = (
 /obj/structure/lattice/catwalk/indoor/grate/damaged,
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/plating{
+	temperature = 303.15
+	},
 /area/new_blades/interiors/dam)
 "xc" = (
 /obj/machinery/iff_beacon/horizon,
 /turf/unsimulated/floor,
 /area/new_blades/caves)
 "xd" = (
-/obj/structure/bed/aqua,
-/mob/living/carbon/human/skrell,
-/obj/item/card/id/syndicate{
-	access = list(208)
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/closet/walllocker/secure{
+	name = "personal storage";
+	pixel_x = 32
 	},
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/obj/item/clothing/ears/skrell/tailband/ix,
+/obj/item/clothing/accessory/poncho/shouldercape/cloak/ix,
+/obj/item/clothing/accessory/poncho/skrell/tan,
+/obj/item/clothing/ears/skrell/workcap,
+/turf/simulated/floor/wood{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "xe" = (
 /obj/structure/table/wood,
 /obj/item/flame/lighter/random,
@@ -3735,6 +3591,14 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
+"xl" = (
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/green{
+	temperature = 303.15
+	},
+/area/new_blades/interiors/dam)
 "xs" = (
 /obj/structure/plasticflaps/airtight,
 /obj/machinery/door/airlock/external{
@@ -3752,15 +3616,14 @@
 /turf/simulated/floor/shuttle/dark_blue,
 /area/scc_shuttle)
 "xt" = (
-/obj/machinery/door/airlock/skrell{
-	dir = 4;
-	name = "Operating Room";
-	req_access = list(208)
-	},
-/turf/simulated/floor/tiled/white{
+/obj/structure/table/skrell,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "xu" = (
 /obj/structure/table/wood,
 /obj/item/material/ashtray/bronze{
@@ -3795,11 +3658,15 @@
 	},
 /area/new_blades/interiors)
 "xF" = (
-/obj/machinery/chem_master,
-/turf/simulated/floor/tiled/white{
+/obj/structure/bed/stool/chair/office/hover/command,
+/obj/effect/ghostspawpoint{
+	name = "igs - nralakk_lead";
+	identifier = "nralakk_lead"
+	},
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "xL" = (
 /obj/structure/lattice/catwalk/indoor/planks,
 /obj/structure/rope_post,
@@ -3816,7 +3683,9 @@
 /obj/machinery/light/colored/decayed/dimmed{
 	dir = 1
 	},
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/plating{
+	temperature = 303.15
+	},
 /area/new_blades/interiors/dam)
 "xQ" = (
 /turf/simulated/floor/concrete{
@@ -3871,15 +3740,9 @@
 /obj/item/material/sword/axe,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt,
 /area/new_blades/caves)
-"yr" = (
-/obj/machinery/chem_heater,
-/turf/simulated/floor/tiled/white{
-	temperature = 303.15
-	},
-/area/skrell_shuttle)
 "yt" = (
-/obj/item/frame/apc,
 /obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/machinery/power/apc/broken/east,
 /turf/simulated/floor/concrete{
 	temperature = 303.15
 	},
@@ -4266,11 +4129,20 @@
 	},
 /area/new_blades/interiors)
 "Bi" = (
-/obj/machinery/optable,
-/turf/simulated/floor/tiled/white{
+/obj/structure/closet/secure_closet/guncabinet/sci{
+	req_access = list(208);
+	name = "equipment cabinet"
+	},
+/obj/item/device/scanner,
+/obj/item/device/scanner,
+/obj/item/device/scanner,
+/obj/item/device/scanner,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "Bk" = (
 /obj/machinery/body_scanconsole{
 	dir = 8
@@ -4306,9 +4178,20 @@
 	},
 /area/new_blades/interiors)
 "BE" = (
-/obj/structure/bed/stool/chair/office/hover/command,
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(208);
+	name = "body armor cabinet"
+	},
+/obj/item/clothing/suit/storage/vest/kala,
+/obj/item/clothing/suit/storage/vest/kala,
+/obj/item/clothing/accessory/arm_guard/kala,
+/obj/item/clothing/accessory/arm_guard/kala,
+/obj/item/clothing/head/helmet/security/skrell,
+/obj/item/clothing/head/helmet/security/skrell,
+/turf/simulated/floor/wood{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "BG" = (
 /obj/machinery/vending/dinnerware{
 	density = 0;
@@ -4533,13 +4416,26 @@
 	},
 /area/new_blades/interiors)
 "CV" = (
-/obj/structure/sink{
-	pixel_y = 16
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(208);
+	name = "non-lethal weaponry cabinet"
 	},
-/turf/simulated/floor/tiled/white{
+/obj/item/melee/baton/loaded,
+/obj/item/melee/baton/loaded,
+/obj/item/reagent_containers/spray/pepper,
+/obj/item/reagent_containers/spray/pepper,
+/obj/item/device/flash,
+/obj/item/device/flash,
+/obj/item/storage/belt/security,
+/obj/item/storage/belt/security,
+/obj/item/storage/box/handcuffs,
+/obj/item/storage/box/handcuffs,
+/obj/item/storage/box/flashbangs,
+/obj/item/storage/box/teargas,
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "CY" = (
 /obj/item/reagent_containers/glass/beaker/large,
 /obj/item/reagent_containers/glass/beaker/large{
@@ -4550,8 +4446,8 @@
 	pixel_x = -9;
 	pixel_y = 6
 	},
-/obj/structure/table/wood,
 /obj/item/clothing/glasses/safety/goggles,
+/obj/structure/table/standard,
 /turf/simulated/floor/wood{
 	temperature = 303.15
 	},
@@ -4594,12 +4490,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors/dam)
-"Dl" = (
-/obj/machinery/ion_engine,
-/turf/simulated/floor/plating{
-	temperature = 303.15
-	},
-/area/skrell_shuttle)
 "Dy" = (
 /obj/machinery/conveyor{
 	id = "miners_guild_outpost";
@@ -4673,6 +4563,17 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
+"Eh" = (
+/obj/effect/decal/cleanable/cobweb2,
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 1
+	},
+/obj/item/paper/fluff/dam,
+/obj/structure/table/steel,
+/turf/simulated/floor/concrete{
+	temperature = 303.15
+	},
+/area/new_blades/interiors/dam)
 "Ei" = (
 /obj/effect/floor_decal/industrial/loading/yellow{
 	dir = 1
@@ -4756,7 +4657,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/wood{
+/turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
@@ -4890,11 +4791,20 @@
 /turf/simulated/floor/exoplanet/grass/moghes/dirt,
 /area/new_blades/caves)
 "FG" = (
-/obj/machinery/computer/operating,
-/turf/simulated/floor/tiled/white{
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "pistol cabinet";
+	req_access = list(208)
+	},
+/obj/item/gun/energy/fedpistol/nopsi,
+/obj/item/gun/energy/fedpistol/nopsi,
+/obj/item/gun/energy/fedpistol/nopsi,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "FJ" = (
 /obj/structure/table/wood,
 /obj/machinery/light{
@@ -4948,13 +4858,12 @@
 /turf/unsimulated/mineral,
 /area/new_blades)
 "Gb" = (
-/obj/structure/table/skrell,
-/obj/machinery/reagentgrinder,
-/obj/item/device/mass_spectrometer/adv,
-/turf/simulated/floor/tiled/white{
+/obj/structure/table/steel,
+/obj/item/paper_bin,
+/turf/simulated/floor/carpet/green{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors/dam)
 "Gd" = (
 /obj/structure/table/rack,
 /obj/item/ammo_magazine/spitterpistol,
@@ -4971,27 +4880,16 @@
 	},
 /area/new_blades/interiors)
 "Gg" = (
-/obj/structure/closet/skrell,
-/obj/item/clothing/accessory/poncho/skrell/gray,
-/obj/item/clothing/accessory/poncho/skrell,
-/obj/item/clothing/accessory/poncho/skrell/gray,
-/obj/item/clothing/accessory/poncho/skrell/tan,
-/obj/item/clothing/accessory/poncho/shouldercape/nebula,
-/obj/item/clothing/accessory/poncho/shouldercape/cloak/oqi,
-/obj/item/clothing/accessory/poncho/shouldercape/cloak/oqi,
-/obj/item/clothing/accessory/poncho/shouldercape/cloak/oqi,
-/obj/item/clothing/accessory/poncho/shouldercape/cloak/oqi,
-/obj/item/clothing/accessory/poncho/shouldercape/cloak/ix,
-/obj/item/clothing/accessory/poncho/shouldercape/cloak/ix,
-/obj/item/clothing/accessory/poncho/shouldercape/cloak/ix,
-/obj/item/clothing/accessory/poncho/shouldercape/cloak/ix,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/clothing/accessory/holster/hip,
-/turf/simulated/floor/shuttle/skrell,
-/area/skrell_shuttle)
+/obj/structure/table/skrell,
+/obj/item/paper_bin,
+/obj/item/pen/black,
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "Gn" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/black,
@@ -5015,7 +4913,9 @@
 "Gz" = (
 /obj/random/dirt_75,
 /obj/structure/lattice/catwalk/indoor/grate,
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/plating{
+	temperature = 303.15
+	},
 /area/new_blades/interiors/dam)
 "GA" = (
 /obj/machinery/light{
@@ -5102,18 +5002,19 @@
 	temperature = 263.15
 	},
 /area/scc_shuttle)
-"GZ" = (
-/obj/machinery/iv_drip,
-/turf/simulated/floor/tiled/white{
-	temperature = 303.15
-	},
-/area/skrell_shuttle)
 "Hd" = (
 /obj/item/reagent_containers/food/drinks/bottle/small/xuizijuice,
 /turf/simulated/floor/wood{
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
+"He" = (
+/obj/random/dirt_75,
+/obj/structure/bed/stool/chair/office/dark,
+/turf/simulated/floor/carpet/green{
+	temperature = 303.15
+	},
+/area/new_blades/interiors/dam)
 "Hg" = (
 /obj/structure/rod_railing{
 	dir = 8
@@ -5149,13 +5050,16 @@
 	},
 /area/new_blades/interiors)
 "Ho" = (
-/obj/machinery/door/airlock/skrell{
-	req_access = list(208);
-	dir = 4;
-	name = "Crew Quarters"
+/obj/structure/closet/crate/secure/phoron{
+	req_access = list(33)
 	},
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/obj/item/stack/material/phoron{
+	amount = 10
+	},
+/turf/simulated/floor/wood{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "Hs" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/bottle/small/xuizijuice{
@@ -5174,15 +5078,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"HB" = (
-/obj/machinery/chemical_dispenser/full,
-/obj/machinery/light/skrell{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white{
-	temperature = 303.15
-	},
-/area/skrell_shuttle)
 "HD" = (
 /obj/structure/sign/flag/hegemony/large/north{
 	pixel_y = 32
@@ -5222,26 +5117,16 @@
 	},
 /area/new_blades)
 "HY" = (
-/obj/machinery/body_scanconsole{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/carpet/rubber{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "HZ" = (
 /obj/item/cane,
 /turf/simulated/floor/wood{
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"Ia" = (
-/obj/machinery/acting/changer,
-/obj/machinery/light/skrell{
-	dir = 8
-	},
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
 "Ib" = (
 /obj/effect/decal/cleanable/floor_damage/rust,
 /obj/structure/girder,
@@ -5326,17 +5211,6 @@
 "In" = (
 /turf/simulated/wall,
 /area/new_blades/interiors)
-"Ip" = (
-/obj/structure/bed/aqua,
-/mob/living/carbon/human/skrell,
-/obj/item/card/id/syndicate{
-	access = list(208)
-	},
-/obj/machinery/light/skrell{
-	dir = 8
-	},
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
 "Is" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt/beach{
 	icon_state = "beach"
@@ -5361,12 +5235,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"ID" = (
-/obj/item/modular_computer/console/preset/civilian{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
 "IG" = (
 /turf/simulated/floor/exoplanet/water/shallow/moghes,
 /area/new_blades/outflow)
@@ -5386,7 +5254,7 @@
 /obj/item/clothing/gloves/latex/unathi,
 /obj/item/clothing/gloves/latex/unathi,
 /obj/item/clothing/gloves/latex/unathi,
-/turf/simulated/floor/wood{
+/turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
@@ -5423,18 +5291,10 @@
 /obj/machinery/light/colored/decayed/dimmed{
 	dir = 1
 	},
-/turf/unsimulated/floor/plating,
-/area/new_blades/interiors/dam)
-"IO" = (
-/obj/structure/table/skrell,
-/obj/item/storage/box/gloves{
-	pixel_y = 11
-	},
-/obj/item/storage/box/masks,
-/turf/simulated/floor/tiled/white{
+/turf/unsimulated/floor/plating{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors/dam)
 "IP" = (
 /obj/machinery/appliance/cooker/fryer,
 /obj/effect/floor_decal/spline/plain/black{
@@ -5578,25 +5438,26 @@
 /turf/simulated/floor/exoplanet/grass/moghes,
 /area/new_blades)
 "JG" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -15
-	},
-/turf/simulated/floor/tiled/white{
+/obj/structure/table/skrell,
+/obj/item/storage/firstaid/adv,
+/obj/item/storage/firstaid/adv,
+/obj/item/storage/firstaid/o2,
+/obj/item/storage/firstaid/o2,
+/obj/item/storage/firstaid/radiation,
+/obj/item/storage/firstaid/radiation,
+/obj/item/storage/firstaid/toxin,
+/obj/item/storage/firstaid/toxin,
+/obj/item/storage/firstaid/trauma,
+/obj/item/storage/firstaid/trauma,
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "JI" = (
 /obj/structure/flora/grass/junglegrass/dense/random,
 /mob/living/simple_animal/hostile/shrieker,
 /turf/simulated/floor/exoplanet/grass/moghes,
 /area/new_blades)
-"JK" = (
-/obj/machinery/sleeper,
-/turf/simulated/floor/tiled/white{
-	temperature = 303.15
-	},
-/area/skrell_shuttle)
 "JL" = (
 /obj/structure/table/rack,
 /obj/item/stack/material/steel/full,
@@ -5660,6 +5521,7 @@
 "Ki" = (
 /obj/random/dirt_75,
 /obj/structure/table/wood,
+/obj/item/paper/fluff/dam_office,
 /turf/simulated/floor/carpet/green{
 	temperature = 303.15
 	},
@@ -5856,6 +5718,7 @@
 /obj/machinery/light/colored/decayed/dimmed{
 	dir = 1
 	},
+/obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor/carpet/green{
 	temperature = 303.15
 	},
@@ -5976,7 +5839,7 @@
 	dir = 8;
 	pixel_x = -12
 	},
-/turf/simulated/floor/wood{
+/turf/simulated/floor/tiled/white{
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
@@ -6067,14 +5930,24 @@
 	},
 /area/new_blades/interiors)
 "MR" = (
-/obj/machinery/door/airlock/external{
-	dir = 4;
-	req_access = list(208);
-	name = "shuttle access"
+/obj/item/clothing/under/skrell/nralakk/ix,
+/obj/structure/closet/skrell,
+/obj/item/clothing/under/skrell/nralakk/ix,
+/obj/item/clothing/under/skrell/nralakk/ix/engineer,
+/obj/item/clothing/under/skrell/nralakk/ix/engineer,
+/obj/item/clothing/under/skrell/nralakk/ix/med,
+/obj/item/clothing/under/skrell/nralakk/ix/med,
+/obj/item/clothing/under/skrell/nralakk/ix/security,
+/obj/item/clothing/under/skrell/nralakk/ix/security,
+/obj/item/clothing/suit/storage/toggle/labcoat,
+/obj/item/clothing/suit/storage/toggle/labcoat,
+/obj/item/clothing/suit/storage/toggle/labcoat,
+/obj/item/clothing/suit/storage/toggle/labcoat,
+/obj/machinery/light,
+/turf/simulated/floor/wood{
+	temperature = 303.15
 	},
-/obj/structure/plasticflaps/airtight,
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "MV" = (
 /obj/machinery/door/airlock/glass_mining{
 	dir = 4
@@ -6082,14 +5955,26 @@
 /turf/simulated/floor/shuttle/dark_red,
 /area/scc_shuttle)
 "MW" = (
-/obj/machinery/light/skrell,
-/obj/machinery/bodyscanner{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white{
+/obj/structure/closet/secure_closet/freezer,
+/obj/item/reagent_containers/food/drinks/waterbottle,
+/obj/item/reagent_containers/food/drinks/waterbottle,
+/obj/item/reagent_containers/food/drinks/waterbottle,
+/obj/item/reagent_containers/food/drinks/waterbottle,
+/obj/item/reagent_containers/food/drinks/waterbottle,
+/obj/item/reagent_containers/food/drinks/waterbottle,
+/obj/item/reagent_containers/food/drinks/jyalra,
+/obj/item/reagent_containers/food/drinks/jyalra,
+/obj/item/reagent_containers/food/drinks/jyalra/apple,
+/obj/item/reagent_containers/food/drinks/jyalra/cheese,
+/obj/item/reagent_containers/food/drinks/jyalra/cheese,
+/obj/item/reagent_containers/food/drinks/jyalra/cherry,
+/obj/item/reagent_containers/food/drinks/jyalra/cherry,
+/obj/item/reagent_containers/food/snacks/skrellsnacks,
+/obj/item/reagent_containers/food/snacks/skrellsnacks,
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "MX" = (
 /obj/machinery/photocopier,
 /obj/machinery/light,
@@ -6161,14 +6046,14 @@
 /turf/simulated/floor/exoplanet/grass/moghes/dirt,
 /area/new_blades/caves)
 "Ns" = (
-/obj/structure/bed/roller/hover,
-/obj/machinery/light/skrell{
-	dir = 1
+/obj/effect/map_effect/window_spawner/full/wood,
+/obj/structure/curtain/open/bed{
+	name = "curtain"
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "Ny" = (
 /obj/structure/railing/fence{
 	dir = 1
@@ -6345,7 +6230,7 @@
 	},
 /area/new_blades/interiors)
 "OC" = (
-/obj/structure/reagent_dispensers/water_cooler,
+/obj/structure/filingcabinet/chestdrawer,
 /turf/simulated/floor/carpet/green{
 	temperature = 303.15
 	},
@@ -6383,8 +6268,11 @@
 	},
 /area/new_blades/interiors/dam)
 "OR" = (
-/turf/simulated/wall/shuttle/skrell,
-/area/skrell_shuttle)
+/obj/structure/closet/excavation,
+/turf/simulated/floor/wood{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "OT" = (
 /obj/structure/table/wood,
 /obj/item/modular_computer/laptop/preset/civilian,
@@ -6401,15 +6289,15 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/scc_shuttle)
-"OV" = (
-/obj/machinery/smartfridge/chemistry,
-/turf/simulated/wall/shuttle/skrell,
-/area/skrell_shuttle)
 "OX" = (
 /obj/structure/table/skrell,
-/obj/item/skrell_projector,
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/obj/item/stamp/zeng_hu{
+	name = "nralakk federation rubber stamp"
+	},
+/turf/simulated/floor/wood{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "Pb" = (
 /obj/machinery/appliance/cooker/stove,
 /turf/simulated/floor/wood{
@@ -6418,7 +6306,9 @@
 /area/new_blades/interiors)
 "Pd" = (
 /obj/structure/lattice/catwalk/indoor/grate,
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/plating{
+	temperature = 303.15
+	},
 /area/new_blades/interiors/dam)
 "Pg" = (
 /obj/structure/table/wood,
@@ -6512,9 +6402,17 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
+"PC" = (
+/obj/random/dirt_75,
+/obj/machinery/computer/terminal,
+/turf/simulated/floor/carpet/green{
+	temperature = 303.15
+	},
+/area/new_blades/interiors/dam)
 "PF" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
+/obj/item/pen/black,
 /turf/simulated/floor/carpet/green{
 	temperature = 303.15
 	},
@@ -6577,7 +6475,9 @@
 /area/new_blades)
 "Qg" = (
 /obj/structure/table/standard,
-/obj/machinery/photocopier/faxmachine,
+/obj/machinery/photocopier/faxmachine{
+	department = "SCC Shuttle"
+	},
 /obj/machinery/light,
 /turf/simulated/floor/shuttle/black,
 /area/scc_shuttle)
@@ -6589,8 +6489,20 @@
 /turf/simulated/floor/exoplanet/grass/moghes,
 /area/new_blades)
 "Qk" = (
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/obj/structure/closet/secure_closet/guncabinet/sci{
+	req_access = list(208);
+	name = "equipment cabinet"
+	},
+/obj/item/reagent_containers/hypospray,
+/obj/item/reagent_containers/hypospray,
+/obj/item/reagent_containers/hypospray,
+/obj/item/reagent_containers/hypospray,
+/obj/item/storage/belt/medical,
+/obj/item/storage/belt/medical,
+/turf/simulated/floor/wood{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "Ql" = (
 /turf/simulated/floor/exoplanet/water/shallow/moghes,
 /area/new_blades/lake)
@@ -6639,14 +6551,19 @@
 /turf/simulated/floor/exoplanet/grass/moghes,
 /area/new_blades)
 "QI" = (
-/obj/machinery/bodyscanner,
-/obj/machinery/light/skrell{
-	dir = 1
+/obj/structure/closet/secure_closet/guncabinet/sci{
+	req_access = list(208);
+	name = "equipment cabinet"
 	},
-/turf/simulated/floor/tiled/white{
+/obj/item/storage/belt/utility/very_full,
+/obj/item/storage/belt/utility/very_full,
+/obj/item/clothing/gloves/yellow,
+/obj/item/clothing/gloves/yellow,
+/obj/machinery/light,
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "QK" = (
 /obj/random/dirt_75,
 /obj/item/stack/material/wood,
@@ -6658,7 +6575,9 @@
 /obj/random/dirt_75,
 /obj/effect/decal/cleanable/blood/drip,
 /obj/structure/lattice/catwalk/indoor/grate,
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/plating{
+	temperature = 303.15
+	},
 /area/new_blades/interiors/dam)
 "QN" = (
 /obj/structure/window/reinforced,
@@ -6748,31 +6667,31 @@
 	},
 /area/new_blades/interiors)
 "Rn" = (
-/obj/machinery/light/skrell{
+/obj/structure/closet/skrell,
+/obj/item/clothing/under/skrell/nralakk/oqi,
+/obj/item/clothing/under/skrell/nralakk/oqi/med,
+/obj/item/clothing/under/skrell/nralakk/oqi/security,
+/obj/item/clothing/suit/storage/toggle/skrell/oqi/security,
+/obj/item/clothing/suit/storage/toggle/skrell/oqi,
+/obj/item/clothing/accessory/poncho/shouldercape/cloak/oqi,
+/obj/item/clothing/ears/skrell/tailband/oqi,
+/obj/item/clothing/ears/skrell/chain/bluejewels,
+/obj/item/clothing/ears/skrell/band/ebony,
+/obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/closet/walllocker/medical/secure{
-	name = "O- Blood Locker";
-	pixel_y = 32;
-	req_access = list(208)
-	},
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/turf/simulated/floor/tiled/white{
+/obj/item/storage/box/fancy/cigarettes/dyn,
+/obj/item/flame/lighter/zippo/black,
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "Rp" = (
-/obj/structure/television{
-	pixel_y = 10
-	},
-/obj/structure/television{
-	pixel_y = 10
-	},
-/turf/simulated/floor/carpet/orange{
+/obj/structure/table/skrell,
+/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer,
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
@@ -6869,11 +6788,20 @@
 	},
 /area/new_blades/interiors)
 "RS" = (
-/obj/structure/bed/roller/hover,
-/turf/simulated/floor/tiled/white{
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(208);
+	name = "shield cabinet"
+	},
+/obj/item/shield/riot/tact,
+/obj/item/shield/riot/tact,
+/obj/item/shield/riot/tact,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "RZ" = (
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 4
@@ -6943,6 +6871,12 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
+"St" = (
+/obj/effect/landmark/corpse/inspector,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/exoplanet/grass/moghes/dirt,
+/area/new_blades/caves)
 "Sw" = (
 /obj/random/dirt_75,
 /obj/structure/closet/crate/freezer,
@@ -7063,23 +6997,13 @@
 	},
 /area/new_blades)
 "Tm" = (
-/obj/structure/closet/secure_closet/chemical,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
-/obj/item/device/hand_labeler,
-/obj/item/reagent_containers/spray/cleaner,
-/obj/item/clothing/glasses/safety/goggles,
-/obj/item/reagent_containers/glass/beaker/bluespace,
-/obj/item/reagent_containers/glass/beaker/bluespace,
-/obj/item/reagent_containers/glass/beaker/bluespace,
-/obj/machinery/light/skrell{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white{
+/obj/structure/table/skrell,
+/obj/item/paper_bin,
+/obj/item/pen/fountain/black,
+/turf/simulated/floor/wood{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "Tt" = (
 /obj/effect/map_effect/window_spawner/full/wood,
 /turf/simulated/floor/wood{
@@ -7111,6 +7035,15 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
+"TG" = (
+/obj/random/dirt_75,
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/green{
+	temperature = 303.15
+	},
+/area/new_blades/interiors/dam)
 "TK" = (
 /obj/machinery/chem_master,
 /turf/simulated/floor/wood{
@@ -7155,12 +7088,6 @@
 	},
 /turf/simulated/floor/exoplanet/grass/moghes,
 /area/new_blades)
-"Uj" = (
-/obj/structure/window/shuttle/skrell,
-/turf/simulated/floor/tiled/white{
-	temperature = 303.15
-	},
-/area/skrell_shuttle)
 "Un" = (
 /obj/structure/lattice/catwalk/indoor/planks,
 /obj/structure/rope_post,
@@ -7188,11 +7115,16 @@
 	},
 /area/new_blades/interiors)
 "Uy" = (
-/obj/machinery/light/skrell{
-	dir = 4
+/obj/machinery/body_scanconsole{
+	dir = 8
 	},
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
+/obj/effect/floor_decal/spline/plain{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber{
+	temperature = 303.15
+	},
+/area/new_blades/interiors)
 "Uz" = (
 /obj/random/dirt_75,
 /obj/structure/table/wood,
@@ -7504,18 +7436,13 @@
 	},
 /area/new_blades/interiors)
 "WW" = (
-/obj/structure/table/skrell,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/roller/hover,
-/obj/item/roller/hover,
-/obj/item/roller/hover,
-/turf/simulated/floor/tiled/white{
+/obj/machinery/computer/terminal/scanner{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "WZ" = (
 /obj/machinery/mining/brace{
 	dir = 4
@@ -7535,6 +7462,7 @@
 /area/new_blades)
 "Xe" = (
 /obj/structure/closet/cabinet,
+/obj/item/paper/fluff/lovers,
 /turf/simulated/floor/wood{
 	temperature = 303.15
 	},
@@ -7543,13 +7471,6 @@
 /obj/machinery/telecomms/bus/preset_two,
 /turf/unsimulated/floor,
 /area/new_blades/caves)
-"Xg" = (
-/obj/machinery/door/airlock/skrell{
-	req_access = list(208);
-	name = "Bridge"
-	},
-/turf/simulated/floor/shuttle/skrell/blue,
-/area/skrell_shuttle)
 "Xk" = (
 /obj/machinery/light,
 /obj/structure/bed/stool/chair/sofa/corner/concave/beige{
@@ -7733,17 +7654,13 @@
 	},
 /area/new_blades/interiors)
 "Yh" = (
-/obj/structure/table/skrell,
-/obj/item/reagent_containers/hypospray/cmo,
-/obj/item/reagent_containers/hypospray/cmo,
-/obj/item/reagent_containers/hypospray/cmo,
-/obj/machinery/light/skrell{
+/obj/effect/floor_decal/spline/plain/corner{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/carpet/rubber{
 	temperature = 303.15
 	},
-/area/skrell_shuttle)
+/area/new_blades/interiors)
 "Yn" = (
 /obj/machinery/conveyor{
 	id = "miners_guild_outpost1";
@@ -7755,20 +7672,27 @@
 	},
 /area/new_blades/interiors)
 "Yv" = (
-/obj/effect/decal/cleanable/cobweb,
-/obj/random/dirt_75,
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/table/skrell,
+/obj/structure/closet/walllocker/secure{
+	name = "personal storage";
+	pixel_x = -32
+	},
+/obj/item/clothing/ears/skrell/tailband/ix,
+/obj/item/clothing/accessory/poncho/shouldercape/cloak/ix,
+/obj/item/clothing/accessory/poncho/skrell/brown,
+/obj/item/clothing/ears/skrell/tailband/iqi,
+/obj/item/clothing/ears/skrell/band/silver,
+/obj/item/clothing/ears/skrell/cloth,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/wood{
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"Yz" = (
-/obj/machinery/sleeper{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white{
-	temperature = 303.15
-	},
-/area/skrell_shuttle)
 "YA" = (
 /obj/structure/table/wood,
 /obj/item/pen/black,
@@ -7909,17 +7833,19 @@
 	},
 /area/new_blades/interiors)
 "ZE" = (
-/obj/structure/table/wood,
 /obj/machinery/reagentgrinder{
 	pixel_y = 8
 	},
+/obj/structure/table/standard,
 /turf/simulated/floor/wood{
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
 "ZN" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/plating{
+	temperature = 303.15
+	},
 /area/new_blades/interiors/dam)
 "ZP" = (
 /obj/structure/lattice/catwalk/indoor/planks,
@@ -21283,7 +21209,7 @@ ii
 ii
 ii
 hE
-gt
+kS
 gt
 gt
 hE
@@ -21540,7 +21466,7 @@ ii
 ii
 hE
 hE
-gt
+St
 gt
 gt
 ii
@@ -24766,8 +24692,9 @@ uR
 uR
 uR
 uR
+uR
 xQ
-xQ
+uR
 CK
 CK
 CK
@@ -24775,8 +24702,7 @@ CK
 CK
 CK
 CK
-xQ
-xQ
+CK
 CK
 CK
 CK
@@ -25015,7 +24941,7 @@ JV
 CK
 os
 CK
-fR
+uR
 CK
 CK
 CK
@@ -25023,25 +24949,25 @@ CK
 CK
 CK
 CK
+uR
 xQ
-xQ
+uR
 CK
-KH
+gg
 Cy
-Hh
 Cy
-Iw
+CV
 CK
-xQ
-xQ
+Bi
+OR
+MR
 CK
-KH
-Bz
-CK
-xV
-oP
-oq
-oE
+IQ
+Cy
+ka
+dt
+WW
+dB
 CK
 xQ
 xQ
@@ -25274,31 +25200,31 @@ Cy
 CK
 uR
 CK
-Yv
+KH
 Cy
+Hh
 Cy
-Cy
-uA
+Iw
 CK
+uR
 xQ
-xQ
+uR
 CK
-bI
-Cy
-CK
+iC
 Cy
 Cy
-CK
-xQ
-xQ
-CK
-bI
 Cy
-CK
-tr
-jU
-jU
-qi
+Hh
+Cy
+Cy
+Cy
+Hh
+Cy
+Cy
+Uy
+HY
+nw
+nw
 CK
 xQ
 xQ
@@ -25531,31 +25457,31 @@ Cy
 CK
 uR
 CK
-IQ
+bI
 Cy
-Cy
-Cy
-qw
 CK
+Cy
+Cy
+CK
+uR
 xQ
-xQ
+uR
 CK
-CK
-CK
+BE
+Cy
+Cy
+Cy
 CK
 Cy
 Cy
-CK
-xQ
-xQ
-CK
-ds
 Cy
-CK
-RZ
-Lk
-bt
-wL
+Tt
+Cy
+Cy
+mg
+Yh
+HY
+HY
 CK
 xQ
 xQ
@@ -25788,31 +25714,31 @@ Cy
 CK
 uR
 CK
-RO
-RO
-Cy
-Cy
-RO
 CK
+CK
+CK
+Cy
+Cy
+CK
+uR
 xQ
-xQ
+uR
 CK
-wW
-Vi
-Vi
-PI
-Cy
-CK
-xQ
-xQ
-CK
-CK
-lZ
-CK
+RS
 Cy
 Cy
+FG
+CK
+MW
+Qk
+QI
+CK
+wN
 Cy
 Cy
+pk
+qw
+Gg
 CK
 xQ
 xQ
@@ -26045,38 +25971,38 @@ Cy
 CK
 uR
 CK
-Cy
-RO
-Cy
-Cy
-Cy
-CK
-xQ
-xQ
-CK
-FO
+wW
 Vi
-xe
+Vi
 PI
 Cy
 CK
+uR
 xQ
-xQ
+uR
 CK
-rC
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+CK
+CK
 Cy
 Cy
 Cy
-Vq
-Vq
-VR
+Cy
+tp
 CK
 xQ
 xQ
 uR
 CK
 CY
-Cy
+Ho
 Tt
 Cy
 Cy
@@ -26302,31 +26228,31 @@ Cy
 CK
 uR
 CK
-Cy
-Cy
-RO
-Cy
-Cy
-CK
-xQ
-xQ
-CK
 FO
 Vi
-Vi
+xe
 PI
 Cy
 CK
+uR
 xQ
-xQ
+uR
 CK
-XZ
-XZ
-XZ
-pb
-xe
-Vi
-Vi
+lM
+Cy
+Tm
+Cy
+CK
+Yv
+pA
+oA
+pA
+CK
+Cy
+Cy
+Cy
+Cy
+xt
 CK
 xQ
 xQ
@@ -26559,31 +26485,31 @@ Cy
 CK
 uR
 CK
-IQ
-RO
-RO
-Cy
-Iw
-CK
-xQ
-xQ
-CK
-rC
-Cy
-Cy
-Cy
-Cy
-CK
-xQ
-xQ
-CK
-fu
-jF
-eb
-uL
+FO
 Vi
 Vi
-Vi
+PI
+Cy
+CK
+uR
+xQ
+uR
+CK
+kk
+xF
+OX
+Cy
+Hh
+Cy
+Cy
+Cy
+Cy
+Ns
+Cy
+Cy
+Cy
+Cy
+Rp
 CK
 xQ
 xQ
@@ -26814,33 +26740,33 @@ xC
 CK
 CK
 CK
-fR
+uR
 CK
-Rt
+rC
 Cy
 Cy
 Cy
-RO
+Cy
 CK
+uR
 xQ
-xQ
+uR
 CK
-IQ
-jK
+si
 Cy
 Cy
-Mo
+Cy
 CK
-xQ
-xQ
-CK
-Rp
-jF
-pJ
-uL
-zS
-zS
-zS
+Cy
+Cy
+Cy
+Cy
+Hh
+Cy
+Cy
+Cy
+Cy
+JG
 CK
 xQ
 xQ
@@ -27073,31 +26999,31 @@ fM
 fM
 uR
 CK
-CK
-CK
-Hh
-CK
-CK
-CK
-xQ
-xQ
-CK
-CK
-Tt
-Hh
-Tt
-CK
-CK
-xQ
-xQ
-CK
-wS
-jF
-Cp
-uL
+IQ
 jK
 Cy
-Iw
+Cy
+Mo
+CK
+uR
+xQ
+uR
+CK
+Rn
+Cy
+Cy
+Cy
+CK
+dJ
+pA
+xd
+pA
+CK
+jK
+Cy
+Cy
+Cy
+lN
 CK
 xQ
 xQ
@@ -27198,7 +27124,7 @@ UU
 gt
 gt
 gt
-ii
+gt
 gt
 ii
 ii
@@ -27329,24 +27255,25 @@ fM
 fM
 fM
 uR
-fM
-fM
-fM
-uR
-fM
-fM
+CK
+CK
+Tt
+Hh
+Tt
+CK
+CK
 uR
 xQ
-xQ
 uR
-fM
-uR
-uR
-uR
-fM
-fM
-xQ
-xQ
+CK
+CK
+Ns
+Ns
+Ns
+CK
+CK
+CK
+CK
 CK
 CK
 CK
@@ -27355,13 +27282,12 @@ Hh
 Tt
 CK
 CK
-CK
 xQ
 xQ
 CK
 ow
 gE
-Cy
+pa
 Hh
 Cy
 Cy
@@ -27593,8 +27519,8 @@ uR
 uR
 uR
 uR
+uR
 xQ
-xQ
 uR
 uR
 uR
@@ -27602,22 +27528,22 @@ uR
 uR
 fM
 fM
-xQ
-xQ
 fM
 fM
 fM
+fM
+fM
+gf
 uR
 uR
 uR
 fM
-fM
-fM
+gf
 xQ
 xQ
 CK
 EI
-wN
+cY
 we
 CK
 Cy
@@ -27859,15 +27785,15 @@ uR
 uR
 uR
 uR
-xQ
-xQ
 uR
+uR
+uR
+fM
 fM
 fM
 uR
 uR
 uR
-fM
 fM
 fM
 xQ
@@ -27970,9 +27896,9 @@ gt
 ii
 ii
 ii
-ii
-ii
-ii
+gt
+gt
+gt
 gt
 ii
 ii
@@ -28121,10 +28047,10 @@ xQ
 uR
 fM
 fM
-uR
-uR
-uR
 fM
+uR
+uR
+uR
 fM
 fM
 xQ
@@ -28227,9 +28153,9 @@ gt
 ii
 ii
 gt
-ii
-ii
-ii
+gt
+gt
+gt
 gt
 ii
 ii
@@ -28389,7 +28315,7 @@ xQ
 CK
 EI
 II
-Cy
+pa
 Hh
 Cy
 Cy
@@ -33147,22 +33073,22 @@ fM
 fM
 ET
 fM
+ET
+ET
+ET
+fM
+fM
+fM
+ET
+fM
+Qa
 fM
 fM
 fM
 fM
 fM
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
 fM
 fM
-Bd
 fM
 fM
 fM
@@ -33404,28 +33330,28 @@ fM
 fM
 fM
 fM
-fM
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
+ET
+ET
 fM
 fM
+ET
+ET
+fM
+fM
+ET
+ET
+Tf
+Qa
+fM
+fM
+jZ
+ET
+ET
+ET
+ET
+ET
+ET
+ET
 fM
 fM
 fM
@@ -33661,27 +33587,27 @@ ET
 ET
 fM
 fM
+ET
 fM
-Bd
-OR
-OR
-OR
-OR
-OR
-OR
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
+jZ
+fM
+ET
+fM
+jZ
+fM
+ET
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
 fM
 fM
 fM
@@ -33918,28 +33844,28 @@ ET
 fM
 ET
 fM
+ET
 fM
-Bd
-PA
-Dl
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-Bd
+ET
+ET
+fM
+fM
+ET
+ET
+fM
+EC
+fM
+fM
+fM
+EC
+fM
+fM
+fM
+fM
+Qa
+fM
+fM
+fM
 fM
 fM
 Bd
@@ -34176,27 +34102,27 @@ fM
 fM
 ET
 fM
-Bd
-PA
-Dl
-OR
-pa
-iA
-JG
-OR
-xF
-HB
-Gb
-OR
-Ip
-OX
-xd
-Ia
-xd
-kk
-Ip
-OR
-Bd
+jZ
+fM
+fM
+fM
+fM
+ET
+fM
+fM
+Qa
+fM
+fM
+ET
+fM
+Qa
+fM
+fM
+fM
+fM
+fM
+jZ
+fM
 fM
 fM
 Bd
@@ -34432,28 +34358,28 @@ fM
 fM
 jZ
 fM
-Bd
-Bd
-PA
-Dl
-OR
-dE
-mg
-GZ
-OR
-CV
-cY
-mg
-OR
-Qk
-ry
-Qk
-Qk
-Qk
-Qk
-Qk
-OR
-Bd
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+Qa
+ET
+fM
+fM
+ET
+ET
+Tf
+ET
+ET
+ET
+fM
+fM
 fM
 fM
 Bd
@@ -34689,28 +34615,28 @@ ET
 ET
 ET
 fM
-Bd
-Bd
-PA
-Dl
-OR
-ab
-mg
-Bi
-OR
-Tm
-mg
-yr
-OR
-Qk
-Qk
-Qk
-Qk
-Qk
-Qk
-OR
-OR
-Bd
+ET
+Tf
+ET
+ET
+ET
+ET
+fM
+fM
+fM
+ET
+ET
+fM
+jZ
+fM
+ET
+fM
+fM
+ET
+ET
+fM
+fM
+ET
 fM
 fM
 Bd
@@ -34946,28 +34872,28 @@ ET
 fM
 fM
 fM
-Bd
-Bd
-PA
-Dl
-OR
-IO
-mg
-FG
-OR
-dy
-mg
-mg
-OR
-Uy
-Qk
-Qk
-eM
-pC
-Gg
-OR
-Bd
-Bd
+fM
+ET
+fM
+ET
+ET
+fM
+ET
+fM
+fM
+fM
+Qa
+fM
+ET
+ET
+fM
+EC
+fM
+Qa
+Qa
+jZ
+fM
+fM
 fM
 fM
 Bd
@@ -35203,28 +35129,28 @@ fM
 jZ
 ET
 ET
-Bd
-Bd
-PA
-Dl
-OR
-OR
-xt
-OR
-OR
-OV
-oA
-OR
-OR
-OR
-OR
-Ho
-OR
-OR
-OR
-OR
-Bd
-Bd
+fM
+jZ
+fM
+fM
+fM
+fM
+fM
+ET
+fM
+fM
+fM
+fM
+ET
+fM
+fM
+Qa
+fM
+fM
+fM
+fM
+fM
+fM
 fM
 fM
 Bd
@@ -35460,28 +35386,28 @@ fM
 ET
 ET
 fM
-Bd
-Bd
-PA
-Dl
-OR
-ka
-mg
-mg
-iA
-mg
-mg
-OR
-pk
-OR
-dJ
-Qk
-Qk
-ID
-bf
-Bd
-Bd
-Bd
+fM
+fM
+fM
+Qa
+fM
+fM
+jZ
+fM
+fM
+fM
+jZ
+fM
+fM
+fM
+fM
+fM
+Qa
+ET
+ET
+ET
+ET
+ET
 fM
 fM
 Bd
@@ -35717,28 +35643,28 @@ ET
 ET
 ET
 ET
-Bd
-Bd
-PA
-Dl
-OR
-JK
-mg
-mg
-mg
-mg
-mg
-bi
-Qk
-Xg
-Qk
-Qk
-BE
-ID
-bf
-Bd
-Bd
-Bd
+ET
+ET
+ET
+ET
+ET
+ET
+ET
+fM
+fM
+fM
+fM
+ET
+fM
+fM
+fM
+ET
+ET
+fM
+fM
+ET
+fM
+ET
 fM
 fM
 Bd
@@ -35974,28 +35900,28 @@ fM
 ET
 ET
 fM
-Bd
-Bd
-PA
-Dl
-OR
-si
-dB
-mg
-mg
-mg
-mg
-Uj
-Qk
-Xg
-Qk
-Qk
-BE
-ID
-bf
-Bd
-Bd
-Bd
+fM
+ET
+fM
+ET
+Tf
+fM
+fM
+fM
+fM
+jZ
+fM
+fM
+ET
+fM
+fM
+fM
+Qa
+fM
+fM
+jZ
+fM
+fM
 fM
 fM
 Bd
@@ -36231,28 +36157,28 @@ fM
 ET
 fM
 jZ
-Bd
-Bd
-PA
-Dl
-OR
-QI
-dB
-mg
-mg
-mg
-mg
-OR
-Qk
-OR
-uI
-Qk
-Qk
-ID
-bf
-Bd
-Bd
-Bd
+jZ
+fM
+fM
+ET
+Qa
+jZ
+ET
+ET
+ET
+fM
+fM
+fM
+fM
+ET
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
 fM
 fM
 fM
@@ -36488,28 +36414,28 @@ fM
 ET
 fM
 ET
-Bd
-Bd
-PA
-Dl
-OR
-OR
-OR
-OR
-Ns
-RS
-dt
-OR
-pk
-OR
-OR
-rJ
-OR
-OR
-OR
-OR
-Bd
-Bd
+ET
+ET
+fM
+ET
+Qa
+ET
+ET
+fM
+fM
+fM
+ET
+fM
+jZ
+fM
+fM
+fM
+jZ
+ET
+ET
+ET
+ET
+ET
 fM
 fM
 fM
@@ -36745,28 +36671,28 @@ ET
 ET
 ET
 ET
-Bd
-Bd
-PA
-Dl
-OR
-nw
-WW
-OR
-GZ
-GZ
-mg
-OR
-Qk
-OR
-iC
-Qk
-Qk
-Qk
-Qk
-OR
-Bd
-Bd
+fM
+fM
+ET
+ET
+ET
+ET
+fM
+jZ
+jZ
+fM
+ET
+ET
+ET
+fM
+fM
+fM
+fM
+Qa
+fM
+fM
+fM
+fM
 fM
 fM
 fM
@@ -37002,28 +36928,28 @@ fM
 fM
 fM
 fM
-Bd
-Bd
-PA
-Dl
-OR
-lN
-mg
-OR
-RS
-RS
-mg
-OR
-Qk
-OR
-pA
-Qk
-Qk
-Qk
-Qk
-OR
-OR
-Bd
+ET
+ET
+fM
+fM
+fM
+fM
+fM
+ET
+ET
+ET
+fM
+fM
+fM
+fM
+fM
+jZ
+fM
+fM
+fM
+fM
+fM
+fM
 fM
 fM
 fM
@@ -37259,28 +37185,28 @@ fM
 fM
 fM
 fM
-Bd
-Bd
-PA
-Dl
-OR
-Yh
-mg
-lM
-mg
-mg
-HY
-OR
-Qk
-OR
-Qk
-Qk
-Qk
-Qk
-Qk
-Qk
-OR
-Bd
+ET
+ET
+fM
+fM
+jZ
+ET
+jZ
+fM
+fM
+ET
+Qa
+jZ
+ET
+ET
+ET
+fM
+fM
+fM
+Qa
+fM
+fM
+fM
 fM
 fM
 fM
@@ -37516,28 +37442,28 @@ fM
 fM
 fM
 fM
-Bd
-Bd
-PA
-Dl
-OR
-jD
-uy
-OR
-Rn
-Yz
-MW
-OR
-pk
-OR
-tp
-hn
-gf
-gg
-Qk
-Uy
-OR
-Bd
+ET
+Qa
+jZ
+fM
+fM
+fM
+ET
+ET
+fM
+ET
+Qa
+ET
+ET
+fM
+fM
+fM
+ET
+ET
+Tf
+ET
+ET
+ET
 fM
 fM
 fM
@@ -37773,28 +37699,28 @@ fM
 fM
 fM
 fM
-Bd
-Bd
-PA
-Dl
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-MR
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-OR
-Bd
+ET
+fM
+ET
+ET
+ET
+ET
+fM
+fM
+ET
+ET
+ET
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
 fM
 fM
 fM
@@ -38030,28 +37956,28 @@ fM
 fM
 fM
 fM
+ET
+ET
+Tf
+Qa
 fM
-Bd
-OR
-OR
-OR
-OR
-OR
-OR
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
+Qa
+ET
+ET
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
+fM
 Bd
 fM
 fM
@@ -38288,20 +38214,20 @@ ET
 fM
 fM
 fM
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
+fM
+fM
+Qa
+EC
+Tf
+Tf
+Tf
+Qa
+jZ
+Tf
+fM
+fM
+fM
+fM
 Bd
 Bd
 Bd
@@ -38544,18 +38470,18 @@ ET
 fM
 fM
 fM
+jZ
+ET
 fM
 fM
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
+jZ
+fM
+fM
+ET
+ET
+fM
+fM
+fM
 Bd
 Bd
 Bd
@@ -40539,7 +40465,7 @@ bg
 dl
 LP
 OC
-Vg
+bi
 jG
 uM
 Jo
@@ -44137,11 +44063,11 @@ Jo
 jG
 wQ
 LP
-Fs
-cr
+PC
+TG
 Oj
-Oj
-LP
+uP
+qc
 Qu
 LP
 ak
@@ -44394,11 +44320,11 @@ Jo
 jG
 tQ
 cr
-Fs
-cr
+PC
+TG
 Oj
 OO
-LP
+qc
 VW
 LP
 ak
@@ -44651,11 +44577,11 @@ Jo
 jG
 tQ
 cr
-Fs
-cr
+PC
+TG
 kF
-Oj
-LP
+Gb
+qc
 Qu
 LP
 ak
@@ -45169,7 +45095,7 @@ cr
 LP
 LP
 cr
-cr
+uy
 LP
 LP
 ak
@@ -45422,11 +45348,11 @@ Jo
 jG
 tQ
 LP
-Fs
-LP
+PC
+xl
+sz
 Oj
-Oj
-cr
+He
 Qu
 LP
 ak
@@ -45679,11 +45605,11 @@ Jo
 jG
 wQ
 LP
-Fs
-cr
+PC
+TG
 kF
 kF
-LP
+qc
 Fs
 LP
 ak
@@ -45936,11 +45862,11 @@ Jo
 jG
 tQ
 LP
-Qu
-LP
-Oj
+jr
+xl
+Gb
 kF
-cr
+He
 Fs
 cr
 ak
@@ -49529,7 +49455,7 @@ ii
 ii
 ii
 jG
-ns
+Eh
 WB
 yt
 Jo
@@ -58751,7 +58677,7 @@ ET
 fM
 fM
 Qa
-fM
+iG
 fM
 Qa
 fM

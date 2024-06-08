@@ -1661,6 +1661,14 @@
 	dir = SOUTH
 	pixel_y = -4
 
+/obj/machinery/power/apc/broken/Initialize()
+	. = ..()
+	set_broken()
+
+/obj/machinery/power/apc/broken/east
+	dir = EAST
+	pixel_x = 12
+
 #undef UPDATE_CELL_IN
 #undef UPDATE_OPENED1
 #undef UPDATE_OPENED2

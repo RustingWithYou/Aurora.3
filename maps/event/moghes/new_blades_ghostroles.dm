@@ -173,10 +173,14 @@
 	if(H.is_diona())
 		H.equip_or_collect(new /obj/item/device/uv_light(src), slot_in_backpack)
 
+/obj/outfit/admin/nralakk/get_id_access()
+	return list(ACCESS_SKRELL, ACCESS_MEDICAL)
+
 /datum/ghostspawner/human/nralakk/leader
 	name = "Nralakk Humanitarian Leader"
 	short_name = "nralakk_lead"
 	desc = "Lead the Federation humanitarian team."
+	spawnpoints = list("nralakk_lead")
 	max_count = 1
 	outfit = /obj/outfit/admin/nralakk/leader
 	possible_species = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)

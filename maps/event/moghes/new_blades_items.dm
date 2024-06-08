@@ -309,7 +309,9 @@
 	var/obj/item/projectile/P = new /obj/item/projectile/bullet/pistol/medium/ap(get_turf(M))
 	P.shot_from = "spitter pistol"
 	P.launch_projectile(M, BP_HEAD)
-	M.change_skin_color(17,22,16)
+	var/obj/item/organ/external/head/O = M.organs_by_name[BP_HEAD]
+	O.take_damage(80, 0, DAMAGE_FLAG_BULLET, "spitter pistol")
+	M.change_skin_color(27,50,27)
 	M.change_hair_color(222, 194, 162)
 
 /obj/effect/landmark/corpse/miner
@@ -375,7 +377,8 @@
 		var/disk = tgui_alert(user, "External disk storage full. Eject?", "Dam Control", list("Eject","Cancel"))
 		if(disk == "Eject")
 			visible_message(SPAN_NOTICE("\The [src] ejects a small disk."))
-			new /obj/item/disk/mcguffin1(get_turf(src))
+			var/obj/item/disk/mcguffin1/D = new /obj/item/disk/mcguffin1(get_turf(src))
+			user.put_in_hands(D)
 			has_disk = FALSE
 	var/choice = "Cancel"
 	if(has_disk)
@@ -400,5 +403,6 @@
 		used = TRUE
 	else if(choice == "Eject Disk")
 		visible_message(SPAN_NOTICE("\The [src] ejects a small disk."))
-		new /obj/item/disk/mcguffin1(get_turf(src))
+		var/obj/item/disk/mcguffin1/D = new /obj/item/disk/mcguffin1(get_turf(src))
+		user.put_in_hands(D)
 		has_disk = FALSE
