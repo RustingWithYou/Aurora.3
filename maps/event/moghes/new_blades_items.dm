@@ -216,14 +216,26 @@
 		user.remove_from_mob(attacking_item)
 		to_chat(user, SPAN_NOTICE("You insert \the [attacking_item] into \the [src]'s disk tray."))
 		qdel(attacking_item)
-		if("Disk" in scanned)
+		if("Disk1" in scanned)
 			to_chat(user, SPAN_WARNING("The terminal displays an error - this data has already been processed. Further analysis will be of no use."))
 		else
-			scanned += "Disk"
+			scanned += "Disk1"
 			scan_progress += 20
 			scan_progress = min(scan_progress, 100)
 			playsound(loc, 'sound/machines/compbeep2.ogg', 25)
 			to_chat(user, SPAN_NOTICE("Hydrological data copied to database, scan progress increased to [scan_progress]%."))
+	else if(istype(attacking_item, /obj/item/disk/mcguffin2))
+		user.remove_from_mob(attacking_item)
+		to_chat(user, SPAN_NOTICE("You insert \the [attacking_item] into \the [src]'s disk tray."))
+		qdel(attacking_item)
+		if("Disk2" in scanned)
+			to_chat(user, SPAN_WARNING("The terminal displays an error - this data has already been processed. Further analysis will be of no use."))
+		else
+			scanned += "Disk2"
+			scan_progress += 10
+			scan_progress = min(scan_progress, 100)
+			playsound(loc, 'sound/machines/compbeep2.ogg', 25)
+			to_chat(user, SPAN_NOTICE("Data decrypted - operations log of the Kazseres mining complex 2441-2456. Scan progress increased to [scan_progress]%."))
 	else
 		to_chat(user, SPAN_WARNING("\The [src] cannot gain any useful data from \the [attacking_item]."))
 
@@ -234,11 +246,11 @@
 		\[center\]\[b\]\[i\]Environmental Analysis Report Summary\[/b\]\[/i\]\[hr\]\
 		Environmental analysis of the Kazseres region indicates moderate ecological damage. Biological data shows that minor radiation exposure is present in local plants and animals, and that water levels are insufficient to sustain current plant life.\[br\]\
 		Atmospheric analysis is clear of fallout, and soil samples indicate that radioactive contamination is light enough that the region should be fully cleared of radiation within the next few years. The region remains suitable for habitation by organic life.\[br\]"
-	if(("Water" in scanned) || ("Disk" in scanned))
+	if(("Water" in scanned) || ("Disk1" in scanned))
 		output += "\[br\]Hydrological data indicates that radioactive contamination in local water supplies may cause long-term health issues to the local population. Water purification machinery will need to be set up to sustain local settlements in the long term. Fish populations will require outside introduction to maintain, but have proven largely unaffected by water contamination.\[br\]"
-	if("Disk" in scanned)
+	if("Disk1" in scanned)
 		output += "\[br\]Analysis of the Kazseres Hydroelectric Dam data indicates that sealing the floodgates would be an important first step, allowing Lake Kazseres to be refilled. Fish populations could be raised to sustainable numbers with imported specimens faster, and the sealed dam will enable river transportation to Kutah to resume. The floodgates are a temporary measure, and the dam will require long-term reinforcement and repair to sustain this.\[br\]"
-	if(("Kazeres Mine Report" in scanned) || ("Rock" in scanned))
+	if(("Kazeres Mine Report" in scanned) || ("Rock" in scanned) || ("Disk2" in scanned))
 		output += "\[br\]Mineral analysis indicates large ore deposits are still present in the local mine and surrounding mountains. Though the mining facility and mine itself will require repair in order to allow for safe working conditions, if reopened it would prove a source of economic opportunity for the region.\[br\]"
 	output += "\[br\]Overall conclusion: Kazseres region ecological damage is reversible, and current issues in the area can be resolved within a timespan of several years. Full data has been transmitted to the SCCV Horizon central database."
 
@@ -292,6 +304,22 @@
 	I know that it is hard to leave the Guild in Kazseres, and Guildmaster J'kar has ever been an honorable friend to us. They will understand, and in time they will forgive you. My boat arrived as of my writing this, and I have taken rooms in an inn until I can find work here. I have heard that the young Lady Hutay'zai has need of new servants, and my time serving our Lord in Kazseres should prove a high recommendation. I await your arrival in Kutah, my love, that we and our hatchlings yet-to-come may build a life for ourselves here.<br>\
 	Yours, until the stars should fade,<br>\
 	<i>Sosak Yrhul</i>"
+
+/obj/item/paper/fluff/dam_clue
+	name = "On Emergency Procedure"
+	desc = "A stained and crumpled scrap of paper. It looks as if it has been taken from a larger book."
+	language = LANGUAGE_UNATHI
+	icon_state == "scrap"
+	info = "...event of critical system failure, floodgates can be...matic seal process can secure operations for up to...central control terminal. Contact Junzi Electric-certified...chnician"
+
+/obj/item/disk/mcguffin2
+	name = "operations log"
+	icon = 'icons/obj/cloning.dmi'
+	icon_state = "datadisk2"
+	item_state = "card-id"
+	w_class = ITEMSIZE_SMALL
+	desc = "A small data disk. Who knows what it contains?"
+	desc_info = "This data disk can be used at the Zeng-Hu Environmental Analysis Terminal for a one-time boost to survey progress."
 
 //Corpses
 /obj/effect/landmark/corpse/watch

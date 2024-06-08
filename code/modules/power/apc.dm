@@ -1661,6 +1661,9 @@
 	dir = SOUTH
 	pixel_y = -4
 
+/obj/machinery/power/apc/broken
+	start_charge = 0
+
 /obj/machinery/power/apc/broken/Initialize()
 	. = ..()
 	set_broken()

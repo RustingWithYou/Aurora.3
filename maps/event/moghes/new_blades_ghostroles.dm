@@ -17,6 +17,7 @@
 	assigned_role = "Kazseres Resident"
 	special_role = "Kazseres Resident"
 	respawn_flag = null
+	password = "serfgang"
 
 /datum/ghostspawner/human/nbow_civ/post_spawn(mob/user)
 	. = ..()
