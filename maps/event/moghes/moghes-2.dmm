@@ -4244,10 +4244,6 @@
 	temperature = 303.15
 	},
 /area/new_blades/interiors)
-"AD" = (
-/obj/machinery/telecomms/allinone/event,
-/turf/unsimulated/floor,
-/area/new_blades/caves)
 "AJ" = (
 /obj/structure/table/wood,
 /obj/item/material/ashtray/bronze{
@@ -8881,7 +8877,7 @@ pV
 CC
 VU
 Xf
-AD
+mc
 nr
 MY
 "}
