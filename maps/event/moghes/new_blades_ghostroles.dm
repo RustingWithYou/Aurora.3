@@ -28,6 +28,7 @@
 	max_count = 1
 	assigned_role = "Kazseres Merchant"
 	special_role = "Kazseres Merchant"
+	password = "money"
 
 /datum/ghostspawner/human/nbow_civ/trader/post_spawn(mob/user)
 	. = ..()
@@ -41,6 +42,7 @@
 	assigned_role = "Th'akh Shaman"
 	special_role = "Th'akh Shaman"
 	outfit = /obj/outfit/admin/moghes_thakh/shaman
+	password = "shadowspiritmoneygang"
 
 /datum/ghostspawner/human/nbow_civ/shaman/post_spawn(mob/user)
 	. = ..()
@@ -55,6 +57,7 @@
 	outfit = /obj/outfit/admin/watchman
 	assigned_role = "Kazseres Watchman"
 	special_role = "Kazseres Watchman"
+	password = "criminalscum"
 
 /datum/ghostspawner/human/nbow_civ/watch/post_spawn(mob/user)
 	. = ..()
@@ -71,8 +74,9 @@
 		/obj/item/clothing/suit/armor/carrier/generic = 1,
 		/obj/item/clothing/head/helmet/security/generic = 1
 	)
-	l_ear = /obj/item/device/radio/headset/town
+	l_ear = /obj/item/device/radio/headset/town/watch
 	id = /obj/item/card/id
+	r_pocket = /obj/item/storage/wallet/random
 
 /obj/outfit/admin/watchman/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(!H)
@@ -99,6 +103,7 @@
 	respawn_flag = null
 	assigned_role = "Noble"
 	special_role = "Noble"
+	password = "hutayzaistopguy"
 
 /datum/ghostspawner/human/nbow_noble/post_spawn(mob/user)
 	. = ..()
@@ -111,6 +116,7 @@
 	max_count = 1
 	assigned_role = "Manservant"
 	special_role = "Manservant"
+	password = "yesmilord"
 
 /datum/ghostspawner/human/nbow_civ/servant/post_spawn(mob/user)
 	renegades.add_antagonist(user.mind, do_not_equip = TRUE)
@@ -122,7 +128,7 @@
 	suit_accessory = /obj/item/clothing/accessory/poncho/rockstone/red
 	back = /obj/item/storage/backpack/satchel/leather
 	r_pocket = /obj/item/storage/wallet/sol_rich
-	l_ear = /obj/item/device/radio/headset/town
+	l_ear = /obj/item/device/radio/headset/town/watch
 
 //Nralakk Federation
 /datum/ghostspawner/human/nralakk
@@ -140,6 +146,7 @@
 	special_role = "Nralakk Humanitarian Worker"
 	respawn_flag = null
 	uses_species_whitelist = FALSE
+	password = "warble"
 
 /datum/ghostspawner/human/nralakk/post_spawn(mob/user)
 	. = ..()
@@ -215,6 +222,7 @@
 	special_role = "Gawgaryn Raider"
 	respawn_flag = null
 	uses_species_whitelist = FALSE
+	password = "crime"
 
 /datum/ghostspawner/human/nbow_gawgaryn/post_spawn(mob/user)
 	. = ..()
