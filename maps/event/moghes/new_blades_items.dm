@@ -40,6 +40,20 @@
 	desc = "A gray marble statue of an armored Unathi, bearing a rifle."
 	desc_extended = "This statue depicts a Tza warrior's attire from the early Contact War, in honor of those who have fought and died for this land throughout the centuries."
 
+/obj/structure/armor
+	name = "suit of armor"
+	icon = 'maps/event/moghes/nbow.dmi'
+	icon_state = "armor"
+	desc = "A well-preserved suit of bronze armor. A large and vicious-looking polearm has been placed in its hand."
+	desc_extended = "This is a very old set of Moghesian armor, of a style common in the days of the First Hegemony. It seems to have been carefully preserved, and is well-polished. Engravings on the armor indicate that this particular set originated in the Tza Prairie."
+
+/obj/structure/armor/mador
+	name = "strange suit of armor"
+	icon_state = "mador_armor"
+	desc = "A well-preserved suit of bronze armor. A vicious-looking trident has been placed in its hands."
+	desc_extended = "This armor is not of a style that has ever been common on Moghes - the large, rounded helmet and the layered metal skirt indicates that it is a Sinta'Mador relic, from the ancient Unathi of the north polar region."
+
+
 /obj/structure/bed/stool/chair/throne
 	name = "throne"
 	desc = "A grand throne, rather simple in design. Carved from a dark wood."
