@@ -33,6 +33,13 @@
 	desc = "A gray marble statue of an armored Unathi, bearing a halberd."
 	desc_extended = "This statue depicts a Tza warrior's attire from the early Second Hegemony, in honor of those who have fought and died for this land throughout the centuries."
 
+/obj/structure/statue/warrior3
+	name = "statue of a warrior"
+	icon = 'maps/event/moghes/statues.dmi'
+	icon_state = "gun"
+	desc = "A gray marble statue of an armored Unathi, bearing a rifle."
+	desc_extended = "This statue depicts a Tza warrior's attire from the early Contact War, in honor of those who have fought and died for this land throughout the centuries."
+
 /obj/structure/bed/stool/chair/throne
 	name = "throne"
 	desc = "A grand throne, rather simple in design. Carved from a dark wood."
