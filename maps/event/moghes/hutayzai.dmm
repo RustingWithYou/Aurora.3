@@ -26943,6 +26943,18 @@
 	},
 /turf/simulated/floor/holofloor/lino,
 /area/horizon/holodeck/source_theatre)
+"oCZ" = (
+/obj/effect/decal/fake_object/light_source{
+	density = 1;
+	desc = "A decrepit stone pillar.";
+	icon = 'icons/effects/props/holodeck/moghes/32x64.dmi';
+	icon_state = "pillar_torch";
+	light_color = "#FA644B";
+	light_range = 6;
+	name = "giant pillar"
+	},
+/turf/simulated/floor/sidewalk/flat,
+/area/space)
 "oDi" = (
 /obj/structure/flora/tree/grove,
 /turf/simulated/floor/exoplanet/grass/grove,
@@ -267848,7 +267860,7 @@ xnV
 xnV
 xnV
 aoT
-anw
+inJ
 tJx
 tJx
 tJx
@@ -268107,7 +268119,7 @@ xnV
 aoT
 inJ
 tJx
-inJ
+anw
 tJx
 inJ
 inJ
@@ -268362,9 +268374,9 @@ xnV
 xnV
 xnV
 aoT
-fnb
-tJx
 inJ
+tJx
+fnb
 tJx
 inJ
 inJ
@@ -268621,7 +268633,7 @@ xnV
 aoT
 inJ
 tJx
-inJ
+bTr
 tJx
 inJ
 inJ
@@ -268876,7 +268888,7 @@ xnV
 xnV
 xnV
 aoT
-bTr
+inJ
 tJx
 tJx
 tJx
@@ -275067,19 +275079,19 @@ inJ
 aoT
 inJ
 inJ
-aoT
+oCZ
 inJ
 tJx
 inJ
-aoT
+oCZ
 inJ
 tJx
 inJ
-aoT
+oCZ
 inJ
 tJx
 inJ
-aoT
+oCZ
 inJ
 inJ
 inJ
@@ -277380,19 +277392,19 @@ inJ
 aoT
 inJ
 inJ
-aoT
+oCZ
 inJ
 tJx
 inJ
-aoT
+oCZ
 inJ
 tJx
 inJ
-aoT
+oCZ
 inJ
 tJx
 inJ
-aoT
+oCZ
 inJ
 inJ
 inJ
