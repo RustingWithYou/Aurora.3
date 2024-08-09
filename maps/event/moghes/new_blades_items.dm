@@ -71,3 +71,9 @@
 	icon = 'maps/event/moghes/nbow_64.dmi'
 	icon_state = "fountain_g"
 	anchored = TRUE
+
+/obj/structure/sign/plaque
+	name = "plaque"
+	desc = null
+	icon = 'icons/turf/decals/decals.dmi'
+	icon_state = "plaque"
