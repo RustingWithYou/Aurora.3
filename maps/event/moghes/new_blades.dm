@@ -1,12 +1,10 @@
 /area/new_blades
-	name = "PLACEHOLDER"
+	name = "Base Area"
 	icon_state = "green"
 	requires_power = FALSE
 	dynamic_lighting = TRUE
 	no_light_control = FALSE
-	base_turf = /turf/simulated/floor/exoplanet/desert
-	ambience = AMBIENCE_DESERT
-	area_blurb = "PLACEHOLDER"
+	base_turf = /turf/simulated/floor/exoplanet/grass/moghes/dirt
 	is_outside = OUTSIDE_YES
 	var/lighting = TRUE
 
@@ -14,13 +12,7 @@
 	. = ..()
 	if(lighting)
 		for(var/turf/T in src)
-			T.set_light(4, 5, COLOR_WHITE)
-
-/area/landing_pad
-	name = "Landing Pad"
-	icon_state = "blue"
-	ambience = AMBIENCE_DESERT
-	is_outside = OUTSIDE_YES
+			T.set_light(4, 0.5, "#c24713")
 
 /area/new_blades/underground
 	name = "PLACEHOLDER"
@@ -34,11 +26,17 @@
 
 // AREAS
 /area/new_blades/palace
-	name = "Palace"
+	name = "Hutay'zai Palace"
 	icon_state = "blue"
 	area_blurb = "Palace Placeholder"
 	is_outside = OUTSIDE_NO
+	lighting = FALSE
 
+/area/new_blades/garden
+	name = "Gardens"
+	icon_state = "green"
+	area_blurb = "Gardens Placeholder"
+	ambience = AMBIENCE_JUNGLE
 
 //Shuttles
 /area/shuttle/scc_evac

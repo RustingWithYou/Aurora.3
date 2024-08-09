@@ -15,7 +15,7 @@
 /obj/structure/statue/king
 	name = "statue of King Sskor Hutay'zai"
 	icon = 'maps/event/moghes/statues.dmi'
-	icon_state = "warrior_crown"
+	icon_state = "king"
 	desc = "A gray marble statue of a crowned and armored Unathi. A label on the plinth identifies him as King Sskor V Hutay'zai."
 	desc_extended = "King Sskor V Hutay'zai, recorded as 'The Undefeated', was the second-to-last king of Tza, who led the kingdom's forces for the majority of the Contact War. King Sskor presided over several of the Tza Kingdom's greatest victories during the war, most notably his victories in the Siege of Ura'mastyx and the Second Battle of Tak. He perished from sickness towards the end of the war, succeeded by his son Azui III Hutay'zai."
 
@@ -32,3 +32,21 @@
 	icon_state = "unathi"
 	desc = "A gray marble statue of an armored Unathi, bearing a halberd."
 	desc_extended = "This statue depicts a Tza warrior's attire from the early Second Hegemony, in honor of those who have fought and died for this land throughout the centuries."
+
+/obj/structure/bed/stool/chair/throne
+	name = "throne"
+	desc = "A grand throne, rather simple in design. Carved from a dark wood."
+	icon = 'maps/event/moghes/nbow_64.dmi'
+	icon_state = "throne"
+	anchored = TRUE
+	held_item = null
+	can_pad = FALSE
+	pixel_x = -1*WORLD_ICON_SIZE/2
+	pixel_y = -1*WORLD_ICON_SIZE/2
+
+/obj/structure/fountain
+	name = "fountain"
+	desc = "A large ornamental fountain."
+	icon = 'maps/event/moghes/nbow_64.dmi'
+	icon_state = "fountain_g"
+	anchored = TRUE
