@@ -171,6 +171,22 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/lobby_mobs_location)
 	GLOB.virtual_reality_spawn += get_turf(src)
 	return INITIALIZE_HINT_QDEL
 
+/obj/effect/landmark/kata_vr_spawn
+	invisibility = INVISIBILITY_ABSTRACT
+
+/obj/effect/landmark/kata_vr_spawn/Initialize()
+	..()
+	GLOB.kataphract_vr += get_turf(src)
+	return INITIALIZE_HINT_QDEL
+
+/obj/effect/landmark/pirate_vr_spawn
+	invisibility = INVISIBILITY_ABSTRACT
+
+/obj/effect/landmark/pirate_vr_spawn/Initialize()
+	..()
+	GLOB.pirate_vr += get_turf(src)
+	return INITIALIZE_HINT_QDEL
+
 /*##########################
 	THUNDERDOME LANDMARKS
 ##########################*/

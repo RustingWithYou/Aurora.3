@@ -270,3 +270,39 @@ SUBSYSTEM_DEF(virtualreality)
 
 		mind_transfer(user, H)
 		to_chat(H, SPAN_NOTICE("You are now in control of a virtual reality body. Dying will return you to your original body."))
+
+/datum/controller/subsystem/virtualreality/proc/create_virtual_reality_avatar_kataphract(var/mob/living/carbon/human/user, var/gear)
+	if (GLOB.kataphract_vr.len)
+		var/mob/living/carbon/human/virtual_reality/H = new /mob/living/carbon/human/virtual_reality(pick(GLOB.kataphract_vr))
+		H.set_species(SPECIES_UNATHI, 1)
+		H.change_hair_color(209, 199, 190)
+		H.change_skin_color(31, 95, 31)
+		H.gender = MALE
+		H.name = "Saa [H.species.get_random_name(H.gender)]"
+		H.real_name = H.name
+		H.update_dna()
+		H.UpdateAppearance()
+
+		H.preEquipOutfit(gear, FALSE)
+		H.equipOutfit(gear, FALSE)
+		mind_transfer(user, H)
+		to_chat(H, SPAN_NOTICE("You are now in control of a virtual reality body. Dying will return you to your original body."))
+
+/datum/controller/subsystem/virtualreality/proc/create_virtual_reality_avatar_pirate(var/mob/living/carbon/human/user, var/gear)
+	if(GLOB.pirate_vr.len)
+		var/mob/living/carbon/human/virtual_reality/H = new /mob/living/carbon/human/virtual_reality(pick(GLOB.pirate_vr))
+
+		H.set_species(SPECIES_UNATHI, 1)
+		H.change_hair_color(209, 199, 190)
+		H.change_skin_color(31, 95, 31)
+		H.gender = user.gender
+		H.name = H.species.get_random_name(H.gender)
+		H.real_name = H.name
+		H.accent = ACCENT_HAZANA
+		H.update_dna()
+		H.UpdateAppearance()
+
+		H.preEquipOutfit(gear, FALSE)
+		H.equipOutfit(gear, FALSE)
+		mind_transfer(user, H)
+		to_chat(H, SPAN_NOTICE("You are now in control of a virtual reality body. Dying will return you to your original body."))

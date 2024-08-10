@@ -5,6 +5,9 @@
 
 	allowed_jobs = list(/datum/job/visitor, /datum/job/passenger, /datum/job/captain, /datum/job/xo, /datum/job/operations_manager, /datum/job/chief_engineer, /datum/job/cmo, /datum/job/rd, /datum/job/hos, /datum/job/consular, /datum/job/consular_assistant, /datum/job/representative)
 
+	lobby_icons = list('icons/misc/titlescreens/sccv_horizon/sccv_horizon.dmi', 'icons/misc/titlescreens/aurora/synthetics.dmi', 'icons/misc/titlescreens/aurora/tajara.dmi', 'icons/misc/titlescreens/aurora/vaurca.dmi')
+	lobby_transitions = 10 SECONDS
+
 	traits = list(
 		//Centcomm
 		ZTRAITS_CENTCOM,

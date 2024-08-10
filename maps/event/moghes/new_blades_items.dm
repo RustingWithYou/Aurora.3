@@ -82,3 +82,67 @@
 	desc = null
 	icon = 'icons/turf/decals/decals.dmi'
 	icon_state = "plaque"
+
+//VR outfits
+/obj/outfit/admin/kataphract_vr
+	name = "Kataphract Knight"
+	uniform = /obj/item/clothing/under/unathi
+	suit = /obj/item/clothing/suit/space/void/kataphract
+	head = /obj/item/clothing/head/helmet/space/void/kataphract
+	shoes = /obj/item/clothing/shoes/magboots/hegemony
+	accessory = /obj/item/clothing/accessory/holster/hip/brown
+	back = /obj/item/tank/jetpack/carbondioxide
+	suit_store = /obj/item/tank/oxygen
+	accessory_contents = list(
+		/obj/item/gun/energy/pistol/hegemony = 1
+	)
+	belt = /obj/item/storage/belt/military
+	belt_contents = list(
+		/obj/item/melee/energy/sword/hegemony = 1,
+		/obj/item/shield/energy/hegemony/kataphract = 1,
+		/obj/item/melee/hammer/powered/hegemony = 1
+	)
+	id = /obj/item/card/id
+	headset = null
+	l_ear = null
+
+/obj/outfit/admin/kataphract_vr/get_id_access()
+	return list(ACCESS_KATAPHRACT, ACCESS_EXTERNAL_AIRLOCKS)
+
+/obj/outfit/admin/pirate_vr
+	name = "Izharshan Raider"
+	uniform = /obj/item/clothing/under/unathi/izharshan
+	suit = /obj/item/clothing/suit/space/void/unathi_pirate
+	head = /obj/item/clothing/head/helmet/space/void/unathi_pirate
+	shoes = /obj/item/clothing/shoes/magboots
+	accessory = /obj/item/clothing/accessory/holster/hip/brown
+	back = /obj/item/tank/jetpack/carbondioxide
+	suit_store = /obj/item/tank/oxygen
+	accessory_contents = list(
+		/obj/item/gun/projectile/pistol/spitter = 1
+	)
+	belt = /obj/item/storage/belt/military
+	belt_contents = list(
+		/obj/item/melee/energy/sword/pirate = 1,
+		/obj/item/shield/energy = 1,
+		/obj/item/ammo_magazine/spitterpistol = 2
+	)
+	r_hand = /obj/random/civgun/rifle
+	id = /obj/item/card/id
+	headset = null
+
+/obj/outfit/admin/izharshan_vr/get_id_access()
+	return list(ACCESS_UNATHI_PIRATE, ACCESS_EXTERNAL_AIRLOCKS)
+
+/obj/structure/chandelier
+	name = "chandelier"
+	desc = "A fancy ornament with suspended lights."
+	light_color = COLOR_ORANGE
+	icon = 'maps/event/moghes/chandelier.dmi'
+	icon_state = "chandelier"
+	anchored = TRUE
+	density = FALSE
+	light_wedge = LIGHT_OMNI
+	light_range = 4
+	light_power = 4
+	layer = ABOVE_HUMAN_LAYER
