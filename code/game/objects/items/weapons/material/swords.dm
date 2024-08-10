@@ -129,6 +129,9 @@
 	item_state = "khopesh"
 	slot_flags = SLOT_BELT
 
+/obj/item/material/sword/khopesh/bronze/Initialize(newloc, material_key)
+	. = ..(newloc, MATERIAL_BRONZE)
+
 /obj/item/material/sword/dao
 	name = "dao"
 	desc = "A single-edged broadsword."

@@ -59,11 +59,16 @@
 	desc = "A grand throne, rather simple in design. Carved from a dark wood."
 	icon = 'maps/event/moghes/nbow_64.dmi'
 	icon_state = "throne"
+	base_icon = "throne"
 	anchored = TRUE
 	held_item = null
 	can_pad = FALSE
 	pixel_x = -1*WORLD_ICON_SIZE/2
 	pixel_y = -1*WORLD_ICON_SIZE/2
+	material_alteration = MATERIAL_ALTERATION_NONE
+
+/obj/structure/bed/stool/chair/throne/New(var/newloc)
+	..(newloc, MATERIAL_WOOD)
 
 /obj/structure/fountain
 	name = "fountain"

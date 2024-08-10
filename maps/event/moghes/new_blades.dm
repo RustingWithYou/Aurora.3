@@ -15,7 +15,7 @@
 			T.set_light(4, 0.5, "#c24713")
 
 /area/new_blades/underground
-	name = "PLACEHOLDER"
+	name = "Underground"
 	icon_state = "bluenew"
 	lighting = FALSE
 	base_turf = /turf/simulated/floor/exoplanet/barren
@@ -26,16 +26,16 @@
 
 // AREAS
 /area/new_blades/palace
-	name = "Hutay'zai Palace"
+	name = "Hutay'zai Estate"
 	icon_state = "blue"
-	area_blurb = "Palace Placeholder"
 	is_outside = OUTSIDE_NO
 	lighting = FALSE
+	area_blurb = "The buildings here are vast and ancient things of stone, towering and cavernous. Sound echoes through the hallways, lit by the soft glow of electric lights."
 
 /area/new_blades/garden
 	name = "Gardens"
 	icon_state = "green"
-	area_blurb = "Gardens Placeholder"
+	area_blurb = "A soft wind blows through the grass. The gentle sunset light is clear here."
 	ambience = AMBIENCE_JUNGLE
 
 //Shuttles
@@ -85,24 +85,3 @@
 	if(locked)
 		return
 	..()
-
-/datum/shuttle/autodock/ferry/supply/moghes
-	name = "OX Supply Shuttle"
-	location = 1
-	shuttle_area = /area/supply/dock
-	dock_target = "cargo_shuttle"
-	waypoint_station = "nav_cargo_shuttle_dock"
-	waypoint_offsite = "nav_cargo_shuttle_start"
-
-/obj/effect/shuttle_landmark/supply/moghes/start
-	name = "SCCV Horizon Cargo Dock"
-	landmark_tag = "nav_cargo_shuttle_start"
-	base_turf = /turf/unsimulated/floor/plating
-	base_area = /area/centcom
-
-/obj/effect/shuttle_landmark/supply/moghes/dock
-	name = "Planetary Docking Site"
-	landmark_tag = "nav_cargo_shuttle_dock"
-	docking_controller = "cargo_shuttle_dock"
-	base_turf = /turf/simulated/floor/asphalt
-	base_area = /area/landing_pad

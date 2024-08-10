@@ -77,7 +77,7 @@
 	tags = list("External")
 	extra_languages = list(LANGUAGE_UNATHI, LANGUAGE_AZAZIBA)
 	max_count = 4
-	spawnpoints = list("noble")
+	spawnpoints = list("guest")
 	possible_species = list(SPECIES_UNATHI)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	outfit = /obj/outfit/admin/noble
@@ -135,7 +135,7 @@
 			H.equip_or_collect(new /obj/item/reagent_containers/food/snacks/koisbar(H), slot_in_backpack)
 			H.equip_or_collect(new /obj/item/reagent_containers/food/snacks/koisbar(H), slot_in_backpack)
 			H.equip_or_collect(new /obj/item/reagent_containers/food/snacks/koisbar(H), slot_in_backpack)
-		else
+		if(H.is_diona())
 			H.equip_to_slot_or_del(new /obj/item/gun/energy/fedpistol/nopsi(H), slot_belt)
 			H.equip_or_collect(new /obj/item/device/uv_light(H), slot_in_backpack)
 
@@ -144,6 +144,7 @@
 	short_name = "hutayzai"
 	desc = "The man himself."
 	tags = list("External")
+	spawnpoints = list("overlord")
 	max_count = 1
 	possible_species = list(SPECIES_UNATHI)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
