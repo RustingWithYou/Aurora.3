@@ -15,6 +15,7 @@
 	special_role = "Palace Staff"
 	respawn_flag = null
 	uses_species_whitelist = FALSE
+	password = "stealsilverware"
 
 /datum/ghostspawner/human/servant/post_spawn(mob/user)
 	. = ..()
@@ -47,6 +48,7 @@
 	special_role = "Palace Guard"
 	respawn_flag = null
 	uses_species_whitelist = FALSE
+	password = "stoprightthere"
 
 /obj/outfit/admin/guard
 	uniform = /obj/item/clothing/under/unathi/zazali/white
@@ -86,6 +88,7 @@
 	special_role = "Guest"
 	respawn_flag = null
 	uses_species_whitelist = FALSE
+	password = "betterthanyou"
 
 /obj/outfit/admin/noble
 	uniform = /obj/item/clothing/under/unathi/mogazali
@@ -110,6 +113,7 @@
 	special_role = "Federation Representative"
 	respawn_flag = null
 	uses_species_whitelist = TRUE
+	password = "warble"
 
 /obj/outfit/admin/nralakk
 	uniform = /obj/item/clothing/under/skrell
@@ -154,6 +158,7 @@
 	special_role = "Overlord"
 	respawn_flag = null
 	uses_species_whitelist = TRUE
+	password = "overlord"
 
 /obj/outfit/admin/hutayzai
 	uniform = /obj/item/clothing/under/unathi/mogazali/blue
