@@ -428,7 +428,7 @@
 /area/shuttle/skipjack)
 "anw" = (
 /obj/structure/statue/crowned_warrior,
-/turf/simulated/floor/sidewalk/flat,
+/turf/simulated/floor/sidewalk/detail,
 /area/new_blades/palace)
 "anT" = (
 /obj/structure/shuttle/engine/heater{
@@ -2141,6 +2141,12 @@
 	icon_state = "8,0"
 	},
 /area/shuttle/legion)
+"bjL" = (
+/obj/machinery/door/airlock/glass{
+	name = "Relics"
+	},
+/turf/simulated/floor/concrete,
+/area/new_blades/palace)
 "bjW" = (
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/adv{
@@ -2303,6 +2309,10 @@
 	},
 /turf/unsimulated/floor,
 /area/antag/loner)
+"boF" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/indestructible,
+/turf/simulated/floor/sidewalk/flat,
+/area/new_blades/palace)
 "boZ" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 10
@@ -3349,7 +3359,7 @@
 /area/antag/jockey)
 "bTr" = (
 /obj/structure/statue/king,
-/turf/simulated/floor/sidewalk/flat,
+/turf/simulated/floor/sidewalk/detail,
 /area/new_blades/palace)
 "bTx" = (
 /obj/effect/floor_decal/corner/paleblue{
@@ -6390,7 +6400,7 @@
 /area/centcom/control)
 "dHA" = (
 /obj/structure/statue/warrior,
-/turf/simulated/floor/sidewalk/flat,
+/turf/simulated/floor/sidewalk/detail,
 /area/new_blades/palace)
 "dHL" = (
 /obj/machinery/telecomms/bus/preset_four,
@@ -9201,7 +9211,7 @@
 /area/horizon/holodeck/source_trinary)
 "fnb" = (
 /obj/structure/statue/queen,
-/turf/simulated/floor/sidewalk/flat,
+/turf/simulated/floor/sidewalk/detail,
 /area/new_blades/palace)
 "fnM" = (
 /obj/structure/sign/flag/hegemony,
@@ -15677,6 +15687,13 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/mercenary)
+"iWh" = (
+/obj/machinery/door/airlock/glass{
+	dir = 4;
+	name = "Relics"
+	},
+/turf/simulated/floor/sidewalk/flat,
+/area/new_blades/palace)
 "iWq" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -15758,7 +15775,7 @@
 /area/shuttle/transport1)
 "iXu" = (
 /obj/structure/unathi_statue/mador/armored,
-/turf/simulated/floor/sidewalk/flat,
+/turf/simulated/floor/sidewalk/detail,
 /area/new_blades/palace)
 "iXy" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
@@ -17451,13 +17468,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/mercenary)
-"jPW" = (
-/obj/structure/sign/plaque{
-	name = "Rulers of Tza";
-	desc = "These statues depict three of the greatest rulers of Tza, who led the Kingdom throughout its history."
-	},
-/turf/simulated/floor/concrete,
-/area/new_blades/palace)
 "jQi" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -21205,6 +21215,12 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/spawning)
+"lSh" = (
+/obj/machinery/door/airlock/glass{
+	name = "Relics"
+	},
+/turf/simulated/floor/sidewalk/flat,
+/area/new_blades/palace)
 "lSp" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/unsimulated/floor,
@@ -23052,7 +23068,7 @@
 /obj/structure/armor/mador{
 	dir = 4
 	},
-/turf/simulated/floor/sidewalk/flat,
+/turf/simulated/floor/sidewalk/detail,
 /area/new_blades/palace)
 "mJX" = (
 /turf/simulated/wall/shuttle/unique/ert{
@@ -26596,6 +26612,11 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/spawning)
+"oFP" = (
+/obj/structure/table/wood,
+/obj/item/lore_radio,
+/turf/simulated/floor/sidewalk/flat,
+/area/new_blades/palace)
 "oFQ" = (
 /obj/structure/grille,
 /obj/structure/lattice,
@@ -30069,7 +30090,7 @@
 /area/antag/mercenary)
 "qvq" = (
 /obj/structure/sign/flag/unathi_tapestry/mador_2,
-/turf/simulated/floor/sidewalk/flat,
+/turf/simulated/floor/sidewalk/detail,
 /area/new_blades/palace)
 "qvr" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -30575,7 +30596,7 @@
 /area/shuttle/mercenary)
 "qJt" = (
 /obj/structure/sign/flag/unathi_tapestry/mador_1,
-/turf/simulated/floor/sidewalk/flat,
+/turf/simulated/floor/sidewalk/detail,
 /area/new_blades/palace)
 "qJD" = (
 /obj/machinery/door/airlock/external{
@@ -31257,7 +31278,7 @@
 /obj/structure/armor/mador{
 	dir = 8
 	},
-/turf/simulated/floor/sidewalk/flat,
+/turf/simulated/floor/sidewalk/detail,
 /area/new_blades/palace)
 "rdO" = (
 /obj/effect/floor_decal/spline/plain,
@@ -31924,6 +31945,15 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/hapt)
+"ruX" = (
+/obj/structure/table/wood,
+/obj/item/material/ashtray/glass{
+	pixel_y = -3;
+	pixel_x = 7
+	},
+/obj/item/lore_radio,
+/turf/simulated/floor/wood/maple,
+/area/new_blades/palace)
 "rvj" = (
 /obj/structure/table/rack/holorack,
 /obj/effect/floor_decal/spline/fancy/wood/cee{
@@ -32913,10 +32943,6 @@
 /obj/effect/step_trigger/thrower/shuttle/southwest,
 /turf/template_noop,
 /area/template_noop)
-"rUO" = (
-/obj/structure/statue/warrior3,
-/turf/simulated/floor/sidewalk/flat,
-/area/new_blades/palace)
 "rVr" = (
 /obj/structure/table/wood,
 /obj/structure/television{
@@ -35522,6 +35548,13 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_courtroom)
+"twv" = (
+/obj/structure/sign/plaque{
+	name = "Rulers of Tza";
+	desc = "These statues depict three of the greatest rulers of Tza, who led the Kingdom throughout its history."
+	},
+/turf/simulated/floor/sidewalk/flat,
+/area/new_blades/palace)
 "tww" = (
 /obj/structure/table/reinforced/wood,
 /obj/item/reagent_containers/food/condiment/shaker/salt{
@@ -42547,7 +42580,7 @@
 /area/centcom/holding)
 "xvV" = (
 /obj/structure/armor,
-/turf/simulated/floor/sidewalk/flat,
+/turf/simulated/floor/sidewalk/detail,
 /area/new_blades/palace)
 "xwJ" = (
 /obj/structure/table/wood,
@@ -203255,7 +203288,7 @@ fgU
 lPy
 aIl
 nIq
-aXf
+ruX
 xLd
 fDz
 fDz
@@ -205575,7 +205608,7 @@ fDz
 fDz
 pdy
 fDz
-iOP
+oFP
 oRk
 aIl
 cgN
@@ -216353,7 +216386,7 @@ hhP
 mQN
 fDz
 fDz
-iOP
+oFP
 sha
 aIl
 bZT
@@ -265174,7 +265207,7 @@ mJV
 qvq
 bZT
 fDz
-fDz
+boF
 fDz
 fDz
 pdy
@@ -265431,7 +265464,7 @@ bZT
 bZT
 bZT
 bZT
-bZT
+bjL
 bZT
 bZT
 bZT
@@ -265688,7 +265721,7 @@ odm
 fDz
 fDz
 fDz
-fDz
+boF
 fDz
 bZT
 bZT
@@ -266212,7 +266245,7 @@ dgq
 fDz
 fDz
 sKt
-iOP
+oFP
 geL
 fDz
 ehX
@@ -266450,8 +266483,8 @@ xnV
 xnV
 aIl
 fDz
-fDz
-fDz
+bZT
+bZT
 bZT
 fDz
 fDz
@@ -266708,7 +266741,7 @@ xnV
 aIl
 fDz
 bZT
-bZT
+anw
 bZT
 fDz
 fDz
@@ -266965,7 +266998,7 @@ xnV
 aIl
 fDz
 bZT
-anw
+twv
 bZT
 fDz
 fDz
@@ -267223,7 +267256,7 @@ aIl
 fDz
 bZT
 fnb
-jPW
+bZT
 fDz
 fDz
 aIl
@@ -267479,7 +267512,7 @@ xnV
 aIl
 fDz
 bZT
-bTr
+twv
 bZT
 fDz
 fDz
@@ -267736,7 +267769,7 @@ xnV
 aIl
 fDz
 bZT
-bZT
+bTr
 bZT
 fDz
 fDz
@@ -267765,7 +267798,7 @@ uZj
 fDz
 fDz
 fDz
-iOP
+oFP
 iOP
 myq
 xnV
@@ -267992,8 +268025,8 @@ xnV
 xnV
 aIl
 fDz
-fDz
-fDz
+bZT
+bZT
 bZT
 fDz
 fDz
@@ -268769,7 +268802,7 @@ bZT
 fDz
 fDz
 fDz
-fDz
+lSh
 fDz
 bZT
 bZT
@@ -269565,7 +269598,7 @@ fDz
 fDz
 lPs
 fDz
-iOP
+oFP
 iOP
 myq
 xnV
@@ -270311,7 +270344,7 @@ fDz
 fDz
 fDz
 fDz
-fDz
+lSh
 fDz
 bZT
 bZT
@@ -270563,7 +270596,7 @@ aIl
 aIl
 aIl
 aIl
-fDz
+iWh
 aIl
 aIl
 aIl
@@ -270819,7 +270852,7 @@ pdy
 fDz
 fDz
 fDz
-fDz
+aIl
 fDz
 fDz
 fDz
@@ -271076,7 +271109,7 @@ fDz
 pLq
 fDz
 fDz
-fDz
+aIl
 fDz
 fDz
 fDz
@@ -271333,7 +271366,7 @@ fDz
 fDz
 fDz
 fDz
-fDz
+aIl
 bZT
 bZT
 bZT
@@ -271590,7 +271623,7 @@ fDz
 fDz
 fDz
 fDz
-fDz
+aIl
 bZT
 bZT
 bZT
@@ -271847,7 +271880,7 @@ fDz
 pLq
 fDz
 fDz
-fDz
+aIl
 fDz
 fDz
 fDz
@@ -272400,7 +272433,7 @@ fDz
 fDz
 aIl
 rYH
-iOP
+oFP
 fDz
 fDz
 hhP
@@ -277255,7 +277288,7 @@ bZT
 bZT
 bZT
 aIl
-nhL
+oUL
 fDz
 fDz
 fDz
@@ -277769,7 +277802,7 @@ fDz
 bZT
 bZT
 aIl
-rUO
+xBf
 jow
 fDz
 aIl
@@ -277797,7 +277830,7 @@ fDz
 fDz
 aIl
 rYH
-iOP
+oFP
 fDz
 fDz
 hhP
@@ -279580,7 +279613,7 @@ fDz
 aIl
 msl
 fDz
-fDz
+qei
 fDz
 geL
 aIl
@@ -281120,7 +281153,7 @@ iMt
 fDz
 mqV
 fDz
-fDz
+qei
 iOP
 iOP
 cfZ
@@ -281381,7 +281414,7 @@ fDz
 cfZ
 iOP
 iOP
-iOP
+oFP
 fDz
 aIl
 vFa
